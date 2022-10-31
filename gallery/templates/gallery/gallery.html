@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="container-fluid" id="container-fluid-padding">
+
+    <div class="row text-box-outside">
+        <!---Iterate through --->
+        {% for c in current_shows %}
+        <p class="page-main-header text-uppercase mt-4 mb-2">
+            {{ c.friendly_name }}
+        </p>
+        {% endfor %}
+        {% for gallery in galleries %}
+        <div class="col-md-6 col-lg-4 col-md-6 col-lg-4 p-4">
+            {% if gallery.image %}
+            <img src="{{ gallery.image.url }}" class="img-fluid gallery-border" alt="{{ gallery.name }}" />
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    <button onclick="topFunction()" id="my-scroll-to-top-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+</section>
+
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+<!--Scroll to top feature-->
+<script type="text/javascript" src="{% static 'gallery/js/scroll.js' %}"></script>
+
+{% endblock %}
