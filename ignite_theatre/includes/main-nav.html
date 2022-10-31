@@ -7,7 +7,7 @@
                 <a class="nav-link navbar-links active" aria-current="page" href="{% url 'home' %}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navbar-links active" aria-current="page" href="{% url 'about' %}">About</a>
+                <a class="nav-link navbar-links active" aria-current="page" href="">About</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link navbar-links dropdown-toggle" id="navbarDropdown" role="button"
@@ -19,12 +19,9 @@
                     <li>
                         <div class="dropdown-divider-gallery"></div>
                     </li>
-                    <li><a class="dropdown-item navbar-links-dropdpown"
-                            href="{% url 'galleries' %}?show=gabriel">Gabriel</a></li>
-                    <li><a class="dropdown-item navbar-links-dropdpown"
-                            href="{% url 'galleries' %}?show=wind_and_the_willows">Wind and the Willows</a></li>
-                    <li><a class="dropdown-item navbar-links-dropdpown"
-                            href="{% url 'galleries' %}?show=the_memory_of_water">The Memory of Water</a></li>
+                    <li><a class="dropdown-item navbar-links-dropdpown" href="">Gabriel</a></li>
+                    <li><a class="dropdown-item navbar-links-dropdpown" href="">Wind and the Willows</a></li>
+                    <li><a class="dropdown-item navbar-links-dropdpown" href="">The Memory of Water</a></li>
                 </ul>
             </li>
             <li>
@@ -42,30 +39,26 @@
                     <li>
                         <div class="dropdown-divider-cast"></div>
                     </li>
-                    <li><a class="dropdown-item navbar-links-dropdpown mb-3"
-                            href="{% url 'casts' %}?show=a_grandmas_grimm">A Grandma's GRIMM</a></li>
+                    <li><a class="dropdown-item navbar-links-dropdpown mb-3" href="">A Grandma's GRIMM</a></li>
                     <p class="nav-subheader">Past Productions</p>
                     <li>
                         <div class="dropdown-divider-cast"></div>
                     </li>
-                    <li><a class="dropdown-item navbar-links-dropdpown"
-                            href="{% url 'casts' %}?show=gabriel">Gabriel</a></li>
-                    <li><a class="dropdown-item navbar-links-dropdpown"
-                            href="{% url 'casts' %}?show=wind_and_the_willows">Wind and
+                    <li><a class="dropdown-item navbar-links-dropdpown" href="">Gabriel</a></li>
+                    <li><a class="dropdown-item navbar-links-dropdpown" href="">Wind and
                             the Willows</a></li>
-                    <li><a class="dropdown-item navbar-links-dropdpown"
-                            href="{% url 'casts' %}?show=the_memory_of_water">The Memory of Water</a></li>
+                    <li><a class="dropdown-item navbar-links-dropdpown" href="">The Memory of Water</a></li>
                 </ul>
             </li>
             <li class="nav-item">
                 <a class="nav-link navbar-links" href="">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navbar-links" href="{% url 'tickets' %}">Tickets</a>
+                <a class="nav-link navbar-links" href="">Tickets</a>
             </li>
             <li class="list-inline-item">
                 <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                    href="{% url 'view_bag' %}">
+                    href="">
                     <div class="text-center">
                         <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                         <p class="my-0">
