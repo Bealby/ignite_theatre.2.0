@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="container-fluid" id="container-fluid-padding">
+    <div class="row text-box-outside">
+        <!---Content 1--->
+        <div class="col-12 text-center">
+            <p class="page-main-header text-uppercase mt-4">
+                <i class="fa-solid fa-ticket"></i>&emsp;Tickets
+            </p>
+            <p class="content-h text-uppercase mt-4">
+                A Grandma's GRIMM
+            </p>
+        </div>
+
+        <!---Performance Info--->
+        {% for ticket in tickets|dictsort:"position" %}
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-3 mb-4">
+            <div class="card text-center mx-auto mb-4 card-ticket">
+                {% if ticket.image %}
+                <a href="{% url 'ticket_detail' ticket.id %}">
+                    <img class="card-img-top img-fluid" src="{{ ticket.image.url }}" alt="{{ ticket.name }} Poster">
+                </a>
+                {% endif %}
+                <div class="card-body">
+                    {% if ticket.name %}
+                    <P class="card-title content-h-ticket mb-2">{{ ticket.name }}</P>
+                    {% endif %}
+                    {% if ticket.event_date %}
+                    <P class="card-title content-p-ticket mb-0"><i class="fa-regular fa-calendar-days">
+                        </i>&emsp;{{ ticket.date }}
+                    </P>
+                    {% endif %}
+                    {% if ticket.place %}
+                    <p class="card-text content-p-ticket mb-0"><i class="fa-regular fa-building">
+                        </i>&emsp;{{ ticket.place }}
+                    </p>
+                    {% endif %}
+                    {% if ticket.location %}
+                    <p class="card-text content-p-ticket">
+                        <i class="fa-solid fa-location-dot"></i>&emsp;{{ ticket.location }}
+                    </p>
+                    {% endif %}
+                </div>
+                <div class="m-0 p-0 book-now">
+                    <p class="card-text text-center text-uppercase p-2">
+                        Book Now
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</section>
+
+{% endblock %}
