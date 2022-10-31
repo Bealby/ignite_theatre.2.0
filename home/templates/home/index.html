@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="container-fluid" id="container-fluid-padding">
+    <div class="row text-box-outside">
+        <!---Header--->
+        <div class="text-box-inside">
+            <div class="col-12">
+                <p class="page-main-header text-uppercase mt-4 mb-0">
+                    GRIMM's Fairy Tales
+                </p>
+                <p class=" page-main-sub-headers">
+                    8th-11th & 15th-18th December
+                </p>
+                <p class="page-main-sub-headers">TICKETS AVAILABLE FROM:&emsp;&emsp;<a target="_blank"
+                        href="https://www.ticketsource.co.uk/whats-on?q=a%20grandma%27s%20grimm" target="_blank"><img
+                            class="ticket-source" src="{% static 'images/logo/ticket-source.png' %}"
+                            alt="Ticket Source Logo" /></a>
+                </p>
+                <p class="text-center mt-4 mb-4">
+                    <a href="https://www.artscouncil.org.uk/" target="_blank"><img
+                            src="{% static 'images/logo/arts-council-england.jpg' %}" class="img-fluid arts-council"
+                            alt="The Arts Council England Logo" /></a>
+                </p>
+            </div>
+        </div>
+
+        <!---Content--->
+        <div class="text-box-inside-content">
+            <div class="row">
+                <div class="col-md-6 mt-0 text-center margin-poster">
+                    <img src="{% static 'images/posters/grimms-fairy-tales.png' %}" class="img-fluid grandmas-grimm"
+                        alt="Grimm's Fairy Tales" />
+                </div>
+                <div class="col-md-6 mt-5">
+                    <p class="content-h mb-2 text-uppercase pb-3">
+                        <i class="fa-solid fa-book-open"></i>&emsp;A Grandma's GRIMM
+                    </p>
+                    <p class="content-p">
+                        Ignite Theatre present 'A Grandma's Grimm' a musical, story-theatre extravaganza. Expect golden
+                        apples, frog princesses
+                        and spinning wheels - all in praise of the Grandmothers who gave their stories to the Brother's
+                        Grimm. Written and
+                        directed by Xanthe Gresham Knight with music from Kate Daisy Grant
+                    </p>
+                    <p class="content-p">
+                        Also including 'The Breman Town Musicians' from Haven Young Creative, directed by Siou Hanamm
+                        and the Norcross Dancers
+                        choreographed by Alison Norcross.
+                    </p>
+                    <p class="content-p text-left">
+                        Please follow and join us on facebook:
+                    </p>
+                    <p class="content-p text-left"> &emsp;<i class="fas fa-arrow-right">
+                        </i>&emsp;<a href="https://www.facebook.com/ignite.fringe" target="_blank" class="facebook"><i
+                                class="fab fa-facebook-square"></i></a>
+                    </p>
+                    <p class="content-p text-left">
+                        All suggestions or feedback are welcome at:
+                    </p>
+                    <p class="content-p-email text-left"> &emsp;<i class=" fas fa-arrow-right">
+                        </i>&emsp;<a href="mailto:hello.ignite.theatre@gmail.com?"
+                            target="_blank">hello.ignite.theatre@gmail.com</a>
+                    </p>
+                    <p class="content-p text-left">
+                        We look forward to welcoming you
+                    </p>
+                    <p class="content-h mb-2 mt-4 text-uppercase">
+                        <i class="fa-solid fa-ticket"></i>&emsp;Tickets
+                    </p>
+                    <p class="content-p pt-3 mb-3">Tickets available from:&emsp;&emsp;</p>
+                    <p class="content-p mb-0">
+                        SCDA Shop<br>
+                        31A High Street<br>
+                        Newhaven<br>
+                        BN9 9PD<br>
+                    </p>
+                    <p class="mb-2"><a target="_blank"
+                            href="https://www.ticketsource.co.uk/whats-on?q=a%20grandma%27s%20grimm"
+                            class="murray-bealby" target="_blank"><img class="ticket-source2 mt-3 mb-4"
+                                src="{% static 'images/logo/ticket-source.png' %}" alt="Ticket Source Logo" /></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!---Content 2--->
+        <div class="text-box-inside-content">
+            <div class="col-12 mt-4">
+                <p class="content-h mb-2 text-uppercase pb-3">
+                    <i class="fa-solid fa-masks-theater"></i>&emsp;Upcoming Shows
+                </p>
+                <div class="row pb-2">
+                    <div class="col-sm-12 col-md-3 mb-3">
+                        <p class="content-p">
+                            <strong><u>EIGHT</u></strong><br>
+                            Ella Hickson<br>
+                            1st-5th June 2023<br>
+                            Audition date tbc
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-3 mb-3">
+                        <p class="content-p">
+                            <strong><u>JUNGLE BOOK</u></strong><br>
+                            7th-10th and<br>
+                            15th-18th December 2023<br>
+                            Audition date tbc
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---Content 3--->
+        <div class="text-box-inside-content mb-5">
+            <div class="col-12 mt-4">
+                <p class="content-h mb-2 text-uppercase pb-3">
+                    <i class="fas fa-handshake"></i>&emsp;Supporters
+                </p>
+                <div class="row pb-2">
+                    <div class="col-sm-12 col-md-4 mb-4 text-center">
+                        <a target="_blank" href="http://www.visitsoutheastengland.com/">
+                            <img class="img-fluid supporters" src="{% static 'images/logo/south-east-england.png' %}"
+                                alt="South East england Logo" />
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4 mb-4 text-center">
+                        <img class="img-fluid supporters" src="{% static 'images/logo/NF21.png' %}" alt="NF21 logo" />
+                    </div>
+                    <div class="col-sm-12 col-md-4 mb-4 text-center">
+                        <img class="img-fluid supporters" src="{% static 'images/logo/NTC.png' %}" alt="NTC logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% endblock %}
