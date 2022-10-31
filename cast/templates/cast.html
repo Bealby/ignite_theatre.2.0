@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="container-fluid" id="container-fluid-padding">
+    <div class="row text-box-outside">
+
+        <!---Header--->
+        {% for c in current_shows %}
+        <div class="col-12">
+            <p class="page-main-header text-uppercase mt-4">
+                {{ c.friendly_name }}
+            </p>
+        </div>
+        <div class="text-center mt-3">
+            <img class="card-img-top img-fluid poster" src="{{ c.poster.url }}" alt="{{ c.friendly_name }} Poster">
+        </div>
+        {% endfor %}
+
+        <!---Cast--->
+        <div class="text-box-inside pl-4 pt-4 pr-4 pb-0 mt-3 mb-4">
+            <div class="col-12">
+                <p class="content-h mb-4 text-uppercase"><i class="fas fa-users"></i>&emsp;Cast
+                </p>
+                <div class="row">
+                    {% for cast in casts %}
+                    <div class="col-12 col-md-6 col-lg-3">
+                        {% if cast.role %}
+                        <p class="content-p text-uppercase"><i class="fas fa-circle"></i>&emsp;
+                            <strong>{{ cast.role }}</strong>
+                        </p>
+                        {% endif %}
+                        {% if cast.name %}
+                        <p class="content-p">&emsp;-&emsp;<i>{{ cast.name }}</i></p>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <!---Crew--->
+        <div class="text-box-inside pl-4 pt-4 pr-4 pb-0 mt-4 mb-4">
+            <div class="col-12">
+                <p class="content-h mb-4 text-uppercase"><i class="fas fa-video"></i>&emsp;Crew
+                </p>
+                <div class="row">
+                    {% for crew in crews %}
+                    <div class="col-12 col-md-6 col-lg-3">
+                        {% if crew.role %}
+                        <p class="content-p text-uppercase"><i class="fas fa-circle"></i>&emsp;
+                            <strong>{{ crew.role }}</strong>
+                        </p>
+                        {% endif %}
+                        {% if crew.name %}
+                        <p class="content-p">&emsp;-&emsp;<i>{{ crew.name }}</i></p>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <!---Profile--->
+        <div class="text-box-inside pl-4 pt-4 pr-4 pb-3 mt-4 mb-4">
+            <div class="col-12">
+                <p class="content-h text-uppercase pb-0 mb-0 pb-2"><i class="fas fa-video"></i>&emsp;Profiles
+                </p>
+            </div>
+        </div>
+        {% for actor in actors|dictsort:"position" %}
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="card text-center mx-auto mb-4">
+                {% if actor.image %}
+                <img class=" card-img-top img-fluid" src="{{ actor.image.url }}" alt="{{ actor.name }} Profile">
+                {% endif %}
+                <div class="card-body">
+                    {% if actor.name %}
+                    <P class="card-title content-h mb-3">{{ actor.name }}</P>
+                    {% endif %}
+                    {% if actor.description %}
+                    <p class="card-text content-p-profile" id="overflowTest">
+                        {{ actor.description|linebreaksbr }}</p>
+                    {% endif %}
+                </div>
+                <div class="card-body">
+                    {% if actor.website %}
+                    <a href="{{ actor.website }}" class="card-link" target="_blank"><i
+                            class="fas fa-globe-europe"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <button onclick="topFunction()" id="my-scroll-to-top-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+</section>
+
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+<!--Scroll to top feature-->
+<script>
+    function scrollFunction() {
+        var myScrollToTopBtn = document.getElementById("my-scroll-to-top-btn");
+        if (window.pageYOffset > 700) {
+            myScrollToTopBtn.style.display = "block";
+            myScrollToTopBtn.style.visibility = "visible";
+        } else {
+            myScrollToTopBtn.style.display = "none";
+            myScrollToTopBtn.style.visibility = "hidden";
+        }
+    }
+
+    window.onscroll = function () { scrollFunction() };
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+{% endblock %}
