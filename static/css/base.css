@@ -1,0 +1,714 @@
+@import url("https://fonts.googleapis.com/css2?family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Pacifico&family=Rammetto+One&display=swap");
+
+html{
+  height: 100%;
+}
+
+body {
+    background: url('/media/background/theatre-background.png') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+}
+
+/*---Content---*/
+
+.page-main-header {
+  font-family: "Rammetto One", cursive;
+  font-size: 1.8rem;
+  text-align: center;
+  color: rgb(181, 189, 191, 1);
+}
+
+.page-main-sub-headers {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(181, 189, 191, 1);
+}
+
+.content-p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(181, 189, 191, 1);
+}
+
+.content-p-profile {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(181, 189, 191, 1);
+}
+
+.content-p-ticket {
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(181, 189, 191, 1);
+}
+
+.content-h-ticket {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(181, 189, 191, 1);
+}
+
+.content-h {
+  font-family: "Rammetto One", cursive;
+  font-size: 1.25rem;
+  text-align: left;
+  color: rgb(181, 189, 191, 1);
+}
+
+.content-p-email a{
+  color: rgb(181, 189, 191, 1);
+  text-decoration: none;
+}
+
+.book-now{
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  background: rgb(128, 0, 0, 1);
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
+  color:rgb(255, 255, 255, 1);
+}
+
+/*---Cards---*/
+
+.card {
+    width: 19rem !important;
+    background-color:rgb(0, 0, 0, 1) !important;
+}
+
+.card-ticket {
+    background-color:rgb(0, 0, 0, 1) !important;
+    width: 18rem !important;
+    border: 0px !important;
+}
+
+/*---Images---*/
+
+.ticket-source{
+  max-width: 100px;
+}
+
+.ticket-source2{
+  max-width: 100px;
+}
+
+.arts-council{
+  width: 300px;
+}
+
+.grandmas-grimm {
+  width: 600px;
+}
+
+.supporters {
+  max-width: 70%;
+  max-height: auto;
+}
+
+.header-logo img {
+  height: 110px;
+}
+
+.header-logo-sm img {
+  height: 150px;
+}
+
+.poster{
+  width: 300px !important;
+}
+
+.poster-ticket{
+  width: 200px !important;
+}
+
+.poster-ticket-details{
+  width: 290px !important;
+}
+
+/*---Overflow---*/
+
+#overflowTest {
+  overflow-y: auto;
+  max-height: 15rem;
+}
+
+/*---Icons/ Awesome---*/
+
+.fa-shopping-bag{
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-ticket-alt {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-ticket{
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-book-open{  
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-facebook-square {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-arrow-right{
+  color: rgb(128, 0, 0, 1);
+  font-size: 1.2rem;
+}
+
+.fa-masks-theater{  
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-handshake {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-users {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-circle {
+  color: rgb(128, 0, 0, 1);
+  font-size: 0.7rem;
+}
+
+.fa-video {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-book-open{  
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-globe-europe {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-globe-europe:hover {
+  color: rgb(181, 189, 191, 1);
+  font-size: 2rem;
+}
+
+.fa-chevron-left {
+  color:rgb(255, 255, 255, 1);
+  font-size: 2rem !important;
+}
+
+.fa-regular{
+  color: rgb(181, 189, 191, 1);
+  font-size: 1rem;
+}
+
+.fa-location-dot .fa-calendar-days .fa-building{
+  color: rgb(181, 189, 191, 1) !important;
+  font-size: 1rem !important;
+}
+
+/*---Hover---*/
+
+.content-p-email a:hover {
+  color: rgb(128, 0, 0, 1);
+  text-decoration: none;
+}
+
+.fa-facebook-square:hover {
+  color: rgb(181, 189, 191, 1);
+  font-size: 2rem;
+}
+
+/*---Scroll to top---*/
+
+#my-scroll-to-top-btn {
+    position: fixed !important;
+    bottom: 12px !important;
+    right: 10px !important;
+    z-index: 20 !important;
+    font-size: 16px !important;
+    border: none !important;
+    outline: none !important;
+    background-color: rgb(128, 0, 0, 0.6) !important;
+    color: rgb(181, 189, 191, 1) !important;
+    cursor: pointer !important;
+    padding: 8px !important;
+    border-radius: 50% !important;
+    transition: all 5s ease-out !important;
+    width: 40px !important;
+    height: 40px !important;
+    visibility: hidden;
+}
+
+.fa-arrow-up {
+    transition: all 5s ease-out !important;
+}
+
+/*---Text-Boxes---*/
+
+.text-box-outside {
+  background: rgb(0, 0, 0, 0.5);
+  padding:1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top:2rem;
+}
+
+.text-box-inside {
+  background: rgb(0, 0, 0, 1);
+  padding-left:1.5rem;
+  padding-left:1.5rem;
+}
+
+.text-box-inside-content {
+  background: rgb(0, 0, 0, 1);
+  margin-top:2rem;
+  padding-left:1.5rem;
+  padding-left:1.5rem;
+}
+
+/*---Margins/ Padding---*/
+
+#container-fluid-padding{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.margin-poster{
+  margin-top:3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.gallery-border{
+  border: 1px solid rgb(0, 0, 0, 1) !important;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+/*---Navbar---*/
+
+.navbar-bg{
+  background-color: rgb(0, 0, 0, 0.8) !important;
+}
+
+.navbar-links{
+  font-family: "Rammetto One", cursive !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color:rgb(255, 255, 255, 1) !important;
+  text-decoration: none !important;
+  padding-top: 2.5rem !important;
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+
+.navbar-links-dropdpown{
+  font-family: "Rammetto One", cursive !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: rgb(255, 255, 255, 1) !important;
+  text-decoration: none !important;
+  padding-top: 0rem !important;
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+
+.dropdown-menu-links{
+  background-color: rgb(0, 0, 0, 1);
+  margin-top: 0.45rem !important;
+}
+
+nav ul li a:hover {
+  color: rgb(128, 0, 0, 1) !important;
+  text-decoration: none !important;
+  background-color: rgb(0, 0, 0, 0) !important;
+}
+
+.nav-subheader{
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255, 1) !important;
+  padding-top: 0rem;
+  padding-left: 2.5rem;
+  font-weight: 800;
+  margin-bottom:0rem;
+}
+
+.nav-mob-back{
+  font-family: "Lato", sans-serif !important;
+  font-size: 1.2rem !important;
+  color: rgb(255, 255, 255, 1) !important;
+  font-weight: 800 !important;
+}
+
+.nav-mob-subheader{
+  font-family: "Lato", sans-serif !important;
+  font-size: 1.4rem !important;
+  color: rgb(255, 255, 255, 1) !important;
+  font-weight: 700 !important;
+}
+
+.dropdown-divider-cast {
+  border: 2px solid  rgb(128, 0, 0, 1);
+  margin-left: 2.5rem;
+  margin-right: 6.2rem;
+  margin-top:0rem;
+  margin-bottom:1rem;
+}
+
+.dropdown-divider-gallery {
+  border: 2px solid  rgb(128, 0, 0, 1);
+  margin-left: 2.5rem;
+  margin-right: 4.8rem;
+  margin-top:0rem;
+  margin-bottom:1rem;
+}
+
+/*---Navbar Overlay for mobile---*/
+
+.menu-icon {
+  color: rgb(255, 255, 255, 1) !important;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.menu-container {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background: rgb(0, 0, 0, 1);
+  overflow: hidden;
+}
+
+.menu-content {
+  position: relative;
+  top: 16%;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-content a {
+  padding: 8px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s ease-in-out;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Rammetto One", cursive;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255, 1);
+}
+
+.menu-content-sub{
+  padding: 8px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s ease-in-out;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Rammetto One", cursive;
+  font-size: 1rem !important;
+  color: rgb(255, 255, 255, 1);
+}
+
+.menu-content-intro {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  font-family: roboto, sans-serif;
+  transition: 0.3s ease-in-out;
+  font-weight: 700;
+  margin-top: 3rem;
+  letter-spacing: 2px;
+}
+
+.menu-content-intro-links a {
+  padding: 9px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+
+.menu-content a:hover {
+  background-color: rgb(128, 0, 0, 1);
+}
+
+.menu-content-intro-links a:hover {
+  background-color: rgb(128, 0, 0, 1);
+}
+
+.menu-container .closebtn {
+  position: absolute;
+  top: 24px;
+  right: 48px;
+  font-size: 50px;
+  color: rgb(255, 255, 255, 1);
+  z-index: 1;
+  cursor: pointer;
+}
+
+/*---NAVBAR MEDIA QUERIES---*/
+
+/*---Desktop Nav - reduce font size for better viewing on smaller devices---*/
+@media (max-width: 1300px) {
+.navbar-links{
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: rgb(255, 255, 255, 1) !important;
+  text-decoration: none !important;
+  padding-top: 2.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+}
+
+/*---Desktop Nav - reduce font size for dropdown nav for better viewing on ipad---*/
+@media (max-width: 970px) {
+.navbar-links{
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  color: rgb(255, 255, 255, 1) !important;
+  text-decoration: none !important;
+  padding-top: 2.5rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+}
+
+/*---Desktop Nav - reduce font size for better viewing on smaller devices---*/
+@media (max-width: 1300px) {
+.navbar-links-dropdpown{
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  color: rgb(255, 255, 255, 1) !important;
+  text-decoration: none !important;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+}
+
+/*---Reduce font-size/ padding for subheader in dropdown for better viewing on smaller devices ---*/
+@media (max-width: 1300px) {
+.nav-subheader{
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  font-weight: 800;
+}
+}
+
+/*---Change M/P for dropdown divider for better viewing on smaller devices ---*/
+@media (max-width: 1300px) {
+.dropdown-divider-cast {
+    margin-left: 1.5rem;
+    margin-right: 5.3rem;
+}
+}
+
+/*---Change M/P for dropdown divider for better viewing on smaller devices ---*/
+@media (max-width: 1300px) {
+.dropdown-divider-gallery {
+    margin-left: 1.5rem;
+    margin-right: 4rem;
+}
+}
+
+/*---Desktop Nav - reduce font size for dropdown nav for better viewing on ipad---*/
+@media (max-width: 970px) {
+.navbar-links-dropdpown{
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  color: rgb(255, 255, 255, 1) !important;
+  text-decoration: none !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+}
+
+/*---Reduce font-size/ padding for subheader in dropdown for better viewing on IPAD ---*/
+@media (max-width: 970px) {
+.nav-subheader{
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  font-weight: 800;
+}
+}
+
+/*---Change M/P for dropdown divider for better viewing on IPAD ---*/
+@media (max-width: 970px) {
+.dropdown-divider-cast {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+}
+
+/*---Change M/P for dropdown divider for better viewing on IPAD ---*/
+@media (max-width: 970px) {
+.dropdown-divider-gallery {
+    margin-left: 1rem;
+    margin-right: 0.9rem;
+}
+}
+
+/*---MT for dropdown menu box for better alignment against navbar---*/
+@media (max-width: 970px) {
+.dropdown-menu-links{
+  margin-top: 0.95rem !important;
+}
+}
+
+/*---LOGO/POSTER MEDIA QUERIES---*/
+
+/*---Margin-top for poster in index.html for better viewing and spacing on mobile---*/
+@media (max-width: 767px) {
+.margin-poster{
+  margin-top:1.3rem !important;
+  margin-bottom: 0rem !important;
+}
+}
+
+/*---Margin-Top for ticket-source logo in content for better spacing on smaller devices---*/
+@media (max-width: 767px) {
+.ticket-source2{
+  margin-top: 12px !important;
+}
+}
+
+/*---Desktop Nav - reduce logo size for better viewing on smaller devices---*/
+@media (max-width: 1300px) {
+.header-logo img {
+  height: 100px;
+}
+}
+
+/*---Desktop Nav - reduce logo size for better viewing on ipad---*/
+@media (max-width: 970px) {
+.header-logo img {
+  height: 90px;
+}
+}
+
+/*---CONTENT MEDIA QUERIES---*/
+
+/*---Reduce font and pb for better viewing on smaller devices---*/
+@media (max-width: 500px) {
+.page-main-header {
+  font-size: 1.4rem;
+  padding-bottom:5px;
+}
+}
+
+/*---Padding-top for ticket-source logo for better spacing below text on smaller devices---*/
+@media (max-width: 472px) {
+.ticket-source{
+  padding-top:20px;
+}
+}
+
+/*---Padding/ Margin reduce for better layout and more space for smaller devices---*/
+@media (max-width: 767px) {
+.text-box-outside {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  margin-top:0.5rem;
+}
+}
+
+/*---Padding/ Margin reduce for better layout and more space for smaller devices---*/
+@media (max-width: 767px) {
+#container-fluid-padding{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+}
+
+
+/*---Reduce font font for content header for better viewing on smaller devices---*/
+@media (max-width: 767px) {
+.content-h {
+  font-size: 1.1rem;
+}
+}
+
+
+/*---Reduce margin/ padding for better spacing for contet box on smaller devices---*/
+@media (max-width: 767px) {
+.text-box-inside-content {
+  margin-top:1rem;
+  padding-left:1.2rem;
+  padding-left:1.2rem;
+}
+}
+
+/*---Reduce padding for better spacing for contet box on smaller devices---*/
+@media (max-width: 767px) {
+.text-box-inside {
+  padding-left:1.2rem;
+  padding-left:1.2rem;
+}
+}
+
+/*---Reduce width of card for better viewing on smaller devices---*/
+@media (max-width: 1199px) {
+.card {   
+  width:18rem !important;
+}
+}
+
+/*---Reduce width of card for better viewing on galaxy fold---*/
+@media (max-width: 360px) {
+.card {
+    width:13rem !important;
+}
+}
+
+/*---Increase width for display 4 col for better viewing on smaller devices ---*/
+@media (max-width: 1360px) {
+.card-ticket {
+    width: 15rem !important;
+}
+}
+
+/*---Reduce width for display 3 col for better viewing on ipad ---*/
+@media (max-width: 880px) {
+.card-ticket {
+    width: 13rem !important;
+}
+}
+
+/*---Increase width for display 2 col for better viewing on large mobile ---*/
+@media (max-width: 575px) {
+.card-ticket {
+    width: 16rem !important;
+}
+}
