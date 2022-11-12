@@ -29,6 +29,6 @@ def bag_contents(request):
         'ticket_count': ticket_count,
         'grand_total': grand_total,
     }
-    
+
     '''Make dictionary available to all templates across the enitire application'''
     return context
