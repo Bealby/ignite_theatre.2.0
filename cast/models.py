@@ -27,6 +27,7 @@ class Actor(models.Model):
     image = models.ImageField(null=True, blank=True)
     website = models.CharField(max_length=254, null=True, blank=True)
     facebook = models.CharField(max_length=254, null=True, blank=True)
+    film = models.CharField(max_length=254, null=True, blank=True)
     position = models.CharField(max_length=254, null=True, blank=True)
 
     def __str__(self):

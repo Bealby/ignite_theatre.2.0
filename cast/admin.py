@@ -21,6 +21,7 @@ class ActorAdmin(admin.ModelAdmin):
         'description',
         'website',
         'facebook',
+        'film',
         'position',
     )
 
