@@ -7,7 +7,6 @@ from .models import Actor
 
 def all_casts(request):
     '''context = to allow things to be sent to template'''
-    
     casts = Cast.objects.all()
     crews = Crew.objects.all()
     actors = Actor.objects.all()
