@@ -12,6 +12,7 @@ class ShowAdmin(admin.ModelAdmin):
         'poster',
     )
 
+
 class ActorAdmin(admin.ModelAdmin):
     list_display = (
         'show',
@@ -19,10 +20,12 @@ class ActorAdmin(admin.ModelAdmin):
         'image',
         'description',
         'website',
+        'facebook',
         'position',
     )
 
     ordering = ('position',)
+
 
 class CrewAdmin(admin.ModelAdmin):
     list_display = (
@@ -30,6 +33,7 @@ class CrewAdmin(admin.ModelAdmin):
         'name',
         'role',
     )
+
 
 class CastAdmin(admin.ModelAdmin):
     list_display = (
