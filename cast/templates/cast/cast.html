@@ -77,14 +77,12 @@
                 {% endif %}
                 <div class="card-body">
                     {% if actor.name %}
-                    <P class="card-title content-h mb-3">{{ actor.name }}</P>
+                    <P class="card-title content-h mb-3 mt-2">{{ actor.name }}</P>
                     {% endif %}
                     {% if actor.description %}
                     <p class="card-text content-p-profile" id="overflowTest">
                         {{ actor.description|linebreaksbr }}</p>
                     {% endif %}
-                </div>
-                <div class="card-body">
                     {% if actor.website %}
                     <a href="{{ actor.website }}" class="card-link" target="_blank"><i
                             class="fas fa-globe-europe"></i></a>

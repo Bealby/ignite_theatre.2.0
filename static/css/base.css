@@ -93,6 +93,10 @@ body {
     border: 0px !important;
 }
 
+.card-body{
+  height: 20rem !important;
+}
+
 /*---Images---*/
 
 .ticket-source{
@@ -140,7 +144,7 @@ body {
 
 #overflowTest {
   overflow-y: auto;
-  max-height: 15rem;
+  max-height: 12rem;
 }
 
 /*---Icons/ Awesome---*/
