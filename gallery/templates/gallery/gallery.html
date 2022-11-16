@@ -1,5 +1,4 @@
-{% extends "base.html" %}
-{% load static %}
+{% extends "base.html" %} {% load static %}
 
 {% block content %}
 
@@ -30,6 +29,6 @@
 {{ block.super }}
 
 <!--Scroll to top feature-->
-<script type="text/javascript" src="{% static 'gallery/js/scroll.js' %}"></script>
+<script src="{% static 'gallery/js/scroll.js' %}"></script>
 
 {% endblock %}
