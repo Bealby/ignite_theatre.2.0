@@ -6,7 +6,7 @@ from .models import Show
 def all_galleries(request):
     '''A view to show all images'''
     '''context = to allow things to be sent to template'''
-    
+
     galleries = Gallery.objects.all()
     '''Filter gallery by show'''
     shows = None

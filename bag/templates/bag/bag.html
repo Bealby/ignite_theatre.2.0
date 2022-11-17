@@ -62,7 +62,7 @@
                             <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
                                 data-product_size="{{ item.size }}"><small>Remove</small></a>
                         </td>
-                        <td>${{ item.ticket.price|calc_subtotal:item.adult_quantity }}</td>
+                        <td>${{ item.ticket.adult_price|calc_subtotal:item.adult_quantity }}</td>
                     </tr>
                     {% elif item.child_ticket %}
                     <tr>
@@ -100,7 +100,7 @@
                             <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
                                 data-product_size="{{ item.size }}"><small>Remove</small></a>
                         </td>
-                        <td>${{ item.ticket.price|calc_subtotal:item.child_quantity }}</td>
+                        <td>${{ item.ticket.child_price|calc_subtotal:item.child_quantity }}</td>
                     </tr>
                     {% endif %}
                     {% endfor %}

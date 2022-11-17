@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404       
+from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
 from tickets.models import Ticket
 
 
@@ -12,7 +12,7 @@ def add_to_bag(request, item_id):
     '''Submit form to this view including ticket id and quanity'''
     ''' Add a quantity of the specified tickets to the shopping bag'''
 
-    child_quantity = int(request.POST.get('adult_quantity'))
+    child_quantity = int(request.POST.get('child_quantity'))
     adult_quantity = int(request.POST.get('adult_quantity'))
     redirect_url = request.POST.get('redirect_url')
     bag = request.session.get('bag', {})
@@ -31,15 +31,15 @@ def add_to_bag(request, item_id):
 
         if adult_quantity:
             add_quantity(
-                'adult_quantity',
                 adult_quantity,
+                'adult_quantity',
                 item_id,
                 bag,)
 
         if child_quantity:
             add_quantity(
-                'child_quantity',
                 child_quantity,
+                'child_quantity',
                 item_id,
                 bag,)
 
