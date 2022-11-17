@@ -74,7 +74,7 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth', # Required by allauth. Allows access to http request object. Allows access user etc
+                'django.contrib.auth.context_processors.auth',  # Required by allauth. Allows access to http request object. Allows access user etc
                 'django.contrib.messages.context_processors.messages',
                 'bag.contexts.bag_contents',
             ],
@@ -94,10 +94,10 @@ SITE_ID = 1
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-ACCOUNT_AUTHENTICATION_METHOD = 'username_email' # Allows auth using either username or emails
-ACCOUNT_EMAIL_REQUIRED = True # Requries email to register for the site. Mandatory to ensure users use real email.
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory' # Requries email to register for the site. Mandatory to ensure users use real email.
-ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True # Requries email to register for the site. Mandatory to ensure users use real email.
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'  # Allows auth using either username or emails
+ACCOUNT_EMAIL_REQUIRED = True  # Requries email to register for the site. Mandatory to ensure users use real email.
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'  # Requries email to register for the site. Mandatory to ensure users use real email.
+ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True  # Requries email to register for the site. Mandatory to ensure users use real email.
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'

@@ -39,4 +39,3 @@ def ticket_detail(request, ticket_id):
     }
 
     return render(request, 'tickets/ticket_detail.html', context)
-

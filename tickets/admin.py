@@ -10,6 +10,7 @@ class ShowAdmin(admin.ModelAdmin):
         'poster',
     )
 
+
 class TicketAdmin(admin.ModelAdmin):
     list_display = (
         'show',
@@ -23,10 +24,11 @@ class TicketAdmin(admin.ModelAdmin):
         'event_details',
         'price_details',
         'date',
-        'price',       
+        'price',
     )
 
     ordering = ('position',)
+
 
 admin.site.register(Show, ShowAdmin)
 admin.site.register(Ticket, TicketAdmin)
