@@ -46,8 +46,28 @@
                                     </span>
                                 </button>
                             </div>
-                            <input class="form-control qty_input" type="number" name="quantity" value="1" min="1"
-                                max="99" data-item_id="{{ ticket.id }}" id="id_qty_{{ ticket.id }}">
+                            <input class="form-control qty_input" type="number" name="adult_quantity" value="1" min="1"
+                                max="99" data-item_id="{{ ticket.id }}" id="adult_ticket">
+                            <div class="input-group-append">
+                                <button class="increment-qty btn btn-black rounded-0" data-item_id="{{ ticket.id }}"
+                                    id="increment-qty_{{ ticket.id }}">
+                                    <span class="icon">
+                                        <i class="fas fa-plus"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <button class="decrement-qty btn btn-black rounded-0" data-item_id="{{ ticket.id }}"
+                                    id="decrement-qty_{{ ticket.id }}">
+                                    <span class="icon">
+                                        <i class="fas fa-minus"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            <input class="form-control qty_input" type="number" name="child_quantity" value="1" min="1"
+                                max="99" data-item_id="{{ ticket.id }}" id="child_ticket">
                             <div class="input-group-append">
                                 <button class="increment-qty btn btn-black rounded-0" data-item_id="{{ ticket.id }}"
                                     id="increment-qty_{{ ticket.id }}">

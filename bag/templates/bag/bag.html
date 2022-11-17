@@ -26,10 +26,11 @@
                         <th scope="col">Sub Total</th>
                     </tr>
                     {% for item in bag_items %}
+                    {% if item.adult_ticket %}
                     <tr>
                         <td>{{ item.ticket.name }}</td>
                         <td>{{ item.ticket.date}}</td>
-                        <td>{{ item.ticket.price }}</td>
+                        <td>{{ item.ticket.adult_price }}</td>
                         <td>
                             <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                 {% csrf_token %}
@@ -44,8 +45,8 @@
                                             </button>
                                         </div>
                                         <input class="form-control form-control-sm qty_input" type="number"
-                                            name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                                            data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+                                            id="adult-ticket" name="adultquantity" value="{{ item.quantity }}" min="1"
+                                            max="99" data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
                                         <div class="input-group-append">
                                             <button class="increment-qty btn btn-sm btn-black rounded-0"
                                                 data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
@@ -61,8 +62,47 @@
                             <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
                                 data-product_size="{{ item.size }}"><small>Remove</small></a>
                         </td>
-                        <td>${{ item.ticket.price|calc_subtotal:item.quantity }}</td>
+                        <td>${{ item.ticket.price|calc_subtotal:item.adult_quantity }}</td>
                     </tr>
+                    {% elif item.child_ticket %}
+                    <tr>
+                        <td>{{ item.ticket.name }}</td>
+                        <td>{{ item.ticket.date}}</td>
+                        <td>{{ item.ticket.child_price }}</td>
+                        <td>
+                            <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+                                {% csrf_token %}
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <button class="decrement-qty btn btn-sm btn-black rounded-0"
+                                                data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
+                                                <span>
+                                                    <i class="fas fa-minus fa-sm"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <input class="form-control form-control-sm qty_input" type="number"
+                                            id="child-ticket" name="child_quantity" value="{{ item.quantity }}" min="1"
+                                            max="99" data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+                                        <div class="input-group-append">
+                                            <button class="increment-qty btn btn-sm btn-black rounded-0"
+                                                data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
+                                                <span>
+                                                    <i class="fas fa-plus fa-sm"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <a class="update-link text-info"><small>Update</small></a>
+                            <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
+                                data-product_size="{{ item.size }}"><small>Remove</small></a>
+                        </td>
+                        <td>${{ item.ticket.price|calc_subtotal:item.child_quantity }}</td>
+                    </tr>
+                    {% endif %}
                     {% endfor %}
                     <tr>
                         <td>Bag Total: €{{ grand_total|floatformat:2 }}</td>
