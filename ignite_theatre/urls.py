@@ -27,5 +27,6 @@ urlpatterns = [
     path('gallery/', include('gallery.urls')),
     path('cast/', include('cast.urls')),
     path('tickets/', include('tickets.urls')),
+    path("", include("contact.urls")),
     # path('bag/', include('bag.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

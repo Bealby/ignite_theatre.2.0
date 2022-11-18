@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'gallery',
     'cast',
     'tickets',
-    #'bag',
+    # 'bag',
+    'contact',
 ]
 
 MIDDLEWARE = [
@@ -161,3 +162,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+if 'DEVELOPMENT' in os.environ:
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    DEFAULT_FROM_EMAIL = 'hello.ignite.theatre@gmail.com'
