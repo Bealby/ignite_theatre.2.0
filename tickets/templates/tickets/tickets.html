@@ -20,9 +20,9 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-3 mb-4">
             <div class="card text-center mx-auto mb-4 card-ticket">
                 {% if ticket.image %}
-                <a href="{% url 'ticket_detail' ticket.id %}">
-                    <img class="card-img-top img-fluid" src="{{ ticket.image.url }}" alt="{{ ticket.name }} Poster">
-                </a>
+                <!-- <a href="{% url 'ticket_detail' ticket.id %}"> -->
+                <img class="card-img-top img-fluid" src="{{ ticket.image.url }}" alt="{{ ticket.name }} Poster">
+                <!-- </a> -->
                 {% endif %}
                 <div class="card-body">
                     {% if ticket.name %}

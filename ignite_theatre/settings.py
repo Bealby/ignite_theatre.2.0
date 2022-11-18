@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'gallery',
     'cast',
     'tickets',
-    'bag',
+    #'bag',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +76,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',  # Required by allauth. Allows access to http request object. Allows access user etc
                 'django.contrib.messages.context_processors.messages',
-                'bag.contexts.bag_contents',
+                # 'bag.contexts.bag_contents',
             ],
         },
     },
