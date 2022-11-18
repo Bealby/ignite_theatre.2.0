@@ -2,11 +2,9 @@
 
 {% block content %}
 
-
 <h1>Contact Us</h1>
 <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
+    {% csrf_token %} {{ form|crispy }}
     <div class="form-actions">
         <button type="submit">Send</button>
     </div>
