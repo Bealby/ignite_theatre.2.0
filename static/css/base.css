@@ -176,6 +176,11 @@ body {
   font-size: 2rem;
 }
 
+.fa-envelope{  
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
 .fa-facebook-square {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;

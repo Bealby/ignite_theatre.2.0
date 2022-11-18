@@ -2,12 +2,25 @@
 
 {% block content %}
 
-<h1>Contact Us</h1>
-<form method="post">
-    {% csrf_token %} {{ form|crispy }}
-    <div class="form-actions">
-        <button type="submit">Send</button>
+<section class="container-fluid" id="container-fluid-padding">
+    <div class="row text-box-outside">
+        <!---Content 1--->
+        <div class="col-12 text-center">
+            <p class="page-main-header text-uppercase mt-4">
+                <i class="fa-solid fa-envelope"></i>&emsp;Get In Touch
+            </p>
+        </div>
+        <div class="col-10 offset-1 mt-3">
+            <form method="post">
+                {% csrf_token %} {{ form|crispy }}
+                <div class="form-actions">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+
     </div>
-</form>
+
+</section>
 
 {% endblock %}
