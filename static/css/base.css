@@ -80,6 +80,8 @@ body {
   color:rgb(255, 255, 255, 1);
 }
 
+/*---Links---*/
+
 .book-now a{
   text-decoration: none !important;
   color: rgb(255, 255, 255, 1) !important;
