@@ -11,6 +11,7 @@ defusedxml==0.7.1
 distlib==0.3.3
 Django==3.2.7
 django-allauth==0.51.0
+django-session-timeout==0.1.0
 docker==5.0.3
 env==0.1.0
 filelock==3.2.0
