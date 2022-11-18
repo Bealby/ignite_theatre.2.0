@@ -23,6 +23,7 @@ class TicketAdmin(admin.ModelAdmin):
         'description',
         'event_details',
         'price_details',
+        'web',
         'date',
         'adult_price',
         'child_price',

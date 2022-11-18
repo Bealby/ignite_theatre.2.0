@@ -29,7 +29,7 @@ class Ticket(models.Model):
     image = models.ImageField(null=True, blank=True)
     price_details = models.TextField(null=True, blank=True)
     date = models.DateTimeField(null=True, blank=True)
-    web = models.DateTimeField(null=True, blank=True)
+    web = models.CharField(max_length=254)
     adult_price = models.DecimalField(max_digits=8, decimal_places=2, null=True, blank=True)
     child_price = models.DecimalField(max_digits=8, decimal_places=2, null=True, blank=True)
 
