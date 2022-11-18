@@ -729,7 +729,7 @@ nav ul li a:hover {
 /*---Increase width for display 2 col for better viewing on large mobile ---*/
 @media (max-width: 575px) {
 .card-ticket {
-    width: 16rem !important;
+    width: 20rem !important;
 }
 }
 
