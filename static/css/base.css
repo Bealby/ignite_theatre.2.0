@@ -324,6 +324,10 @@ body {
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
+.padding-images{
+  padding:1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
 /*---Navbar---*/
 
 .navbar-bg{
@@ -726,5 +730,12 @@ nav ul li a:hover {
 @media (max-width: 575px) {
 .card-ticket {
     width: 16rem !important;
+}
+}
+
+/*--- ---*/
+@media (max-width: 575px) {
+.padding-images{
+  padding:1.5rem 0.5rem 1rem 0.5rem;
 }
 }

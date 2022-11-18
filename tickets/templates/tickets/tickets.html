@@ -10,7 +10,7 @@
             <p class="page-main-header text-uppercase mt-4">
                 <i class="fa-solid fa-ticket"></i>&emsp;Tickets
             </p>
-            <p class="content-h text-uppercase mt-4">
+            <p class="content-h text-center text-uppercase mt-4">
                 A Grandma's GRIMM
             </p>
         </div>
@@ -30,7 +30,7 @@
                     {% endif %}
                     {% if ticket.event_date %}
                     <P class="card-title content-p-ticket mb-0"><i class="fa-regular fa-calendar-days">
-                        </i>&emsp;{{ ticket.date }}
+                        </i>&emsp;{{ ticket.event_date }}
                     </P>
                     {% endif %}
                     {% if ticket.place %}
