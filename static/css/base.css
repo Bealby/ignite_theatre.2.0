@@ -51,6 +51,14 @@ body {
   color: rgb(181, 189, 191, 1);
 }
 
+.content-p-email {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(181, 189, 191, 1);
+}
+
 .content-h-ticket {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
