@@ -54,3 +54,11 @@ textarea.form-control {
 .logo-contact{
     height: 150px;
 }
+
+.content-p-contact {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255, 1);
+}
