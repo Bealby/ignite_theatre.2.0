@@ -62,3 +62,19 @@ textarea.form-control {
   text-align: center;
   color: rgb(255, 255, 255, 1);
 }
+
+.content-p-contact a {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255, 1);
+}
+
+.content-h-contact a{
+  font-family: "Rammetto One", cursive;
+  font-size: 1.1rem;
+  text-align: center;
+  color: rgb(255, 255, 255, 1);
+  text-decoration: none;
+}
