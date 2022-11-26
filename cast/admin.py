@@ -33,6 +33,7 @@ class CrewAdmin(admin.ModelAdmin):
         'show',
         'name',
         'role',
+        'position',
     )
 
 
@@ -41,6 +42,7 @@ class CastAdmin(admin.ModelAdmin):
         'show',
         'name',
         'role',
+        'position',
     )
 
 
