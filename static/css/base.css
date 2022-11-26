@@ -24,7 +24,7 @@ body {
   font-size: 1.1rem;
   font-weight: 700;
   text-align: center;
-  color: rgb(181, 189, 191, 1);
+  color: rgb(255, 255, 255, 1);
 }
 
 .content-p {
@@ -48,7 +48,7 @@ body {
   font-size: 0.9rem;
   font-weight: 700;
   text-align: left;
-  color: rgb(181, 189, 191, 1);
+  color: rgb(255, 255, 255, 1);
 }
 
 .content-p-email {
@@ -56,7 +56,7 @@ body {
   font-size: 1.1rem;
   font-weight: 700;
   text-align: left;
-  color: rgb(181, 189, 191, 1);
+  color: rgb(255, 255, 255, 1);
 }
 
 .content-h-ticket {
@@ -64,14 +64,14 @@ body {
   font-size: 1.1rem;
   font-weight: 700;
   text-align: left;
-  color: rgb(181, 189, 191, 1);
+  color: rgb(255, 255, 255, 1);
 }
 
 .content-h {
   font-family: "Rammetto One", cursive;
   font-size: 1.25rem;
   text-align: left;
-  color: rgb(181, 189, 191, 1);
+  color: rgb(255, 255, 255, 1);
 }
 
 .content-p-email a{
