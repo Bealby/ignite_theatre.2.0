@@ -1,27 +1,29 @@
 from django.contrib import admin
-from .models import NewShow
-from .models import UpcomingShow
+from .models import Show
+from .models import Upcoming
 
 
-class NewShowAdmin(admin.ModelAdmin):
+class ShowAdmin(admin.ModelAdmin):
     list_display = (
         'name',
         'date',
-        'image_ticket',
-        'web_ticket',
-        'address_ticket',
-        'image_sponsor',
-        'image_show',
-        'content_show',
+        'ticket_retail_image',
+        'ticket_retail_name',
+        'ticket_retail_url',
+        'ticket_retail_address',
+        'sponsor_image',
+        'sponsor_name',
+        'show_poster',
+        'show_content',
     )
 
 
-class UpcomingShowAdmin(admin.ModelAdmin):
+class UpcomingAdmin(admin.ModelAdmin):
     list_display = (
         'name',
         'address',
     )
 
 
-admin.site.register(NewShow, NewShowAdmin)
-admin.site.register(UpcomingShow, UpcomingShowAdmin)
+admin.site.register(Show, ShowAdmin)
+admin.site.register(Upcoming, UpcomingAdmin)

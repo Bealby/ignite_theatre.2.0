@@ -9,6 +9,7 @@ class ShowAdmin(admin.ModelAdmin):
         'name',
     )
 
+
 class GalleryAdmin(admin.ModelAdmin):
     list_display = (
         'show',

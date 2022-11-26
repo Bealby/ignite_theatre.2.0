@@ -1,15 +1,14 @@
 from django.shortcuts import render
-from .models import NewShow
-from .models import UpcomingShow
+from .models import Show
 
 
 def index(request):
     ''' A view to return index page'''
 
-    new_show = NewShow.objects.all()
+    shows = Show.objects.all()
 
     context = {
-        'new_show': new_show,
+        'shows': shows,
     }
 
     return render(request, 'home/index.html', context)
