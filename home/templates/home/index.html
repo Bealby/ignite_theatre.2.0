@@ -6,10 +6,11 @@
 <section class="container-fluid" id="container-fluid-padding">
     <div class="row text-box-outside">
         <!---Header--->
+        {% for new_show in new_shows %}
         <div class="text-box-inside">
             <div class="col-12">
                 <p class="page-main-header text-uppercase mt-4 mb-0">
-                    GRIMM's Fairy Tales
+                    {{ new_show.name }}
                 </p>
                 <p class=" page-main-sub-headers">
                     8th-11th & 15th-18th December
@@ -26,6 +27,7 @@
                 </p>
             </div>
         </div>
+        {% endfor %}
 
         <!---Content--->
         <div class="text-box-inside-content">

@@ -5,7 +5,7 @@ from .models import Ticket
 
 def all_tickets(request):
     '''context = to allow things to be sent to template'''
-    
+
     tickets = Ticket.objects.all()
     '''Filter tickets by show'''
     shows = None
