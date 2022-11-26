@@ -30,24 +30,14 @@
         <div class="text-box-inside-content">
             <div class="row">
                 <div class="col-md-6 mt-0 text-center margin-poster">
-                    <img src="{% static 'images/posters/grimms-fairy-tales.png' %}" class="img-fluid grandmas-grimm"
-                        alt="Grimm's Fairy Tales" />
+                    <img src="{{ show.show_poster.url }}" class="img-fluid grandmas-grimm" alt="Grimm's Fairy Tales" />
                 </div>
                 <div class="col-md-6 mt-5">
                     <p class="content-h mb-2 text-uppercase pb-3">
                         <i class="fa-solid fa-book-open"></i>&emsp;{{ show.name }}
                     </p>
                     <p class="content-p">
-                        Ignite Theatre present 'A Grandma's Grimm' a musical, story-theatre extravaganza. Expect golden
-                        apples, frog princesses
-                        and spinning wheels - all in praise of the Grandmothers who gave their stories to the Brother's
-                        Grimm. Written and
-                        directed by Xanthe Gresham Knight with music from Kate Daisy Grant
-                    </p>
-                    <p class="content-p">
-                        Also including 'The Breman Town Musicians' from Haven Young Creative, directed by Siou Hanamm
-                        and the Norcross Dancers
-                        choreographed by Alison Norcross.
+                        {{ show.show_content|linebreaksbr }}
                     </p>
                     <p class="content-p text-left">
                         Please follow and join us on facebook:
@@ -71,15 +61,11 @@
                     </p>
                     <p class="content-p pt-3 mb-3">Tickets available from:&emsp;&emsp;</p>
                     <p class="content-p mb-0">
-                        SCDA Shop<br>
-                        31A High Street<br>
-                        Newhaven<br>
-                        BN9 9PD<br>
+                        {{ show.ticket_retail_address|linebreaksbr }}
                     </p>
-                    <p class="mb-2"><a target="_blank"
-                            href="https://www.ticketsource.co.uk/whats-on?q=a%20grandma%27s%20grimm"
-                            class="murray-bealby" target="_blank"><img class="ticket-source2 mt-3 mb-4"
-                                src="{% static 'images/logo/ticket-source.png' %}" alt="Ticket Source Logo" /></a>
+                    <p class="mb-2"><a target="_blank" href="{{ show.ticket_retail_url }}" target="_blank"><img
+                                class="ticket-source mt-3 mb-4" src="{{ show.ticket_retail_image.url }}"
+                                alt="{{ show.ticket_retail_name }} Logo" /></a>
                     </p>
                 </div>
             </div>
