@@ -23,7 +23,7 @@
                 <p class="content-h mb-4 text-uppercase"><i class="fas fa-users"></i>&emsp;Cast
                 </p>
                 <div class="row">
-                    {% for cast in casts|dictsort:"position" %}
+                    {% for cast in casts %}
                     <div class="col-12 col-md-6 col-lg-3">
                         {% if cast.role %}
                         <p class="content-p text-uppercase"><i class="fas fa-circle"></i>&emsp;
@@ -45,7 +45,7 @@
                 <p class="content-h mb-4 text-uppercase"><i class="fas fa-video"></i>&emsp;Crew
                 </p>
                 <div class="row">
-                    {% for crew in crews|dictsort:"position" %}
+                    {% for crew in crews %}
                     <div class="col-12 col-md-6 col-lg-3">
                         {% if crew.role %}
                         <p class="content-p text-uppercase"><i class="fas fa-circle"></i>&emsp;
