@@ -79,22 +79,14 @@
                     <i class="fa-solid fa-masks-theater"></i>&emsp;Upcoming Shows
                 </p>
                 <div class="row pb-2">
+                    {% for upcoming in upcomings %}
                     <div class="col-sm-12 col-md-3 mb-3">
                         <p class="content-p">
-                            <strong><u>EIGHT</u></strong><br>
-                            Ella Hickson<br>
-                            1st-5th June 2023<br>
-                            Audition date tbc
+                            <strong><u>{{ upcoming.name }}</u></strong><br>
+                            {{ upcoming.address|linebreaksbr }}
                         </p>
                     </div>
-                    <div class="col-sm-12 col-md-3 mb-3">
-                        <p class="content-p">
-                            <strong><u>JUNGLE BOOK</u></strong><br>
-                            7th-10th and<br>
-                            15th-18th December 2023<br>
-                            Audition date tbc
-                        </p>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
