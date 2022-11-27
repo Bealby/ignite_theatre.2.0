@@ -21,7 +21,8 @@ class Actor(models.Model):
         verbose_name_plural = 'Actors'
     '''null=True, blank=True are optional fields'''
 
-    show = models.ForeignKey('show', null=True, blank=True, on_delete=models.SET_NULL)
+    show = models.ForeignKey('show', null=True, blank=True,
+                             on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)
     description = models.TextField(null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
@@ -36,7 +37,8 @@ class Actor(models.Model):
 
 class Crew(models.Model):
 
-    show = models.ForeignKey('show', null=True, blank=True, on_delete=models.SET_NULL)
+    show = models.ForeignKey('show', null=True, blank=True,
+                             on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)
     role = models.CharField(max_length=254)
     position = models.CharField(max_length=254, null=True, blank=True)
@@ -47,7 +49,8 @@ class Crew(models.Model):
 
 class Cast(models.Model):
 
-    show = models.ForeignKey('show', null=True, blank=True, on_delete=models.SET_NULL)
+    show = models.ForeignKey('show', null=True, blank=True,
+                             on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)
     role = models.CharField(max_length=254)
     position = models.CharField(max_length=254, null=True, blank=True)

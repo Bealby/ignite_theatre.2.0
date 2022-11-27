@@ -7,9 +7,11 @@ class Show(models.Model):
     name = models.CharField(max_length=254, null=True, blank=True)
     date = models.CharField(max_length=254, null=True, blank=True)
     ticket_retail_image = models.ImageField(null=True, blank=True)
-    ticket_retail_name = models.CharField(max_length=254, null=True, blank=True)
+    ticket_retail_name = models.CharField(max_length=254, null=True,
+                                          blank=True)
     ticket_retail_url = models.CharField(max_length=254, null=True, blank=True)
-    ticket_retail_address = models.TextField(max_length=400, null=True, blank=True)
+    ticket_retail_address = models.TextField(max_length=400, null=True,
+                                             blank=True)
     sponsor_image = models.ImageField(null=True, blank=True)
     sponsor_name = models.CharField(max_length=254, null=True, blank=True)
     sponsor_url = models.CharField(max_length=254, null=True, blank=True)
