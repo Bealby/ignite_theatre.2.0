@@ -215,7 +215,7 @@ if 'DEVELOPMENT' in os.environ:
 else:
     # django_project/settings.py
     EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"  # new
-    DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+    DEFAULT_FROM_EMAIL = "mgbealby@gmail.com"
     EMAIL_HOST = "smtp.sendgrid.net"  # new
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')  # new
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')  # new
