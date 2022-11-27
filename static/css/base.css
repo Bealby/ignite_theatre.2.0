@@ -749,7 +749,14 @@ nav ul li a:hover {
 /*---Increase width for display 2 col for better viewing on large mobile ---*/
 @media (max-width: 575px) {
 .card-ticket {
-    width: 20rem !important;
+    width: 18rem !important;
+}
+}
+
+/*---Increase width for display 2 col for better viewing on galazy fold ---*/
+@media (max-width: 300px) {
+.card-ticket {
+    width: 12rem !important;
 }
 }
 
