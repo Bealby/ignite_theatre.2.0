@@ -10,6 +10,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Ignite-Theatre" />
+    <meta property="og:image" content="https://ignite-theatre.s3.amazonaws.com/static/images/logo/logo.png" />
+    <meta property="og:description" content="Ignite-Theatre. Django" />
+    <meta property="og:url" content="https://www.ignite-theatre.com/" />
     {% endblock %}
 
     {% block extra_meta %}
@@ -27,6 +31,12 @@
 
     <!--AOS Animation-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'icons/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'icons/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'icons/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'icons/site.webmanifest' %}">
 
     {% endblock %}
 
