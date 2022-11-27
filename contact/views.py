@@ -23,4 +23,3 @@ def contactView(request):
 
 def successView(request):
     return render(request, "contact/contact_success.html")
-
