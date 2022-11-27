@@ -214,4 +214,7 @@ if 'DEVELOPMENT' in os.environ:
     DEFAULT_FROM_EMAIL = 'hello.ignite.theatre@gmail.com'
 else:
     # Email setting
-    EMAIL_BACKEND = 'django_ses.SESBackend'
+    EMAIL_HOST = 'smtp.mailtrap.io'
+    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+    EMAIL_PORT = '2525'
