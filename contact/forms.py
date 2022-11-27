@@ -3,18 +3,20 @@ from django import forms
 
 class ContactForm(forms.Form):
     name = forms.CharField(required=True)
+    subject = forms.CharField(required=True)
     email = forms.EmailField(required=True)
     message = forms.CharField(widget=forms.Textarea, required=True)
 
     # Fields in contact form
     class Meta:
-        fields = ['name', 'email', 'message']
+        fields = ['name', 'subject', 'email', 'message']
 
     # Placeholders in contact form
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         placeholders = {
             'name': 'Full Name',
+            'subject': 'Subject',
             'email': 'Email',
             'message': 'How can we help?',
         }
