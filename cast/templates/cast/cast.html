@@ -69,7 +69,7 @@
             </div>
         </div>
         {% for actor in actors|dictsort:"position" %}
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-5">
             <div class="card text-center mx-auto mb-4">
                 {% if actor.image %}
                 <img class=" card-img-top img-fluid" src="{{ actor.image.url }}" alt="{{ actor.name }} Profile">
