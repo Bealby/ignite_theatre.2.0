@@ -718,8 +718,15 @@ nav ul li a:hover {
 }
 }
 
-/*---Reduce width of card for better viewing on galaxy fold---*/
+/*---Reduce width of card for better viewing on samsung---*/
 @media (max-width: 360px) {
+.card {
+    width:17rem !important;
+}
+}
+
+/*---Reduce width of card for better viewing on galaxy fold---*/
+@media (max-width: 300px) {
 .card {
     width:13rem !important;
 }
