@@ -5,9 +5,7 @@ html{
 }
 
 body {
-    background: url('/media/theatre-bg.png') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
+
 }
 
 /*---Content---*/
