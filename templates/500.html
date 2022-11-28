@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="container-fluid" id="container-fluid-padding">
+
+    <div class="row text-box-outside">
+        <!---Content 1--->
+        <div class="text-box-inside">
+            <div class="col-12 col-md-8 offset-md-2">
+                <p class="page-main-header text-uppercase mt-4 mb-4">
+                    500 ERROR
+                </p>
+                <p class="content-p">
+                    The server encountered an error and could not complete your request
+                </p>
+                <div class="content-h-contact text-center">
+                    <a href="{% url 'home' %}"><i class="fa-solid fa-chevron-left"
+                            style="font-size: 1.8rem !important; color:rgb(128, 0, 0, 1) !important;"></i>&nbsp;&nbsp;Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% endblock %}
