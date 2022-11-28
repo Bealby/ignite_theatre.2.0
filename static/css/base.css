@@ -511,8 +511,8 @@ nav ul li a:hover {
 /*---Footer---*/
 
 .footernav{
-    background-color: red;
-    color: red;
+    background-color:rgb(0, 0, 0, 0.8);
+    color:rgb(255, 255, 255, 1);
 }
 
 #footer{
@@ -527,7 +527,7 @@ nav ul li a:hover {
 	text-align: center;
 	font-size: 0.6rem;
 	font-family: 'Roboto', sans-serif;
-  margin-top:1rem;
+  margin-top:0rem;
 }
 
 /*---NAVBAR MEDIA QUERIES---*/
