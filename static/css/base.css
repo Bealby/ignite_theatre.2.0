@@ -340,6 +340,14 @@ body {
   padding:1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.email-success-footer-margin{
+  margin-bottom:40rem;
+}
+
+.email-footer-margin{
+  margin-bottom:10rem;
+}
+
 /*---Navbar---*/
 
 .navbar-bg{
@@ -781,9 +789,23 @@ nav ul li a:hover {
 }
 }
 
-/*--- ---*/
+/*---Padding images for gallery for better viewing on smaller devices ---*/
 @media (max-width: 575px) {
 .padding-images{
   padding:1.5rem 0.5rem 1rem 0.5rem;
+}
+}
+
+/*---  ---*/
+@media (max-width: 300px) {
+.email-success-footer-margin{
+  margin-bottom:40rem;
+}
+}
+
+/*--- for  ---*/
+@media (max-width: 300px) {
+.email-footer-margin{
+  margin-bottom:10rem;
 }
 }
