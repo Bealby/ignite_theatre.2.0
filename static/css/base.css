@@ -341,7 +341,7 @@ body {
 }
 
 .email-success-footer-margin{
-  margin-bottom:40rem;
+  margin-bottom:45rem;
 }
 
 .email-footer-margin{
@@ -797,14 +797,14 @@ nav ul li a:hover {
 }
 
 /*---  ---*/
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 .email-success-footer-margin{
-  margin-bottom:0rem;
+  margin-bottom:18rem;
 }
 }
 
 /*--- for  ---*/
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 .email-footer-margin{
   margin-bottom:0rem;
 }
