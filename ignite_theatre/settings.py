@@ -29,7 +29,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['ignite-theatre.herokuapp.com', 'localhost', '127.0.0.1', 'www.ignite-theatre.com']
+ALLOWED_HOSTS = ['ignite-theatre.herokuapp.com', 'localhost', '127.0.0.1',
+                 'www.ignite-theatre.com', 'ignite-theatre.com']
 
 
 # Application definition
