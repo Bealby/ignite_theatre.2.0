@@ -34,7 +34,7 @@ body {
   color: rgb(181, 189, 191, 1);
 }
 
-.content-p-contact {
+.content-p-errors {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
@@ -42,7 +42,7 @@ body {
   color: rgb(255, 255, 255, 1);
 }
 
-.content-p-contact a {
+.content-p-errors a {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
@@ -50,7 +50,7 @@ body {
   color: rgb(255, 255, 255, 1);
 }
 
-.content-h-contact a{
+.content-h-errors a{
   font-family: "Rammetto One", cursive;
   font-size: 1.2rem;
   text-align: center;
