@@ -34,12 +34,28 @@ body {
   color: rgb(181, 189, 191, 1);
 }
 
-.content-p-errors {
+.content-p-contact {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   text-align: center;
-  color: rgb(181, 189, 191, 1);
+  color: rgb(255, 255, 255, 1);
+}
+
+.content-p-contact a {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255, 1);
+}
+
+.content-h-contact a{
+  font-family: "Rammetto One", cursive;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(255, 255, 255, 1);
+  text-decoration: none;
 }
 
 .content-p-profile {
