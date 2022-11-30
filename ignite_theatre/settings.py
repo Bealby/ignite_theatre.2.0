@@ -30,7 +30,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['ignite-theatre.herokuapp.com', 'localhost', '127.0.0.1',
-                 'www.ignite-theatre.com', 'ignite-theatre.com']
+                 'www.ignite-theatre.com', 'ignite-theatre.com',
+                 'www.ignite-theatre.org', 'ignite-theatre.org']
 
 
 # Application definition
