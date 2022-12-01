@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['ignite-theatre.herokuapp.com', 'localhost', '127.0.0.1',
                  'www.ignite-theatre.com', 'ignite-theatre.com',
                  'www.ignite-theatre.org', 'ignite-theatre.org']
 
+SECURE_SSL_REDIRECT = True
 
 # Application definition
 
