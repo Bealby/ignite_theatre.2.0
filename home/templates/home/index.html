@@ -58,56 +58,56 @@
                     </p>
                 </div>
             </div>
-            {% endfor %}
+        </div>
+        {% endfor %}
 
-            <!---Content 2--->
-            <div class="text-box-inside-content">
-                <div class="col-12 mt-4">
-                    <p class="content-h mb-2 text-uppercase pb-3">
-                        <i class="fa-solid fa-masks-theater"></i>&emsp;Upcoming Shows
-                    </p>
-                    <div class="row pb-2">
-                        {% for upcoming in upcomings %}
-                        <div class="col-sm-12 col-md-3 mb-3">
-                            <p class="content-p">
-                                <strong><u>{{ upcoming.name }}</u></strong><br>
-                                {{ upcoming.address|linebreaksbr }}
-                            </p>
-                        </div>
-                        {% endfor %}
+        <!---Content 2--->
+        <div class="text-box-inside-content">
+            <div class="col-12 mt-4">
+                <p class="content-h mb-2 text-uppercase pb-3">
+                    <i class="fa-solid fa-masks-theater"></i>&emsp;Upcoming Shows
+                </p>
+                <div class="row pb-2">
+                    {% for upcoming in upcomings %}
+                    <div class="col-sm-12 col-md-3 mb-3">
+                        <p class="content-p">
+                            <strong><u>{{ upcoming.name }}</u></strong><br>
+                            {{ upcoming.address|linebreaksbr }}
+                        </p>
                     </div>
+                    {% endfor %}
                 </div>
             </div>
+        </div>
 
-            <!---Content 3--->
-            <div class="text-box-inside-content mb-5">
-                <div class="col-12 mt-4">
-                    <p class="content-h mb-2 text-uppercase pb-3">
-                        <i class="fas fa-handshake"></i>&emsp;Supporters
-                    </p>
-                    <div class="row pb-2">
-                        <div class="col-sm-12 col-md-4 mb-4 text-center">
-                            <a href="https://www.artscouncil.org.uk/" target="_blank">
-                                <img src="{% static 'images/logo/arts-council-england.png' %}"
-                                    class="img-fluid supporters" alt="Arts Council England Logo" />
-                            </a>
-                        </div>
-                        <div class="col-sm-12 col-md-4 mb-4 text-center">
-                            <a target="_blank" href="https://www.newhavenfestival.co.uk/">
-                                <img class="img-fluid supporters" src="{% static 'images/logo/NF21.png' %}"
-                                    alt="NF21 logo" />
-                            </a>
-                        </div>
-                        <div class="col-sm-12 col-md-4 mb-4 text-center">
-                            <a target="_blank" href="https://www.newhaventowncouncil.gov.uk/">
-                                <img class="img-fluid supporters" src="{% static 'images/logo/NTC.png' %}"
-                                    alt="NTC logo" />
-                            </a>
-                        </div>
+        <!---Content 3--->
+        <div class="text-box-inside-content mb-5">
+            <div class="col-12 mt-4">
+                <p class="content-h mb-2 text-uppercase pb-3">
+                    <i class="fas fa-handshake"></i>&emsp;Supporters
+                </p>
+                <div class="row pb-2">
+                    <div class="col-sm-12 col-md-4 mb-4 text-center">
+                        <a href="https://www.artscouncil.org.uk/" target="_blank">
+                            <img src="{% static 'images/logo/arts-council-england.png' %}" class="img-fluid supporters"
+                                alt="Arts Council England Logo" />
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4 mb-4 text-center">
+                        <a target="_blank" href="https://www.newhavenfestival.co.uk/">
+                            <img class="img-fluid supporters" src="{% static 'images/logo/NF21.png' %}"
+                                alt="NF21 logo" />
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4 mb-4 text-center">
+                        <a target="_blank" href="https://www.newhaventowncouncil.gov.uk/">
+                            <img class="img-fluid supporters" src="{% static 'images/logo/NTC.png' %}" alt="NTC logo" />
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 </section>
 
