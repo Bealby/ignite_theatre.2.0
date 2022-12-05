@@ -38,27 +38,16 @@
                     <p class="content-p text-left">
                         Please follow and join us. All suggestions and feedback are welcome.
                     </p>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p class="content-p text-left"> &emsp;<i class="fas fa-arrow-right">
-                                </i>&emsp;<a href="https://www.facebook.com/ignite.fringe"
-                                    aria-label="Read more at Ignite Theatre Facebook page" target="_blank"><i
-                                        class="fab fa-facebook-square"></i></a>
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="content-p text-left"> &emsp;<i class="fas fa-arrow-right">
-                                </i>&emsp;<a href="https://www.instagram.com/ignitetheatre.company/"
-                                    aria-label="Read more at Ignite Theatre instagram page" target="_blank"><i
-                                        class="fab fa-instagram"></i></a>
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="content-p text-left"> &emsp;<i class="fas fa-arrow-right">
-                                </i>&emsp;<a href="mailto:hello.ignite.theatre@gmail.com?"
-                                    aria-label="Contact us by email" target="_blank"><i class="fab fa-envelope"></i></a>
-                            </p>
-                        </div>
+                    <div>
+                        <i class="fas fa-arrow-right"></i>
+                        <a href="https://www.facebook.com/ignite.fringe"
+                            aria-label="Read more at Ignite Theatre Facebook page" target="_blank"><i
+                                class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/ignitetheatre.company/"
+                            aria-label="Read more at Ignite Theatre instagram page" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="mailto:hello.ignite.theatre@gmail.com?" aria-label="Contact us by email"
+                            target="_blank"><i class="fab fa-envelope"></i></a>
                     </div>
                     <p class="content-h mb-2 mt-4 text-uppercase">
                         <i class="fa-solid fa-ticket"></i>&emsp;Tickets
@@ -69,56 +58,56 @@
                     </p>
                 </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
 
-        <!---Content 2--->
-        <div class="text-box-inside-content">
-            <div class="col-12 mt-4">
-                <p class="content-h mb-2 text-uppercase pb-3">
-                    <i class="fa-solid fa-masks-theater"></i>&emsp;Upcoming Shows
-                </p>
-                <div class="row pb-2">
-                    {% for upcoming in upcomings %}
-                    <div class="col-sm-12 col-md-3 mb-3">
-                        <p class="content-p">
-                            <strong><u>{{ upcoming.name }}</u></strong><br>
-                            {{ upcoming.address|linebreaksbr }}
-                        </p>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
-        <!---Content 3--->
-        <div class="text-box-inside-content mb-5">
-            <div class="col-12 mt-4">
-                <p class="content-h mb-2 text-uppercase pb-3">
-                    <i class="fas fa-handshake"></i>&emsp;Supporters
-                </p>
-                <div class="row pb-2">
-                    <div class="col-sm-12 col-md-4 mb-4 text-center">
-                        <a href="https://www.artscouncil.org.uk/" target="_blank">
-                            <img src="{% static 'images/logo/arts-council-england.png' %}" class="img-fluid supporters"
-                                alt="Arts Council England Logo" />
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-md-4 mb-4 text-center">
-                        <a target="_blank" href="https://www.newhavenfestival.co.uk/">
-                            <img class="img-fluid supporters" src="{% static 'images/logo/NF21.png' %}"
-                                alt="NF21 logo" />
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-md-4 mb-4 text-center">
-                        <a target="_blank" href="https://www.newhaventowncouncil.gov.uk/">
-                            <img class="img-fluid supporters" src="{% static 'images/logo/NTC.png' %}" alt="NTC logo" />
-                        </a>
+            <!---Content 2--->
+            <div class="text-box-inside-content">
+                <div class="col-12 mt-4">
+                    <p class="content-h mb-2 text-uppercase pb-3">
+                        <i class="fa-solid fa-masks-theater"></i>&emsp;Upcoming Shows
+                    </p>
+                    <div class="row pb-2">
+                        {% for upcoming in upcomings %}
+                        <div class="col-sm-12 col-md-3 mb-3">
+                            <p class="content-p">
+                                <strong><u>{{ upcoming.name }}</u></strong><br>
+                                {{ upcoming.address|linebreaksbr }}
+                            </p>
+                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
+
+            <!---Content 3--->
+            <div class="text-box-inside-content mb-5">
+                <div class="col-12 mt-4">
+                    <p class="content-h mb-2 text-uppercase pb-3">
+                        <i class="fas fa-handshake"></i>&emsp;Supporters
+                    </p>
+                    <div class="row pb-2">
+                        <div class="col-sm-12 col-md-4 mb-4 text-center">
+                            <a href="https://www.artscouncil.org.uk/" target="_blank">
+                                <img src="{% static 'images/logo/arts-council-england.png' %}"
+                                    class="img-fluid supporters" alt="Arts Council England Logo" />
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mb-4 text-center">
+                            <a target="_blank" href="https://www.newhavenfestival.co.uk/">
+                                <img class="img-fluid supporters" src="{% static 'images/logo/NF21.png' %}"
+                                    alt="NF21 logo" />
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mb-4 text-center">
+                            <a target="_blank" href="https://www.newhaventowncouncil.gov.uk/">
+                                <img class="img-fluid supporters" src="{% static 'images/logo/NTC.png' %}"
+                                    alt="NTC logo" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
 </section>
 
