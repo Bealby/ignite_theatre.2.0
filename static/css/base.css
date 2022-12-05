@@ -294,6 +294,16 @@ body {
   font-size: 2rem;
 }
 
+.fa-instagram {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-instagram:hover {
+  color: rgb(181, 189, 191, 1);
+  font-size: 2rem;
+}
+
 /*---Scroll to top---*/
 
 #my-scroll-to-top-btn {
