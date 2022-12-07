@@ -227,6 +227,11 @@ body {
   font-size: 2rem;
 }
 
+.fa-film:hover{  
+  color:rgb(255, 255, 255, 1);
+  font-size: 2rem;
+}
+
 .fa-arrow-right{
   color: rgb(128, 0, 0, 1);
   font-size: 1.2rem;
