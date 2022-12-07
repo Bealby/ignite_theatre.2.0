@@ -212,6 +212,11 @@ body {
   font-size: 2rem;
 }
 
+.fa-envelope:hover{  
+  color:rgb(255, 255, 255, 1);
+  font-size: 2rem;
+}
+
 .fa-facebook-square {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
@@ -249,6 +254,11 @@ body {
 
 .fa-video {
   color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-video:hover{  
+  color:rgb(255, 255, 255, 1);
   font-size: 2rem;
 }
 
