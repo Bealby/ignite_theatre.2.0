@@ -10,9 +10,9 @@
             <p class="page-main-header text-uppercase mt-4">
                 <i class="fa-solid fa-ticket"></i>&emsp;Tickets
             </p>
-            {% for ticket in tickets %}
+            {% for show in shows %}
             <p class="content-h text-center text-uppercase mt-4">
-                {% if ticket.name %}
+                {{ show.name }}
             </p>
             {% endfor %}
         </div>
