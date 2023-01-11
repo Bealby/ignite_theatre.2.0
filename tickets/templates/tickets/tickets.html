@@ -10,9 +10,11 @@
             <p class="page-main-header text-uppercase mt-4">
                 <i class="fa-solid fa-ticket"></i>&emsp;Tickets
             </p>
+            {% for ticket in tickets %}
             <p class="content-h text-center text-uppercase mt-4">
                 {% if ticket.name %}
             </p>
+            {% endfor %}
         </div>
 
         <!---Performance Info--->
