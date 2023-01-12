@@ -6,16 +6,16 @@
 <section class="container-fluid" id="container-fluid-padding">
     <div class="row text-box-outside">
         <!---Content 1--->
+        {% for show in shows %}
         <div class="col-12 text-center">
             <p class="page-main-header text-uppercase mt-4">
                 <i class="fa-solid fa-ticket"></i>&emsp;Tickets
             </p>
-            {% for show in shows %}
             <p class="content-h text-center text-uppercase mt-4">
                 {{ show.name }}
             </p>
-            {% endfor %}
         </div>
+        {% endfor %}
 
         <!---Performance Info--->
         {% for ticket in tickets|dictsort:"position" %}
