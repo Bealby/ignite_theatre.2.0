@@ -306,6 +306,11 @@ body {
   font-size: 2rem !important;
 }
 
+.fa-star{
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem !important;
+}
+
 .fa-regular{
   color: rgb(181, 189, 191, 1);
   font-size: 1rem;
