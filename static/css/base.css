@@ -178,6 +178,15 @@ body {
   width: 290px !important;
 }
 
+.poster-carousel{
+  width:80%;
+}
+
+.poster-img-fluid{
+    max-width: 80%;
+    height: auto;
+}
+
 /*---Overflow---*/
 
 #overflowTest {
@@ -278,6 +287,11 @@ body {
 }
 
 .fa-globe-europe {
+  color: rgb(128, 0, 0, 1);
+  font-size: 2rem;
+}
+
+.fa-burst{
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }

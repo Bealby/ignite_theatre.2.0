@@ -69,7 +69,7 @@
         <div class="text-box-inside-content">
             <div class="col-12 mt-4">
                 <p class="content-h mb-2 text-uppercase pb-3">
-                    <i class="fa-solid fa-masks-theater"></i>&emsp;Upcoming Shows
+                    <i class="fa-solid fa-burst"></i>&emsp;Upcoming Shows
                 </p>
                 <div class="row pb-2">
                     {% for upcoming in upcomings %}
@@ -84,7 +84,7 @@
             </div>
         </div>
 
-        <!---Content 3--->
+        <!---Content 3 Supporters
         <div class="text-box-inside-content mb-5">
             <div class="col-12 mt-4">
                 <p class="content-h mb-2 text-uppercase pb-3">
@@ -111,8 +111,157 @@
                 </div>
             </div>
         </div>
+        --->
 
+        <!---Carousel--->
+        <div class="text-box-inside-content mb-5">
+            <div class="col-12 mt-4 mb-5">
+                <p class="content-h mb-2 text-uppercase pb-3">
+                    <i class="fa-solid fa-masks-theater"></i>&emsp;Past Productions
+                </p>
 
+                <!---Display Desktop--->
+                <div id="carouselExampleControls" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row mx-auto">
+                                <div class="col-md-3 mb-3 p-4">
+                                    <a href="{% url 'galleries' %}?show=a_grandmas_grimm">
+                                        <img src="{% static 'images/posters/a_grandmas_grimm.png' %}"
+                                            class="d-block mx-auto poster-img-fluid" alt="Poster - A Grandma's Grimm">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 mb-3 p-4">
+                                    <a href="{% url 'galleries' %}?show=gabriel">
+                                        <img src="{% static 'images/posters/gabriel.png' %}"
+                                            class="d-block mx-auto poster-img-fluid" alt="Poster - A Gabriel">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 mb-3 p-4">
+                                    <a href="{% url 'galleries' %}?show=the_memory_of_water">
+                                        <img src="{% static 'images/posters/TMOW.png' %}"
+                                            class="d-block mx-auto poster-img-fluid" alt="Poster - The Memory of Water">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 mb-3 p-4">
+                                    <a href="{% url 'galleries' %}?show=wind_and_the_willows">
+                                        <img src="{% static 'images/posters/WITW.png' %}"
+                                            class="d-block mx-auto poster-img-fluid"
+                                            alt="Poster - The Wind and the Willows">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!---Display Medium--->
+                <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block d-lg-none"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row mx-auto">
+                                <div class="col-md-6 mb-3">
+                                    <a href="{% url 'galleries' %}?show=a_grandmas_grimm">
+                                        <img src="{% static 'images/posters/a_grandmas_grimm.png' %}"
+                                            class="d-block w-50 mx-auto" alt="Poster - A Grandma's Grimm">
+                                    </a>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <a href="{% url 'galleries' %}?show=gabriel">
+                                        <img src="{% static 'images/posters/gabriel.png' %}"
+                                            class="d-block w-50 mx-auto" alt="Poster - Gabriel">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mx-auto">
+                                <div class="col-md-6 mb-3">
+                                    <a href="{% url 'galleries' %}?show=the_memory_of_water">
+                                        <img src="{% static 'images/posters/TMOW.png' %}" class="d-block w-50 mx-auto"
+                                            alt="Poster - The Memory of Water">
+                                    </a>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <a href="{% url 'galleries' %}?show=wind_and_the_willows">
+                                        <img src="{% static 'images/posters/WITW.png' %}" class="d-block w-50 mx-auto"
+                                            alt="Poster - The Wind and the Willows">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!---Display Small--->
+                <div id="carouselExampleControlsNoTouching" class="carousel slide d-md-none" data-bs-touch="false"
+                    data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row mx-auto">
+                                <div class="col-12 mb-3 poster-carousel">
+                                    <a href="{% url 'galleries' %}?show=a_grandmas_grimm">
+                                        <img src="{% static 'images/posters/a_grandmas_grimm.png' %}"
+                                            class="d-block mx-auto" alt="Poster - A Grandma's Grimm">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mx-auto">
+                                <div class="col-12 mb-3 poster-carousel">
+                                    <a href="{% url 'galleries' %}?show=gabriel">
+                                        <img src="{% static 'images/posters/gabriel.png' %}" class="d-block mx-auto"
+                                            alt="Poster - Gabriel">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mx-auto poster-carousel">
+                                <div class="col-12 mb-3">
+                                    <a href="{% url 'galleries' %}?show=the_memory_of_water">
+                                        <img src="{% static 'images/posters/TMOW.png' %}" class="d-block mx-auto"
+                                            alt="Poster - The Memory of Water">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mx-auto poster-carousel">
+                                <div class="col-12 mb-3">
+                                    <a href="{% url 'galleries' %}?show=wind_and_the_willows">
+                                        <img src="{% static 'images/posters/WITW.png' %}" class="d-block mx-auto"
+                                            alt="Poster - The Wind and the Willows">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>
