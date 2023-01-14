@@ -183,8 +183,12 @@ body {
 }
 
 .poster-img-fluid{
-    max-width: 80%;
-    height: auto;
+  max-width: 80%;
+  -moz-max-width: 80%;
+  -webkit-max-width: 80%;
+  height: auto;
+  -moz-height: auto;
+  -webkit-height: auto;
 }
 
 /*---Overflow---*/
