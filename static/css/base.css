@@ -392,6 +392,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  transform: translateZ(0)
 }
 
 .text-box-inside-content {
@@ -405,6 +406,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  transform: translateZ(0)
 }
 
 /*---Margins/ Padding---*/
@@ -824,6 +826,7 @@ nav ul li a:hover {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  transform: translateZ(0)
 }
 }
 
@@ -838,6 +841,7 @@ nav ul li a:hover {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  transform: translateZ(0)
 }
 }
 
