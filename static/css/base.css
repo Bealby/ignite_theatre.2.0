@@ -386,6 +386,8 @@ body {
   background: rgb(0, 0, 0, 1);
   padding-left:1.5rem;
   padding-left:1.5rem;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 
@@ -394,6 +396,8 @@ body {
   margin-top:1.2rem;
   padding-left:1.5rem;
   padding-left:1.5rem;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 
@@ -817,6 +821,10 @@ nav ul li a:hover {
 .text-box-inside {
   padding-left:1.2rem;
   padding-left:1.2rem;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 }
