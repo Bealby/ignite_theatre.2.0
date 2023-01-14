@@ -21,7 +21,13 @@ class ShowAdmin(admin.ModelAdmin):
 class UpcomingAdmin(admin.ModelAdmin):
     list_display = (
         'name',
-        'address',
+        'location',
+        'date',
+        'location_2',
+        'date_2',
+        'location_3',
+        'date_3',
+        'position',
     )
 
 

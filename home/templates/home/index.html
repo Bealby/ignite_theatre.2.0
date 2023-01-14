@@ -72,11 +72,34 @@
                     <i class="fa-solid fa-star"></i>&emsp;Upcoming Shows
                 </p>
                 <div class="row pb-2">
-                    {% for upcoming in upcomings %}
+                    {% for upcoming in upcomings|dictsort:"position" %}
                     <div class="col-sm-12 col-md-3 mb-3">
-                        <p class="content-p" style=" color:rgb(0, 0, 0,1);">
+                        <p class="content-p-profile text-uppercase" style=" color:rgb(0, 0, 0,1);">
                             <strong><u>{{ upcoming.name }}</u></strong><br>
-                            {{ upcoming.address|linebreaksbr }}
+                        </p>
+                        <p class="content-p-profile" style=" color:rgb(0, 0, 0,1);">
+                            {% if upcoming.location %}
+                            <strong>Location:&emsp;</strong>{{ upcoming.location }}<br>
+                            {% endif %}
+                            {% if upcoming.date %}
+                            <strong>Date:&emsp;</strong>{{ upcoming.date }}
+                            {% endif %}
+                        </p>
+                        <p class="content-p-profile" style=" color:rgb(0, 0, 0,1);">
+                            {% if upcoming.location_2 %}
+                            <strong>Location:&emsp;</strong>{{ upcoming.location_2 }}<br>
+                            {% endif %}
+                            {% if upcoming.date_2 %}
+                            <strong>Date:&emsp;</strong>{{ upcoming.date_2 }}
+                            {% endif %}
+                        </p>
+                        <p class="content-p-profile" style=" color:rgb(0, 0, 0,1);">
+                            {% if upcoming.location_3 %}
+                            <strong>Location:&emsp;</strong>{{ upcoming.location_3 }}<br>
+                            {% endif %}
+                            {% if upcoming.date_3 %}
+                            <strong>Date:&emsp;</strong>{{ upcoming.date_3 }}
+                            {% endif %}
                         </p>
                     </div>
                     {% endfor %}

@@ -25,7 +25,13 @@ class Show(models.Model):
 class Upcoming(models.Model):
     '''Programmatic Name'''
     name = models.CharField(max_length=254)
-    address = models.TextField(null=True, blank=True)
+    location = models.CharField(max_length=254, null=True, blank=True)
+    date = models.CharField(max_length=254, null=True, blank=True)
+    location_2 = models.CharField(max_length=254, null=True, blank=True)
+    date_2 = models.CharField(max_length=254, null=True, blank=True)
+    location_3 = models.CharField(max_length=254, null=True, blank=True)
+    date_3 = models.CharField(max_length=254, null=True, blank=True)
+    position = models.CharField(max_length=254, null=True, blank=True)
 
     def __str__(self):
         return self.name
