@@ -344,34 +344,32 @@ body {
 }
 
 .production-posters:hover{
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+  opacity: 0.7;
 }
 
 /*---Scroll to top---*/
 
 #my-scroll-to-top-btn {
-    position: fixed !important;
-    bottom: 12px !important;
-    right: 10px !important;
-    z-index: 20 !important;
-    font-size: 18px !important;
-    border: none !important;
-    outline: none !important;
-    background-color: rgb(128, 0, 0, 0.6) !important;
-    color: rgb(255, 255, 255, 1) !important;
-    cursor: pointer !important;
-    padding: 8px !important;
-    border-radius: 50% !important;
-    transition: all 5s ease-out !important;
-    width: 40px !important;
-    height: 40px !important;
-    visibility: hidden;
+  position: fixed !important;
+  bottom: 12px !important;
+  right: 10px !important;
+  z-index: 20 !important;
+  font-size: 18px !important;
+  border: none !important;
+  outline: none !important;
+  background-color: rgb(128, 0, 0, 0.6) !important;
+  color: rgb(255, 255, 255, 1) !important;
+  cursor: pointer !important;
+  padding: 8px !important;
+  border-radius: 50% !important;
+  transition: all 5s ease-out !important;
+  width: 40px !important;
+  height: 40px !important;
+  visibility: hidden;
 }
 
 .fa-arrow-up {
-    transition: all 5s ease-out !important;
+  transition: all 5s ease-out !important;
 }
 
 /*---Text-Boxes---*/
