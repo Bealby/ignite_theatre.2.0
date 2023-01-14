@@ -66,15 +66,15 @@
         {% endfor %}
 
         <!---Content 2--->
-        <div class="text-box-inside-content">
+        <div class="text-box-inside-content" style="background:rgb(255, 255, 255, 1);">
             <div class="col-12 mt-4">
-                <p class="content-h mb-2 text-uppercase pb-3">
+                <p class="content-h mb-2 text-uppercase pb-3" style=" color:rgb(0, 0, 0, 1);">
                     <i class="fa-solid fa-star"></i>&emsp;Upcoming Shows
                 </p>
                 <div class="row pb-2">
                     {% for upcoming in upcomings %}
                     <div class="col-sm-12 col-md-3 mb-3">
-                        <p class="content-p">
+                        <p class="content-p" style=" color:rgb(0, 0, 0,1);">
                             <strong><u>{{ upcoming.name }}</u></strong><br>
                             {{ upcoming.address|linebreaksbr }}
                         </p>
