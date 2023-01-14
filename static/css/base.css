@@ -183,12 +183,8 @@ body {
 }
 
 .poster-img-fluid{
-  max-width: 80%;
-  -moz-max-width: 80%;
-  -webkit-max-width: 80%;
+  width: 80%;
   height: auto;
-  -moz-height: auto;
-  -webkit-height: auto;
 }
 
 /*---Overflow---*/
@@ -390,14 +386,12 @@ body {
   background: rgb(0, 0, 0, 1);
   padding-left:1.5rem;
   padding-left:1.5rem;
-  display: inline-block;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  transform: translateZ(0)
 }
 
 .text-box-inside-content {
@@ -411,7 +405,6 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  transform: translateZ(0)
 }
 
 /*---Margins/ Padding---*/
@@ -825,14 +818,12 @@ nav ul li a:hover {
   margin-top:1rem;
   padding-left:1.2rem;
   padding-left:1.2rem;
-  display: inline-block;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  transform: translateZ(0)
 }
 }
 
@@ -842,13 +833,11 @@ nav ul li a:hover {
   padding-left:1.2rem;
   padding-left:1.2rem;
   border-radius: 10px;
-  display: inline-block;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  transform: translateZ(0)
 }
 }
 
