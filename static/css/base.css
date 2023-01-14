@@ -388,7 +388,12 @@ body {
   padding-left:1.5rem;
   -webkit-border-radius:10px;
   -moz-border-radius: 10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .text-box-inside-content {
@@ -398,7 +403,12 @@ body {
   padding-left:1.5rem;
   -webkit-border-radius:10px;
   -moz-border-radius: 10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 /*---Margins/ Padding---*/
@@ -812,7 +822,14 @@ nav ul li a:hover {
   margin-top:1rem;
   padding-left:1.2rem;
   padding-left:1.2rem;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 }
 
@@ -826,6 +843,9 @@ nav ul li a:hover {
   -webkit-border-radius:10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 }
 
