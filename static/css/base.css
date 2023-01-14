@@ -390,6 +390,7 @@ body {
   background: rgb(0, 0, 0, 1);
   padding-left:1.5rem;
   padding-left:1.5rem;
+  display: inline-block;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -824,6 +825,7 @@ nav ul li a:hover {
   margin-top:1rem;
   padding-left:1.2rem;
   padding-left:1.2rem;
+  display: inline-block;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -840,6 +842,7 @@ nav ul li a:hover {
   padding-left:1.2rem;
   padding-left:1.2rem;
   border-radius: 10px;
+  display: inline-block;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -webkit-appearance: none;
