@@ -5,3 +5,7 @@
   color: rgb(255, 255, 255, 1);
   text-decoration: none;
 }
+
+.content-h-gallery a:hover{
+    color: rgb(128, 0, 0, 1);
+}  

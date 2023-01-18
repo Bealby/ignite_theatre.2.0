@@ -78,3 +78,7 @@ textarea.form-control {
   color: rgb(255, 255, 255, 1);
   text-decoration: none;
 }
+
+.content-h-contact a:hover{
+    color: rgb(128, 0, 0, 1);
+}  
