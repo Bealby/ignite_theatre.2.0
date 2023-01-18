@@ -9,6 +9,7 @@ class ShowAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
         'name',
+        'gallery_show_link',
         'poster',
     )
 
@@ -21,7 +22,6 @@ class ActorAdmin(admin.ModelAdmin):
         'description',
         'website',
         'facebook',
-        'film',
         'position',
     )
 
