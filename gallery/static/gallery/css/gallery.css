@@ -1,4 +1,4 @@
-.content-h-cast a{
+.content-h-gallery a{
   font-family: "Rammetto One", cursive;
   font-size: 1.2rem;
   text-align: center;
@@ -6,6 +6,6 @@
   text-decoration: none;
 }
 
-.content-h-cast a:hover{
+.content-h-gallery a:hover{
     color: rgb(128, 0, 0, 1);
 }  
