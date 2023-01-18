@@ -1,5 +1,9 @@
 {% extends "base.html" %} {% load static %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gallery/css/gallery.css' %}" />
+{% endblock %}
+
 {% block content %}
 
 <section class="container-fluid" id="container-fluid-padding">
@@ -10,6 +14,12 @@
         <p class="page-main-header text-uppercase mt-4 mb-2">
             {{ c.friendly_name }}
         </p>
+        <div class="content-h-gallery text-center">
+            <a href="{{ c.cast_show_link }}">Cast&nbsp;&nbsp;<i class="fa-solid fa-chevron-right"
+                    style="font-size: 1.8rem !important; color:rgb(128, 0, 0, 1) !important; vertical-align: middle;"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="{% url 'home' %}">Home&nbsp;&nbsp;<i class=" fa-solid fa-chevron-right"
+                    style="font-size: 1.8rem !important; color:rgb(128, 0, 0, 1) !important; vertical-align: middle;"></i></a>
+        </div>
         {% endfor %}
         {% for gallery in galleries %}
         <div class="col-md-6 col-lg-4 col-md-6 col-lg-4 pt-4 padding-images">

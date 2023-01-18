@@ -6,6 +6,7 @@ class Show(models.Model):
     '''Programmatic Name'''
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
+    cast_show_link = models.CharField(max_length=254)
 
     def __str__(self):
         return self.name

@@ -7,6 +7,7 @@ class ShowAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
         'name',
+        'cast_show_link',
     )
 
 
