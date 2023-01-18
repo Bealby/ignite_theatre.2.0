@@ -11,9 +11,11 @@
     <div class="row text-box-outside">
         <!---Iterate through --->
         {% for c in current_shows %}
-        <p class="page-main-header text-uppercase mt-4 mb-2">
-            {{ c.friendly_name }}
-        </p>
+        <div class="col-12">
+            <p class="page-main-header text-uppercase mt-4">
+                {{ c.friendly_name }}
+            </p>
+        </div>
         <div class="content-h-gallery text-center mb-4">
             <a href="{{ c.cast_show_link }}">Cast&nbsp;&nbsp;<i class="fa-solid fa-chevron-right"
                     style="font-size: 1.8rem !important; color:rgb(128, 0, 0, 1) !important; vertical-align: middle;"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
