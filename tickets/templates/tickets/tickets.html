@@ -9,7 +9,7 @@
         {% for show in shows %}
         <div class="col-12 text-center">
             <p class="page-main-header text-uppercase mt-4">
-                <i class="fa-solid fa-ticket"></i>&emsp;Tickets
+                <i class="fa-solid fa-ticket"></i>&nbsp;&nbsp;&nbsp;Tickets
             </p>
             <p class="content-h text-center text-uppercase mt-4">
                 {{ show.name }}
@@ -32,17 +32,17 @@
                     {% endif %}
                     {% if ticket.event_date %}
                     <P class="card-title content-p-ticket mb-0"><i class="fa-regular fa-calendar-days">
-                        </i>&emsp;{{ ticket.event_date }}
+                        </i>&nbsp;&nbsp;&nbsp;{{ ticket.event_date }}
                     </P>
                     {% endif %}
                     {% if ticket.place %}
                     <p class="card-text content-p-ticket mb-0"><i class="fa-regular fa-building">
-                        </i>&emsp;{{ ticket.place }}
+                        </i>&nbsp;&nbsp;&nbsp;{{ ticket.place }}
                     </p>
                     {% endif %}
                     {% if ticket.location %}
                     <p class="card-text content-p-ticket">
-                        <i class="fa-solid fa-location-dot"></i>&emsp;{{ ticket.location }}
+                        <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;{{ ticket.location }}
                     </p>
                     {% endif %}
                 </div>
