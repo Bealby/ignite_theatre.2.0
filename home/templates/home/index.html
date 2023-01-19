@@ -19,7 +19,7 @@
                 <p class="page-main-sub-headers">
                     {{ show.date }}
                 </p>
-                <p class="page-main-sub-headers">TICKETS AVAILABLE FROM:&emsp;<a target="_blank"
+                <p class="page-main-sub-headers">TICKETS AVAILABLE FROM:&nbsp;&nbsp;&nbsp;<a target="_blank"
                         href="{{ show.ticket_retail_url }}" target="_blank"><i class="fa-solid fa-ticket"
                             style="vertical-align: middle;"></i></a>
                 </p>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-md-6 mt-5">
                     <p class="content-h mb-2 text-uppercase pb-3">
-                        <i class="fa-solid fa-book-open"></i>&emsp;{{ show.name }}
+                        <i class="fa-solid fa-book-open"></i>&nbsp;&nbsp;&nbsp;{{ show.name }}
                     </p>
                     <p class="content-p">
                         {{ show.show_content|linebreaksbr }}
@@ -43,20 +43,20 @@
                         Please follow and join us. All suggestions and feedback are welcome:
                     </p>
                     <div>
-                        <i class="fas fa-arrow-right"></i>&emsp;&emsp;
+                        <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/ignite.fringe"
                             aria-label="Read more at Ignite Theatre Facebook page" target="_blank"><i
-                                class="fab fa-facebook-square"></i></a>&emsp;&emsp;
+                                class="fab fa-facebook-square"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.instagram.com/ignitetheatre.company/"
                             aria-label="Read more at Ignite Theatre instagram page" target="_blank"><i
-                                class="fab fa-instagram"></i></a>&emsp;&emsp;
+                                class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="{% url 'contact' %}" aria-label="Contact us by email"><i
                                 class=" fa-solid fa-envelope"></i></a>
                     </div>
                     <p class="content-h mb-2 mt-4 text-uppercase">
-                        <i class="fa-solid fa-ticket"></i>&emsp;Tickets
+                        <i class="fa-solid fa-ticket"></i>&nbsp;&nbsp;&nbsp;Tickets
                     </p>
-                    <p class="content-p pt-3 mb-3">Tickets available from:&emsp;&emsp;</p>
+                    <p class="content-p pt-3 mb-3">Tickets available from:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                     <p class="content-p mb-0">
                         {{ show.ticket_retail_address|linebreaksbr }}
                     </p>
@@ -69,7 +69,7 @@
         <div class="text-box-inside-content" style="background:rgb(255, 255, 255, 0.9);">
             <div class="col-12 mt-4">
                 <p class="content-h mb-2 text-uppercase pb-3" style=" color:rgb(0, 0, 0, 1);">
-                    <i class="fa-solid fa-star"></i>&emsp;Upcoming Shows
+                    <i class="fa-solid fa-star"></i>&nbsp;&nbsp;&nbsp;Upcoming Shows
                 </p>
                 <div class="row pb-2">
                     {% for upcoming in upcomings|dictsort:"position" %}
@@ -79,26 +79,26 @@
                         </p>
                         <p class="content-p-profile" style=" color:rgb(0, 0, 0,1);">
                             {% if upcoming.location %}
-                            <strong>Location:&emsp;</strong>{{ upcoming.location }}<br>
+                            <strong>Location:&nbsp;&nbsp;&nbsp;</strong>{{ upcoming.location }}<br>
                             {% endif %}
                             {% if upcoming.date %}
-                            <strong>Date:&emsp;</strong>{{ upcoming.date }}
+                            <strong>Date:&nbsp;&nbsp;&nbsp;</strong>{{ upcoming.date }}
                             {% endif %}
                         </p>
                         <p class="content-p-profile" style=" color:rgb(0, 0, 0,1);">
                             {% if upcoming.location_2 %}
-                            <strong>Location:&emsp;</strong>{{ upcoming.location_2 }}<br>
+                            <strong>Location:&nbsp;&nbsp;&nbsp;</strong>{{ upcoming.location_2 }}<br>
                             {% endif %}
                             {% if upcoming.date_2 %}
-                            <strong>Date:&emsp;</strong>{{ upcoming.date_2 }}
+                            <strong>Date:&nbsp;&nbsp;&nbsp;</strong>{{ upcoming.date_2 }}
                             {% endif %}
                         </p>
                         <p class="content-p-profile" style=" color:rgb(0, 0, 0,1);">
                             {% if upcoming.location_3 %}
-                            <strong>Location:&emsp;</strong>{{ upcoming.location_3 }}<br>
+                            <strong>Location:&nbsp;&nbsp;&nbsp;</strong>{{ upcoming.location_3 }}<br>
                             {% endif %}
                             {% if upcoming.date_3 %}
-                            <strong>Date:&emsp;</strong>{{ upcoming.date_3 }}
+                            <strong>Date:&nbsp;&nbsp;&nbsp;</strong>{{ upcoming.date_3 }}
                             {% endif %}
                         </p>
                     </div>
@@ -140,7 +140,7 @@
         <div class="text-box-inside-content mb-5">
             <div class="col-12 mt-4 mb-5">
                 <p class="content-h mb-2 text-uppercase pb-3">
-                    <i class="fa-solid fa-masks-theater"></i>&emsp;Past Productions
+                    <i class="fa-solid fa-masks-theater"></i>&nbsp;&nbsp;&nbsp;Past Productions
                 </p>
 
                 <!---Display Desktop--->
