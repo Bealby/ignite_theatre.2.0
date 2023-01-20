@@ -527,7 +527,8 @@ nav ul li a:hover {
 }
 
 .top-header{
-  background: rgb(128, 0, 0, 1);
+  background: rgb(128, 0, 0, 0.8);
+  border-bottom: solid 2px rgb(0,0,0,0.8);
 }
 
 /*---Navbar Overlay for mobile---*/
