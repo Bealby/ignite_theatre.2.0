@@ -533,7 +533,7 @@ nav ul li a:hover {
 }
 
 .top-header{
-  background: rgb(128, 0, 0, 0.5);
+  background: rgb(128, 0, 0, 0.7);
 }
 
 /*---Navbar Overlay for mobile---*/
@@ -801,7 +801,7 @@ nav ul li a:hover {
 /*---Reduce font and pb for better viewing on smaller devices---*/
 @media (max-width: 500px) {
 .page-main-header {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding-bottom:5px;
 }
 }
