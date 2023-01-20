@@ -6,9 +6,23 @@
 
 {% block content %}
 
-<section class="container-fluid" id="container-fluid-padding">
-    <div class="row text-box-outside">
+<div class="container-fluid">
+    <div class="row top-header">
+        <div class="col">
+            <p class="top-header-font text-center p-1 m-0">Cast</p>
+        </div>
+    </div>
+</div>
 
+<section class="container-fluid" id="container-fluid-padding">
+
+    <div class="row top-header">
+        <div class="col">
+            <p class="top-header-font text-center p-1 m-0">Cast</p>
+        </div>
+    </div>
+
+    <div class="row text-box-outside">
         <!---Header--->
         {% for c in current_shows %}
         <div class="col-12">
