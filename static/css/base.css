@@ -111,6 +111,10 @@ body {
   color:rgb(255, 255, 255, 1);
 }
 
+.top-header-font{
+  color: rgb(181, 189, 191, 1);
+}
+
 /*---Links---*/
 
 .book-now a{
@@ -516,6 +520,10 @@ nav ul li a:hover {
   margin-right: 4.8rem;
   margin-top:0rem;
   margin-bottom:1rem;
+}
+
+.top-header{
+  background: rgb(128, 0, 0, 0.6);
 }
 
 /*---Navbar Overlay for mobile---*/
