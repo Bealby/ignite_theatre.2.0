@@ -3,13 +3,27 @@
 
 {% block content %}
 
-<section class="container-fluid" id="container-fluid-padding">
-    <div class="row text-box-outside">
+<div class="container-fluid d-lg-none">
+    <div class="row top-header">
+        <div class="col">
+            <p class="top-header-font text-center p-1 m-0">About</p>
+        </div>
+    </div>
+</div>
 
+<section class="container-fluid" id="container-fluid-padding">
+
+    <div class="row top-header d-none d-lg-block">
+        <div class="col">
+            <p class="top-header-font text-center p-1 m-0">About</p>
+        </div>
+    </div>
+
+    <div class="row text-box-outside">
         <!---Content 1--->
         <div class="text-box-inside">
             <div class="col-12 col-md-8 offset-md-2">
-                <p class="page-main-header text-uppercase mt-4 mb-4">
+                <p class="page-main-header text-uppercase mb-4">
                     Ignite Theatre
                 </p>
                 <p class="content-p">
