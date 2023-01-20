@@ -12,25 +12,17 @@
         <!---Header--->
         {% for show in shows %}
         <div class="text-box-inside">
-            <div class="row">
-                <div class="col-4 text-center">
-                    <img src="" />
-                </div>
-                <div class="col-4">
-                    <p class="page-main-header text-uppercase mt-4 mb-0">
-                        {{ show.name }}
-                    </p>
-                    <p class="page-main-sub-headers">
-                        {{ show.date }}
-                    </p>
-                    <p class="page-main-sub-headers">TICKETS AVAILABLE FROM:&nbsp;&nbsp;&nbsp;<a target="_blank"
-                            href="{{ show.ticket_retail_url }}" target="_blank"><i class="fa-solid fa-ticket"
-                                style="vertical-align: middle;"></i></a>
-                    </p>
-                </div>
-                <div class="col-4 text-center">
-                    <img src="" />
-                </div>
+            <div class="col-12">
+                <p class="page-main-header text-uppercase mt-4 mb-0">
+                    {{ show.name }}
+                </p>
+                <p class="page-main-sub-headers">
+                    {{ show.date }}
+                </p>
+                <p class="page-main-sub-headers">TICKETS AVAILABLE FROM:&nbsp;&nbsp;&nbsp;<a target="_blank"
+                        href="{{ show.ticket_retail_url }}" target="_blank"><i class="fa-solid fa-ticket"
+                            style="vertical-align: middle;"></i></a>
+                </p>
             </div>
         </div>
 
