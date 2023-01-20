@@ -111,6 +111,14 @@ body {
   color:rgb(255, 255, 255, 1);
 }
 
+.top-header-font{
+  font-family: "Rammetto One", cursive !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color:rgb(255, 255, 255, 1) !important;
+}
+
 /*---Links---*/
 
 .book-now a{
@@ -519,7 +527,7 @@ nav ul li a:hover {
 }
 
 .top-header{
-  background: rgb(128, 0, 0, 0.6);
+  background: rgb(128, 0, 0, 1);
 }
 
 /*---Navbar Overlay for mobile---*/
@@ -668,6 +676,17 @@ nav ul li a:hover {
   text-decoration: none !important;
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
+}
+}
+
+/*---Desktop top-header - reduce font size for better viewing on smaller devices---*/
+@media (max-width: 1300px) {
+.top-header-font{
+  font-family: "Rammetto One", cursive !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  color:rgb(255, 255, 255, 1) !important;
 }
 }
 
