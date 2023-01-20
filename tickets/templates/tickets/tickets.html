@@ -12,10 +12,11 @@
                 <i class="fa-solid fa-ticket"></i>&nbsp;&nbsp;&nbsp;Tickets
             </p>
             <p class="content-h text-center text-uppercase mt-4">
-                {{ show.name }}
+                {{ show.friendly_name }}
             </p>
         </div>
         {% endfor %}
+
 
         <!---Performance Info--->
         {% for ticket in tickets|dictsort:"position" %}
