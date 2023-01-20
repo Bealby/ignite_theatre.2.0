@@ -387,7 +387,7 @@ body {
   padding:1.5rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  margin-top:2rem;
+  margin-top:0rem;
 }
 
 .text-box-inside {
@@ -528,7 +528,6 @@ nav ul li a:hover {
 
 .top-header{
   background: rgb(128, 0, 0, 0.8);
-  border-bottom: solid 2px rgb(0,0,0,0.8);
 }
 
 /*---Navbar Overlay for mobile---*/
@@ -815,7 +814,7 @@ nav ul li a:hover {
   margin-right: 0rem;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
-  margin-top:0.5rem;
+  margin-top:0rem;
 }
 }
 
