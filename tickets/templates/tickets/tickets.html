@@ -7,11 +7,11 @@
     <div class="row text-box-outside">
         <!---Content 1--->
         {% for show in shows %}
-        <div class="col-12 text-center">
+        <div class="col-12 text-center mb-3">
             <p class="page-main-header text-uppercase mt-4">
                 <i class="fa-solid fa-ticket"></i>&nbsp;&nbsp;&nbsp;Tickets
             </p>
-            <p class="content-h text-center text-uppercase mt-4">
+            <p class="content-h text-center text-uppercase mt-3">
                 {{ show.friendly_name }}
             </p>
         </div>
@@ -19,6 +19,7 @@
 
 
         <!---Performance Info--->
+        {% if tickets %}
         {% for ticket in tickets|dictsort:"position" %}
         <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-3 mb-4">
             <div class="card text-center mx-auto mb-4 card-ticket">
@@ -57,6 +58,10 @@
             </div>
         </div>
         {% endfor %}
+        {% else %}
+        <p class="page-main-sub-headers">Tickets available soon</p>
+        {% endif %}
+
     </div>
 
 </section>

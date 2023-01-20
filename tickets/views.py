@@ -3,24 +3,12 @@ from .models import Show
 from .models import Ticket
 
 
-def show(request):
-    ''' A view to return index page'''
-
-    shows = Show.objects.all()
-
-    context = {
-        'shows': shows,
-    }
-
-    return render(request, 'tickets/tickets.html', context)
-
-
 def all_tickets(request):
     '''context = to allow things to be sent to template'''
 
     tickets = Ticket.objects.all()
     '''Filter tickets by show'''
-    shows = None
+    shows = Show.objects.all()
 
     '''Request if show exists'''
     if request.GET:
@@ -36,6 +24,7 @@ def all_tickets(request):
     context = {
         'tickets': tickets,
         'current_shows': shows,
+        'shows': shows,
     }
 
     return render(request, 'tickets/tickets.html', context)
