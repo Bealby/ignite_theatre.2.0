@@ -26,11 +26,11 @@
         <!---Iterate through --->
         {% for c in current_shows %}
         <div class="col-12">
-            <p class="page-main-header text-uppercase mt-3">
+            <p class="page-main-header text-uppercase mt-0">
                 {{ c.friendly_name }}
             </p>
         </div>
-        <div class="content-h-gallery text-center mb-4">
+        <div class="content-h-gallery text-center mb-4 mt-3">
             <a href="{{ c.cast_show_link }}">Cast&nbsp;&nbsp;<i
                     class="fa-solid fa-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
             <a href="{% url 'home' %}">Home&nbsp;&nbsp;<i class=" fa-solid fa-chevron-right"></i></a>
