@@ -13,7 +13,7 @@ body {
 
 .page-main-header {
   font-family: "Rammetto One", cursive;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
   color: rgb(255, 255, 255, 1);
 }
@@ -533,7 +533,7 @@ nav ul li a:hover {
 }
 
 .top-header{
-  background: rgb(128, 0, 0, 0.8);
+  background: rgb(128, 0, 0, 0.5);
 }
 
 /*---Navbar Overlay for mobile---*/
@@ -801,7 +801,7 @@ nav ul li a:hover {
 /*---Reduce font and pb for better viewing on smaller devices---*/
 @media (max-width: 500px) {
 .page-main-header {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding-bottom:5px;
 }
 }
