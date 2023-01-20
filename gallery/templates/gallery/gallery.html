@@ -31,10 +31,9 @@
             </p>
         </div>
         <div class="content-h-gallery text-center mb-4">
-            <a href="{{ c.cast_show_link }}">Cast&nbsp;&nbsp;<i class="fa-solid fa-chevron-right"
-                    style="font-size: 1.8rem !important; color:rgb(128, 0, 0, 1) !important; vertical-align: middle;"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="{% url 'home' %}">Home&nbsp;&nbsp;<i class=" fa-solid fa-chevron-right"
-                    style="font-size: 1.8rem !important; color:rgb(128, 0, 0, 1) !important; vertical-align: middle;"></i></a>
+            <a href="{{ c.cast_show_link }}">Cast&nbsp;&nbsp;<i
+                    class="fa-solid fa-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="{% url 'home' %}">Home&nbsp;&nbsp;<i class=" fa-solid fa-chevron-right"></i></a>
         </div>
         {% endfor %}
         {% for gallery in galleries %}

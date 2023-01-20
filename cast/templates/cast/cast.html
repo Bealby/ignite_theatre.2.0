@@ -31,10 +31,9 @@
             </p>
         </div>
         <div class="content-h-cast text-center mb-4">
-            <a href="{{ c.gallery_show_link }}">Gallery&nbsp;&nbsp;<i class="fa-solid fa-chevron-right"
-                    style="font-size: 1.8rem !important; color:rgb(128, 0, 0, 1) !important; vertical-align: middle;"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="{% url 'home' %}">Home&nbsp;&nbsp;<i class=" fa-solid fa-chevron-right"
-                    style="font-size: 1.8rem !important; color:rgb(128, 0, 0, 1) !important; vertical-align: middle;"></i></a>
+            <a href="{{ c.gallery_show_link }}">Gallery&nbsp;&nbsp;<i
+                    class="fa-solid fa-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="{% url 'home' %}">Home&nbsp;&nbsp;<i class=" fa-solid fa-chevron-right"></i></a>
         </div>
         <div class="text-center mt-2 mb-3">
             <img class="card-img-top img-fluid poster" src="{{ c.poster.url }}" alt="{{ c.friendly_name }} Poster">
