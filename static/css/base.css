@@ -445,14 +445,6 @@ body {
   padding:1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
-.email-success-footer-margin{
-  margin-bottom:45rem;
-}
-
-.email-footer-margin{
-  margin-bottom:30rem;
-}
-
 /*---Navbar---*/
 
 .navbar-bg{
@@ -927,19 +919,5 @@ nav ul li a:hover {
 @media (max-width: 575px) {
 .padding-images{
   padding:1.5rem 0.5rem 1rem 0.5rem;
-}
-}
-
-/*---  ---*/
-@media (max-width: 420px) {
-.email-success-footer-margin{
-  margin-bottom:28rem;
-}
-}
-
-/*--- for  ---*/
-@media (max-width: 420px) {
-.email-footer-margin{
-  margin-bottom:0rem;
 }
 }
