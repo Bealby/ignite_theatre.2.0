@@ -624,6 +624,10 @@ nav ul li a:hover {
     color:rgb(255, 255, 255, 1);
 }
 
+.footernav a:hover{
+    color: rgb(128, 0, 0, 1);
+}
+
 #footer {  
     position: absolute;
     left: 0;
