@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Pacifico&family=Rammetto+One&display=swap");
 
-html{
-  height: 100%;
+html {
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     background: url('/media/theatre-bg.png') no-repeat center center fixed;
     background-size: cover;
+    margin: 0 0 100px;
 }
 
 /*---Content---*/
@@ -630,11 +632,14 @@ nav ul li a:hover {
     color:rgb(255, 255, 255, 1);
 }
 
-#footer{
+#footer {
+    background-color: orange;
+    position: absolute;
+    left: 0;
     bottom: 0;
-    width:100%;
-    height:3rem;
-    margin-top:2rem;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
 }
 
 #footer-copyright p{
