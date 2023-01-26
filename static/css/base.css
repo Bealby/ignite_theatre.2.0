@@ -8,7 +8,7 @@ html {
 body {
     background: url('/media/theatre-bg.png') no-repeat center center fixed;
     background-size: cover;
-    margin: 0 0 100px;
+    margin: 0 0 60px;
 }
 
 /*---Content---*/
@@ -632,12 +632,11 @@ nav ul li a:hover {
     color:rgb(255, 255, 255, 1);
 }
 
-#footer {
-    background-color: orange;
+footer {  
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: 60px;
     width: 100%;
     overflow: hidden;
 }
@@ -806,7 +805,7 @@ nav ul li a:hover {
 /*---Reduce font and pb for better viewing on smaller devices---*/
 @media (max-width: 500px) {
 .page-main-header {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   padding-bottom:5px;
 }
 }
