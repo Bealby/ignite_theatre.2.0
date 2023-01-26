@@ -921,3 +921,15 @@ nav ul li a:hover {
   padding:1.5rem 0.5rem 1rem 0.5rem;
 }
 }
+
+@media (max-width: 767px) {
+body {
+    margin: 0 0 105px;
+}
+}
+
+@media (max-width: 767px) {
+#footer {  
+    height: 105px;
+}
+}
