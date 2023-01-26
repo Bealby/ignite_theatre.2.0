@@ -29,7 +29,9 @@
             <p class="content-h text-center text-uppercase mt-3">
                 {{ show.friendly_name }}
             </p>
+            {% if show.poster %}
             <img class="img-fluid" src="{{ show.poster.url }}" alt="{{ show.friendly_name }} Poster">
+            {% endif %}
 
         </div>
         {% endfor %}
