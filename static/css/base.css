@@ -639,6 +639,8 @@ nav ul li a:hover {
 	font-size: 0.6rem;
 	font-family: 'Roboto', sans-serif;
   margin-top:0rem;
+  padding-top:3rem;
+  padding-bottom:1.5rem;
 }
 
 /*---NAVBAR MEDIA QUERIES---*/
@@ -922,14 +924,24 @@ nav ul li a:hover {
 }
 }
 
+/*---Margin increase for better viewing on mobile ---*/
 @media (max-width: 767px) {
 body {
-    margin: 0 0 105px;
+    margin: 0 0 95px;
 }
 }
 
+/*---Height increase for better viewing on mobile ---*/
 @media (max-width: 767px) {
 #footer {  
-    height: 105px;
+    height: 95px;
+}
+}
+
+/*---Height increase for better viewing on mobile ---*/
+@media (max-width: 767px) {
+#footer-copyright p{
+  padding-top:1rem;
+  padding-bottom:1.5rem;
 }
 }
