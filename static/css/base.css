@@ -364,7 +364,7 @@ body {
 }
 
 .noHover{
-    pointer-events: none;
+    pointer-events: none !important;
 }
 
 /*---Scroll to top---*/
