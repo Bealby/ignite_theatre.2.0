@@ -363,6 +363,10 @@ body {
   opacity: 0.7;
 }
 
+.noHover{
+    pointer-events: none;
+}
+
 /*---Scroll to top---*/
 
 #my-scroll-to-top-btn {
