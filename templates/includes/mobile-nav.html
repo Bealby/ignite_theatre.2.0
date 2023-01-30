@@ -56,7 +56,11 @@
     <span class="closebtn" onclick="closeAllMenu()">&times;</span>
     <div class="menu-content">
         <div class="header-logo mb-3">
-            <img src="{% static 'images/logo/logo.png' %}" alt="Ignite Theatre Logo" />
+            <picture>
+                <source type="image/webp">
+                <img loading="lazy" src="{% static 'images/logo/logo.png' %}"
+                    srcset="{% static 'images/logo/logo.png' %}" alt="Ignite Theatre Logo" />
+            </picture>
         </div>
         <span onclick="closeMenuCast()"><a class="text-uppercase nav-mob-back"><i
                     class="fa-solid fa-chevron-left"></i></a></span>

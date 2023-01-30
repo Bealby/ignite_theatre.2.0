@@ -32,7 +32,11 @@
             </li>
             <li>
                 <a class="header-logo" href="{% url 'home' %}">
-                    <img src="{% static 'images/logo/logo.png' %}" alt="Ignite Theatre Logo" />
+                    <picture>
+                        <source type="image/webp">
+                        <img loading="lazy" src="{% static 'images/logo/logo.png' %}"
+                            srcset="{% static 'images/logo/logo.png' %}" alt="Ignite Theatre Logo" />
+                    </picture>
                 </a>
             </li>
             <li class="nav-item dropdown">

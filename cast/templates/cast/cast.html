@@ -36,8 +36,11 @@
             <a href="{% url 'home' %}">Home&nbsp;&nbsp;<i class=" fa-solid fa-chevron-right"></i></a>
         </div>
         <div class="text-center mt-2 mb-3">
-            <img loading="lazy" class="card-img-top img-fluid poster" src="{{ c.poster.url }}"
-                alt="{{ c.friendly_name }} Poster">
+            <picture>
+                <source type="image/webp">
+                <img loading="lazy" class="card-img-top img-fluid poster" src="{{ c.poster.url }}"
+                    srcset="{{ c.poster.url }}" alt="{{ c.friendly_name }} Poster">
+            </picture>
         </div>
         {% endfor %}
 
@@ -96,8 +99,11 @@
         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
             <div class="card text-center mx-auto mb-4">
                 {% if actor.image %}
-                <img loading="lazy" class="card-img-top img-fluid" src="{{ actor.image.url }}"
-                    alt="{{ actor.name }} Profile">
+                <picture>
+                    <source type="image/webp">
+                    <img loading="lazy" class="card-img-top img-fluid" src="{{ actor.image.url }}"
+                        srcset="{{ actor.image.url }}" alt="{{ actor.name }} Profile">
+                </picture>
                 {% endif %}
                 <div class="card-body card-body-profile">
                     {% if actor.name %}
