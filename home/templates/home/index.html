@@ -26,7 +26,8 @@
         <div class="text-box-inside-content">
             <div class="row">
                 <div class="col-md-6 mt-0 text-center margin-poster">
-                    <img src="{{ show.show_poster.url }}" class="img-fluid grandmas-grimm" alt="Grimm's Fairy Tales" />
+                    <img loading="lazy" src="{{ show.show_poster.url }}" class="img-fluid grandmas-grimm"
+                        alt="Grimm's Fairy Tales" />
                 </div>
                 <div class="col-md-6 mt-5">
                     <p class="content-h mb-2 text-uppercase pb-3">
@@ -146,28 +147,28 @@
                             <div class="row mx-auto">
                                 <div class="col-md-3 mb-3 p-4">
                                     <a href="{% url 'galleries' %}?show=a_grandmas_grimm">
-                                        <img src="{% static 'images/posters/a_grandmas_grimm.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/a_grandmas_grimm.png' %}"
                                             class="d-block mx-auto poster-img-fluid production-posters"
                                             alt="Poster - A Grandma's Grimm">
                                     </a>
                                 </div>
                                 <div class="col-md-3 mb-3 p-4">
                                     <a href="{% url 'galleries' %}?show=gabriel">
-                                        <img src="{% static 'images/posters/gabriel.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/gabriel.png' %}"
                                             class="d-block mx-auto poster-img-fluid production-posters"
                                             alt="Poster - A Gabriel">
                                     </a>
                                 </div>
                                 <div class="col-md-3 mb-3 p-4">
                                     <a href="{% url 'galleries' %}?show=the_memory_of_water">
-                                        <img src="{% static 'images/posters/TMOW.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/TMOW.png' %}"
                                             class="d-block mx-auto poster-img-fluid production-posters"
                                             alt="Poster - The Memory of Water">
                                     </a>
                                 </div>
                                 <div class="col-md-3 mb-3 p-4">
                                     <a href="{% url 'galleries' %}?show=wind_and_the_willows">
-                                        <img src="{% static 'images/posters/WITW.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/WITW.png' %}"
                                             class="d-block mx-auto poster-img-fluid production-posters"
                                             alt="Poster - The Wind and the Willows">
                                     </a>
@@ -185,14 +186,14 @@
                             <div class="row mx-auto">
                                 <div class="col-md-6 mb-3">
                                     <a href="{% url 'galleries' %}?show=a_grandmas_grimm">
-                                        <img src="{% static 'images/posters/a_grandmas_grimm.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/a_grandmas_grimm.png' %}"
                                             class="d-block w-50 mx-auto production-posters"
                                             alt="Poster - A Grandma's Grimm">
                                     </a>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <a href="{% url 'galleries' %}?show=gabriel">
-                                        <img src="{% static 'images/posters/gabriel.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/gabriel.png' %}"
                                             class="d-block w-50 mx-auto production-posters" alt="Poster - Gabriel">
                                     </a>
                                 </div>
@@ -202,14 +203,14 @@
                             <div class="row mx-auto">
                                 <div class="col-md-6 mb-3">
                                     <a href="{% url 'galleries' %}?show=the_memory_of_water">
-                                        <img src="{% static 'images/posters/TMOW.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/TMOW.png' %}"
                                             class="d-block w-50 mx-auto production-posters"
                                             alt="Poster - The Memory of Water">
                                     </a>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <a href="{% url 'galleries' %}?show=wind_and_the_willows">
-                                        <img src="{% static 'images/posters/WITW.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/WITW.png' %}"
                                             class="d-block w-50 mx-auto production-posters"
                                             alt="Poster - The Wind and the Willows">
                                     </a>
@@ -237,7 +238,7 @@
                             <div class="row mx-auto">
                                 <div class="col-12 mb-3 poster-carousel">
                                     <a href="{% url 'galleries' %}?show=a_grandmas_grimm">
-                                        <img src="{% static 'images/posters/a_grandmas_grimm.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/a_grandmas_grimm.png' %}"
                                             class="d-block mx-auto production-posters" alt="Poster - A Grandma's Grimm">
                                     </a>
                                 </div>
@@ -247,7 +248,7 @@
                             <div class="row mx-auto">
                                 <div class="col-12 mb-3 poster-carousel">
                                     <a href="{% url 'galleries' %}?show=gabriel">
-                                        <img src="{% static 'images/posters/gabriel.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/gabriel.png' %}"
                                             class="d-block mx-auto production-posters" alt="Poster - Gabriel">
                                     </a>
                                 </div>
@@ -257,7 +258,7 @@
                             <div class="row mx-auto poster-carousel">
                                 <div class="col-12 mb-3">
                                     <a href="{% url 'galleries' %}?show=the_memory_of_water">
-                                        <img src="{% static 'images/posters/TMOW.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/TMOW.png' %}"
                                             class="d-block mx-auto production-posters"
                                             alt="Poster - The Memory of Water">
                                     </a>
@@ -268,7 +269,7 @@
                             <div class="row mx-auto poster-carousel">
                                 <div class="col-12 mb-3">
                                     <a href="{% url 'galleries' %}?show=wind_and_the_willows">
-                                        <img src="{% static 'images/posters/WITW.png' %}"
+                                        <img loading="lazy" src="{% static 'images/posters/WITW.png' %}"
                                             class="d-block mx-auto production-posters"
                                             alt="Poster - The Wind and the Willows">
                                     </a>

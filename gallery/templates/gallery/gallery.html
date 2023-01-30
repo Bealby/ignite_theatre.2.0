@@ -39,7 +39,8 @@
         {% for gallery in galleries %}
         <div class="col-md-6 col-lg-4 col-md-6 col-lg-4 pt-4 padding-images">
             {% if gallery.image %}
-            <img src="{{ gallery.image.url }}" class="img-fluid gallery-border" alt="{{ gallery.name }}" />
+            <img loading="lazy" src="{{ gallery.image.url }}" class="img-fluid gallery-border"
+                alt="{{ gallery.name }}" />
             {% endif %}
         </div>
         {% endfor %}
