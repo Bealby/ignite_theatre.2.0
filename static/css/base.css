@@ -467,6 +467,7 @@ body {
 .cast-underline{
   text-decoration-line: underline;
   text-decoration-style: double;
+  text-underline-offset: 8px;
 }
 
 /*---Navbar---*/
