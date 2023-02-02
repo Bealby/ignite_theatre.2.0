@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Pacifico&family=Rammetto+One&display=swap&family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Pacifico&family=Rammetto+One&display=swap&family=Cardo&display=swap'");
 
 html {
     position: relative;
@@ -37,7 +37,7 @@ body {
 }
 
 .content-p-testimonials{
-  font-family: 'Henny Penny', cursive;
+  font-family: 'Cardo', serif;
   font-size: 1.1rem;
   font-weight: 700;
   text-align: left;
