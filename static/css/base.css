@@ -464,7 +464,7 @@ body {
 
 /*---Underline---*/
 
-.cast-underline{
+.double-underline{
   text-decoration-line: underline;
   text-decoration-style: double;
   text-underline-offset: 8px;
