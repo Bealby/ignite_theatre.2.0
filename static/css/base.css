@@ -976,7 +976,7 @@ body {
 }
 
 /*---Padding top for testimonial header for better viewing on mobile ---*/
-@media (max-width: 767px) {
+@media (max-width: 832px) {
 .padding-top-testimonial{
   padding-top:0rem
 }
