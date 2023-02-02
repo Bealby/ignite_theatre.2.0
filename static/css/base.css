@@ -462,6 +462,13 @@ body {
   padding-top:3rem
 }
 
+/*---Underline---*/
+
+.cast-underline a{
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
 /*---Navbar---*/
 
 .navbar-bg{
