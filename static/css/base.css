@@ -38,10 +38,11 @@ body {
 
 .content-p-testimonials{
   font-family: 'Cardo', serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  text-align: left;
-  color: rgb(181, 189, 191, 1);
+  text-align: center;
+  font-style: italic;
+  color: rgb(255, 255, 255, 1);
 }
 
 .content-p-errors {
@@ -455,6 +456,10 @@ body {
 
 .padding-images{
   padding:1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.padding-top-testimonial{
+  padding-top:3rem
 }
 
 /*---Navbar---*/
@@ -959,5 +964,20 @@ body {
 #footer-copyright p{
   padding-top:1rem;
   padding-bottom:1.5rem;
+}
+}
+
+
+/*---Testimonial content. smaller font for mobile. ---*/
+@media (max-width: 767px) {
+.content-p-testimonials{
+  font-size: 1.1rem;
+}
+}
+
+/*---Padding top for testimonial header for better viewing on mobile ---*/
+@media (max-width: 767px) {
+.padding-top-testimonial{
+  padding-top:3rem
 }
 }
