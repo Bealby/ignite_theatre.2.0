@@ -46,13 +46,14 @@
         </div>
         <div class="col-12 col-sm-7 col-lg-6 text-center mt-2 mb-3">
             <p class="content-h text-center padding-top-testimonial">Testimonials</p>
-            {% if show.location %}
+            {% if c.testimonial_1 %}
             <p class="content-p-testimonials">{{ c.testimonial_1 }}</p>
             {% endif %}
-            {% if upcoming.location %}
+            <div class="borderline"></div>
+            {% if c.testimonial_2 %}
             <p class="content-p-testimonials">{{ c.testimonial_2 }}</p>
             {% endif %}
-            {% if upcoming.location %}
+            {% if c.testimonial_3 %}
             <p class="content-p-testimonials">{{ c.testimonial_3 }}</p>
             {% endif %}
         </div>

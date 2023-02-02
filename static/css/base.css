@@ -462,12 +462,17 @@ body {
   padding-top:3rem
 }
 
-/*---Underline---*/
+/*---Underline/ border---*/
 
 .double-underline{
   text-decoration-line: underline;
   text-decoration-style: double;
   text-underline-offset: 8px;
+}
+
+.borderline{
+  border-style: solid 2px rgb(255, 255, 255, 1);
+  width:10px;
 }
 
 /*---Navbar---*/
