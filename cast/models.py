@@ -8,6 +8,9 @@ class Show(models.Model):
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
     gallery_show_link = models.CharField(max_length=254)
     poster = models.ImageField(null=True, blank=True)
+    testimonial_1 = models.CharField(max_length=254, null=True, blank=True)
+    testimonial_2 = models.CharField(max_length=254, null=True, blank=True)
+    testimonial_3 = models.CharField(max_length=254, null=True, blank=True)
 
     def __str__(self):
         return self.name

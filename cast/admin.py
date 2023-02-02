@@ -11,6 +11,9 @@ class ShowAdmin(admin.ModelAdmin):
         'name',
         'gallery_show_link',
         'poster',
+        'testimonial_2',
+        'testimonial_3',
+        'testimonial_3',
     )
 
 
