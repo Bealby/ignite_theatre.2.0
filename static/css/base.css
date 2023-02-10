@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Pacifico&family=Rammetto+One&display=swap&family=Cardo&display=swap'");
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    background: url('/media/theatre-bg.png') no-repeat center center fixed;
-    background-size: cover;
-    margin: 0 0 65px;
+  background: url('/media/theatre-bg.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0 0 65px;
 }
 
 /*---Content---*/
@@ -36,7 +36,7 @@ body {
   color: rgb(181, 189, 191, 1);
 }
 
-.content-p-testimonials{
+.content-p-testimonials {
   font-family: 'Cardo', serif;
   font-size: 1.2rem;
   font-weight: 700;
@@ -61,7 +61,7 @@ body {
   color: rgb(255, 255, 255, 1);
 }
 
-.content-h-errors a{
+.content-h-errors a {
   font-family: "Rammetto One", cursive;
   font-size: 1.2rem;
   text-align: center;
@@ -108,31 +108,31 @@ body {
   color: rgb(255, 255, 255, 1);
 }
 
-.content-p-email a{
+.content-p-email a {
   color: rgb(181, 189, 191, 1);
   text-decoration: none;
 }
 
-.book-now{
+.book-now {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 900;
   background: rgb(128, 0, 0, 1);
   border-radius: 0rem 0rem 0.25rem 0.25rem;
-  color:rgb(255, 255, 255, 1);
+  color: rgb(255, 255, 255, 1);
 }
 
-.top-header-font{
+.top-header-font {
   font-family: "Rammetto One", cursive !important;
   text-transform: uppercase !important;
   font-weight: 700 !important;
   font-size: 18px !important;
-  color:rgb(255, 255, 255, 1) !important;
+  color: rgb(255, 255, 255, 1) !important;
 }
 
 /*---Links---*/
 
-.book-now a{
+.book-now a {
   text-decoration: none !important;
   color: rgb(255, 255, 255, 1) !important;
 }
@@ -140,31 +140,31 @@ body {
 /*---Cards---*/
 
 .card {
-    width: 17rem !important;
-    background-color:rgb(0, 0, 0, 1) !important;
+  width: 17rem !important;
+  background-color: rgb(0, 0, 0, 1) !important;
 }
 
 .card-ticket {
-    background-color:rgb(0, 0, 0, 1) !important;
-    width: 18rem !important;
-    border: 0px !important;
+  background-color: rgb(0, 0, 0, 1) !important;
+  width: 18rem !important;
+  border: 0px !important;
 }
 
-.card-body-profile{
+.card-body-profile {
   height: 22rem !important;
 }
 
 /*---Images---*/
 
-.ticket-source{
+.ticket-source {
   max-width: 100px;
 }
 
-.ticket-source2{
+.ticket-source2 {
   max-width: 100px;
 }
 
-.arts-council{
+.arts-council {
   width: 300px;
 }
 
@@ -185,23 +185,23 @@ body {
   height: 150px;
 }
 
-.poster{
+.poster {
   width: 300px !important;
 }
 
-.poster-ticket{
+.poster-ticket {
   width: 200px !important;
 }
 
-.poster-ticket-details{
+.poster-ticket-details {
   width: 290px !important;
 }
 
-.poster-carousel img{
-  width:70%;
+.poster-carousel img {
+  width: 70%;
 }
 
-.poster-img-fluid{
+.poster-img-fluid {
   width: 80%;
   height: auto;
 }
@@ -215,7 +215,7 @@ body {
 
 /*---Icons/ Awesome---*/
 
-.fa-shopping-bag{
+.fa-shopping-bag {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }
@@ -225,28 +225,28 @@ body {
   font-size: 2rem;
 }
 
-.fa-ticket{
+.fa-ticket {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }
 
-.fa-ticket:hover{  
-  color:rgb(255, 255, 255, 1);
+.fa-ticket:hover {
+  color: rgb(255, 255, 255, 1);
   font-size: 2rem;
 }
 
-.fa-book-open{  
+.fa-book-open {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }
 
-.fa-envelope{  
+.fa-envelope {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }
 
-.fa-envelope:hover{  
-  color:rgb(255, 255, 255, 1);
+.fa-envelope:hover {
+  color: rgb(255, 255, 255, 1);
   font-size: 2rem;
 }
 
@@ -255,22 +255,22 @@ body {
   font-size: 2rem;
 }
 
-.fa-film{
+.fa-film {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }
 
-.fa-film:hover{  
-  color:rgb(255, 255, 255, 1);
+.fa-film:hover {
+  color: rgb(255, 255, 255, 1);
   font-size: 2rem;
 }
 
-.fa-arrow-right{
+.fa-arrow-right {
   color: rgb(128, 0, 0, 1);
   font-size: 1.2rem;
 }
 
-.fa-masks-theater{  
+.fa-masks-theater {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }
@@ -295,12 +295,12 @@ body {
   font-size: 2rem;
 }
 
-.fa-video:hover{  
-  color:rgb(255, 255, 255, 1);
+.fa-video:hover {
+  color: rgb(255, 255, 255, 1);
   font-size: 2rem;
 }
 
-.fa-book-open{  
+.fa-book-open {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }
@@ -310,7 +310,7 @@ body {
   font-size: 2rem;
 }
 
-.fa-burst{
+.fa-burst {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem;
 }
@@ -325,25 +325,25 @@ body {
   font-size: 1.5rem !important;
 }
 
-.fa-star{
+.fa-star {
   color: rgb(128, 0, 0, 1);
   font-size: 2rem !important;
 }
 
-.fa-regular{
+.fa-regular {
   color: rgb(181, 189, 191, 1);
   font-size: 1rem;
 }
 
-.fa-location-dot .fa-calendar-days .fa-building{
+.fa-location-dot .fa-calendar-days .fa-building {
   color: rgb(181, 189, 191, 1) !important;
   font-size: 1rem !important;
 }
 
-.fa-chevron-right{
-    font-size: 1.5rem !important;
-    color: rgb(128, 0, 0, 1) !important;
-    vertical-align: middle;
+.fa-chevron-right {
+  font-size: 1.5rem !important;
+  color: rgb(128, 0, 0, 1) !important;
+  vertical-align: middle;
 }
 
 /*---Hover---*/
@@ -368,12 +368,12 @@ body {
   font-size: 2rem;
 }
 
-.production-posters:hover{
+.production-posters:hover {
   opacity: 0.7;
 }
 
-.no-hover{
-    pointer-events: none !important;
+.no-hover {
+  pointer-events: none !important;
 }
 
 /*---Scroll to top---*/
@@ -405,16 +405,16 @@ body {
 
 .text-box-outside {
   background: rgb(0, 0, 0, 0.5);
-  padding:1.5rem;
+  padding: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  margin-top:0rem;
+  margin-top: 0rem;
 }
 
 .text-box-inside {
   background: rgb(0, 0, 0, 1);
-  padding-left:1.5rem;
-  padding-left:1.5rem;
+  padding-left: 1.5rem;
+  padding-left: 1.5rem;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -425,9 +425,9 @@ body {
 
 .text-box-inside-content {
   background: rgb(0, 0, 0, 1);
-  margin-top:1.2rem;
-  padding-left:1.5rem;
-  padding-left:1.5rem;
+  margin-top: 1.2rem;
+  padding-left: 1.5rem;
+  padding-left: 1.5rem;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -438,62 +438,74 @@ body {
 
 /*---Margins/ Padding---*/
 
-#container-fluid-padding{
+#container-fluid-padding {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
 
-.margin-poster{
-  margin-top:3rem !important;
+.margin-poster {
+  margin-top: 3rem !important;
   margin-bottom: 3rem !important;
 }
 
-.gallery-border{
+.gallery-border {
   border: 1px solid rgb(0, 0, 0, 1) !important;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
-.padding-images{
-  padding:1.5rem 1.5rem 1.5rem 1.5rem;
+.padding-images {
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
-.padding-top-testimonial{
-  padding-top:3rem
+.padding-top-testimonial {
+  padding-top: 3rem
 }
 
 /*---Underline/ border---*/
 
-.double-underline{
+.double-underline {
   text-decoration-line: underline;
   text-decoration-style: double;
   text-underline-offset: 8px;
 }
 
-.borderline{
+.borderline {
   border-bottom: solid 2px rgb(255, 255, 255, 1);
-  width:10px;
+  width: 10px;
 }
 
 /*---Navbar---*/
 
-.navbar-bg{
+.navbar-bg {
   background-color: rgb(0, 0, 0, 0.8) !important;
 }
 
-.navbar-links{
+.navbar-links {
   font-family: "Rammetto One", cursive !important;
   text-transform: uppercase !important;
   font-weight: 700 !important;
   font-size: 18px !important;
-  color:rgb(255, 255, 255, 1) !important;
+  color: rgb(255, 255, 255, 1) !important;
   text-decoration: none !important;
   padding-top: 2.5rem !important;
   padding-right: 2.5rem !important;
   padding-left: 2.5rem !important;
 }
 
-.navbar-links-dropdpown{
+.navbar-links-footer {
+  font-family: "Rammetto One", cursive !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  color: rgb(255, 255, 255, 1) !important;
+  text-decoration: none !important;
+  padding-top: 2.5rem !important;
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+
+.navbar-links-dropdpown {
   font-family: "Rammetto One", cursive !important;
   text-transform: uppercase !important;
   font-weight: 700 !important;
@@ -505,7 +517,7 @@ body {
   padding-left: 2.5rem !important;
 }
 
-.dropdown-menu-links{
+.dropdown-menu-links {
   background-color: rgb(0, 0, 0, 1);
   margin-top: 0.45rem !important;
 }
@@ -516,24 +528,24 @@ nav ul li a:hover {
   background-color: rgb(0, 0, 0, 0) !important;
 }
 
-.nav-subheader{
+.nav-subheader {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   color: rgb(255, 255, 255, 1) !important;
   padding-top: 0rem;
   padding-left: 2.5rem;
   font-weight: 800;
-  margin-bottom:0rem;
+  margin-bottom: 0rem;
 }
 
-.nav-mob-back{
+.nav-mob-back {
   font-family: "Lato", sans-serif !important;
   font-size: 1.2rem !important;
   color: rgb(255, 255, 255, 1) !important;
   font-weight: 800 !important;
 }
 
-.nav-mob-subheader{
+.nav-mob-subheader {
   font-family: "Lato", sans-serif !important;
   font-size: 1.4rem !important;
   color: rgb(255, 255, 255, 1) !important;
@@ -541,22 +553,22 @@ nav ul li a:hover {
 }
 
 .dropdown-divider-cast {
-  border: 2px solid  rgb(128, 0, 0, 1);
+  border: 2px solid rgb(128, 0, 0, 1);
   margin-left: 2.5rem;
   margin-right: 6.2rem;
-  margin-top:0rem;
-  margin-bottom:1rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
 }
 
 .dropdown-divider-gallery {
-  border: 2px solid  rgb(128, 0, 0, 1);
+  border: 2px solid rgb(128, 0, 0, 1);
   margin-left: 2.5rem;
   margin-right: 4.8rem;
-  margin-top:0rem;
-  margin-bottom:1rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
 }
 
-.top-header{
+.top-header {
   background: rgb(128, 0, 0, 0.7);
 }
 
@@ -598,7 +610,7 @@ nav ul li a:hover {
   color: rgb(255, 255, 255, 1);
 }
 
-.menu-content-sub{
+.menu-content-sub {
   padding: 8px;
   text-decoration: none;
   display: block;
@@ -649,348 +661,374 @@ nav ul li a:hover {
 
 /*---Footer---*/
 
-.footernav{
-    background-color:rgb(0, 0, 0, 1);
-    color:rgb(255, 255, 255, 1);
+.footernav {
+  background-color: rgb(0, 0, 0, 1);
+  color: rgb(255, 255, 255, 1);
 }
 
-.footer-link a:hover{
-    color: rgb(128, 0, 0, 1) !important; 
+.footer-link a:hover {
+  color: rgb(128, 0, 0, 1) !important;
 }
 
-#footer {  
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 65px;
-    width: 100%;
-    overflow: hidden;
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  overflow: hidden;
 }
 
-#footer-copyright p{
-  margin-bottom:0rem !important;
-	text-align: center;
-	font-size: 0.6rem;
-	font-family: 'Roboto', sans-serif;
-  margin-top:0rem;
-  padding-top:1.8rem;
-  padding-bottom:1.5rem;
+#footer-copyright p {
+  margin-bottom: 0rem !important;
+  text-align: center;
+  font-size: 0.6rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.5rem;
 }
 
 /*---NAVBAR MEDIA QUERIES---*/
 
 /*---Desktop Nav - reduce font size for better viewing on smaller devices---*/
 @media (max-width: 1300px) {
-.navbar-links{
-  font-weight: 700 !important;
-  font-size: 16px !important;
-  color: rgb(255, 255, 255, 1) !important;
-  text-decoration: none !important;
-  padding-top: 2.5rem !important;
-  padding-right: 1.5rem !important;
-  padding-left: 1.5rem !important;
+  .navbar-links {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: rgb(255, 255, 255, 1) !important;
+    text-decoration: none !important;
+    padding-top: 2.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
 }
+
+/*---Footer Nav - reduce font size for better viewing on smaller devices---*/
+@media (max-width: 1300px) {
+  .navbar-links-footer {
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    color: rgb(255, 255, 255, 1) !important;
+    text-decoration: none !important;
+    padding-top: 2.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
 }
 
 /*---Desktop Nav - reduce font size for dropdown nav for better viewing on ipad---*/
 @media (max-width: 970px) {
-.navbar-links{
-  font-weight: 700 !important;
-  font-size: 13px !important;
-  color: rgb(255, 255, 255, 1) !important;
-  text-decoration: none !important;
-  padding-top: 2.5rem !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  .navbar-links {
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    color: rgb(255, 255, 255, 1) !important;
+    text-decoration: none !important;
+    padding-top: 2.5rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
 }
+
+/*---Desktop Nav - reduce font size for dropdown nav for better viewing on ipad---*/
+@media (max-width: 970px) {
+  .navbar-links-footer {
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    color: rgb(255, 255, 255, 1) !important;
+    text-decoration: none !important;
+    padding-top: 2.5rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
 }
 
 /*---Desktop Nav - reduce font size for better viewing on smaller devices---*/
 @media (max-width: 1300px) {
-.navbar-links-dropdpown{
-  font-weight: 700 !important;
-  font-size: 15px !important;
-  color: rgb(255, 255, 255, 1) !important;
-  text-decoration: none !important;
-  padding-right: 1.5rem !important;
-  padding-left: 1.5rem !important;
-}
+  .navbar-links-dropdpown {
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    color: rgb(255, 255, 255, 1) !important;
+    text-decoration: none !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
 }
 
 /*---Desktop top-header - reduce font size for better viewing on smaller devices---*/
 @media (max-width: 1300px) {
-.top-header-font{
-  font-family: "Rammetto One", cursive !important;
-  text-transform: uppercase !important;
-  font-weight: 700 !important;
-  font-size: 15px !important;
-  color:rgb(255, 255, 255, 1) !important;
-}
+  .top-header-font {
+    font-family: "Rammetto One", cursive !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    color: rgb(255, 255, 255, 1) !important;
+  }
 }
 
 /*---Reduce font-size/ padding for subheader in dropdown for better viewing on smaller devices ---*/
 @media (max-width: 1300px) {
-.nav-subheader{
-  font-size: 1rem;
-  padding-left: 1.5rem;
-  font-weight: 800;
-}
+  .nav-subheader {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    font-weight: 800;
+  }
 }
 
 /*---Change M/P for dropdown divider for better viewing on smaller devices ---*/
 @media (max-width: 1300px) {
-.dropdown-divider-cast {
+  .dropdown-divider-cast {
     margin-left: 1.5rem;
     margin-right: 5.3rem;
-}
+  }
 }
 
 /*---Change M/P for dropdown divider for better viewing on smaller devices ---*/
 @media (max-width: 1300px) {
-.dropdown-divider-gallery {
+  .dropdown-divider-gallery {
     margin-left: 1.5rem;
     margin-right: 4rem;
-}
+  }
 }
 
 /*---Desktop Nav - reduce font size for dropdown nav for better viewing on ipad---*/
 @media (max-width: 970px) {
-.navbar-links-dropdpown{
-  font-weight: 700 !important;
-  font-size: 11px !important;
-  color: rgb(255, 255, 255, 1) !important;
-  text-decoration: none !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
-}
+  .navbar-links-dropdpown {
+    font-weight: 700 !important;
+    font-size: 11px !important;
+    color: rgb(255, 255, 255, 1) !important;
+    text-decoration: none !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
 }
 
 /*---Reduce font-size/ padding for subheader in dropdown for better viewing on IPAD ---*/
 @media (max-width: 970px) {
-.nav-subheader{
-  font-size: 0.9rem;
-  padding-left: 1rem;
-  font-weight: 800;
-}
+  .nav-subheader {
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    font-weight: 800;
+  }
 }
 
 /*---Change M/P for dropdown divider for better viewing on IPAD ---*/
 @media (max-width: 970px) {
-.dropdown-divider-cast {
+  .dropdown-divider-cast {
     margin-left: 1rem;
     margin-right: 2rem;
-}
+  }
 }
 
 /*---Change M/P for dropdown divider for better viewing on IPAD ---*/
 @media (max-width: 970px) {
-.dropdown-divider-gallery {
+  .dropdown-divider-gallery {
     margin-left: 1rem;
     margin-right: 0.9rem;
-}
+  }
 }
 
 /*---MT for dropdown menu box for better alignment against navbar---*/
 @media (max-width: 970px) {
-.dropdown-menu-links{
-  margin-top: 0.95rem !important;
-}
+  .dropdown-menu-links {
+    margin-top: 0.95rem !important;
+  }
 }
 
 /*---LOGO/POSTER MEDIA QUERIES---*/
 
 /*---Margin-top for poster in index.html for better viewing and spacing on mobile---*/
 @media (max-width: 767px) {
-.margin-poster{
-  margin-top:1.3rem !important;
-  margin-bottom: 0rem !important;
-}
+  .margin-poster {
+    margin-top: 1.3rem !important;
+    margin-bottom: 0rem !important;
+  }
 }
 
 /*---Margin-Top for ticket-source logo in content for better spacing on smaller devices---*/
 @media (max-width: 767px) {
-.ticket-source2{
-  margin-top: 12px !important;
-}
+  .ticket-source2 {
+    margin-top: 12px !important;
+  }
 }
 
 /*---Desktop Nav - reduce logo size for better viewing on smaller devices---*/
 @media (max-width: 1300px) {
-.header-logo img {
-  height: 100px;
-}
+  .header-logo img {
+    height: 100px;
+  }
 }
 
 /*---Desktop Nav - reduce logo size for better viewing on ipad---*/
 @media (max-width: 970px) {
-.header-logo img {
-  height: 90px;
-}
+  .header-logo img {
+    height: 90px;
+  }
 }
 
 /*---CONTENT MEDIA QUERIES---*/
 
 /*---Reduce font and pb for better viewing on smaller devices---*/
 @media (max-width: 500px) {
-.page-main-header {
-  font-size: 1.3rem;
-  padding-bottom:5px;
-}
+  .page-main-header {
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+  }
 }
 
 /*---Padding-top for ticket-source logo for better spacing below text on smaller devices---*/
 @media (max-width: 472px) {
-.ticket-source{
-  padding-top:20px;
-}
-}
-
-/*---Padding/ Margin reduce for better layout and more space for smaller devices---*/
-@media (max-width: 767px) {
-.text-box-outside {
-  margin-left: 0rem;
-  margin-right: 0rem;
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-  margin-top:0rem;
-}
+  .ticket-source {
+    padding-top: 20px;
+  }
 }
 
 /*---Padding/ Margin reduce for better layout and more space for smaller devices---*/
 @media (max-width: 767px) {
-#container-fluid-padding{
-  padding-left: 0rem;
-  padding-right: 0rem;
+  .text-box-outside {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-top: 0rem;
+  }
 }
+
+/*---Padding/ Margin reduce for better layout and more space for smaller devices---*/
+@media (max-width: 767px) {
+  #container-fluid-padding {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 }
 
 
 /*---Reduce font font for content header for better viewing on smaller devices---*/
 @media (max-width: 767px) {
-.content-h {
-  font-size: 1.1rem;
-}
+  .content-h {
+    font-size: 1.1rem;
+  }
 }
 
 
 /*---Reduce margin/ padding for better spacing for contet box on smaller devices---*/
 @media (max-width: 767px) {
-.text-box-inside-content {
-  margin-top:1rem;
-  padding-left:1.2rem;
-  padding-left:1.2rem;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
+  .text-box-inside-content {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+    padding-left: 1.2rem;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
 }
 
 /*---Reduce padding for better spacing for contet box on smaller devices---*/
 @media (max-width: 767px) {
-.text-box-inside {
-  padding-left:1.2rem;
-  padding-left:1.2rem;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
+  .text-box-inside {
+    padding-left: 1.2rem;
+    padding-left: 1.2rem;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
 }
 
 /*---Reduce width of card for better viewing on smaller devices---*/
 @media (max-width: 1199px) {
-.card {   
-  width:18rem !important;
-}
+  .card {
+    width: 18rem !important;
+  }
 }
 
 /*---Reduce width of card for better viewing on samsung---*/
 @media (max-width: 360px) {
-.card {
-    width:17rem !important;
-}
+  .card {
+    width: 17rem !important;
+  }
 }
 
 /*---Reduce width of card for better viewing on galaxy fold---*/
 @media (max-width: 300px) {
-.card {
-    width:13rem !important;
-}
+  .card {
+    width: 13rem !important;
+  }
 }
 
 /*---Increase width for display 4 col for better viewing on smaller devices ---*/
 @media (max-width: 1360px) {
-.card-ticket {
+  .card-ticket {
     width: 15rem !important;
-}
+  }
 }
 
 /*---Reduce width for display 3 col for better viewing on ipad ---*/
 @media (max-width: 880px) {
-.card-ticket {
+  .card-ticket {
     width: 13rem !important;
-}
+  }
 }
 
 /*---Increase width for display 2 col for better viewing on large mobile ---*/
 @media (max-width: 575px) {
-.card-ticket {
+  .card-ticket {
     width: 18rem !important;
-}
+  }
 }
 
 /*---Increase width for display 2 col for better viewing on galazy fold ---*/
 @media (max-width: 300px) {
-.card-ticket {
+  .card-ticket {
     width: 12rem !important;
-}
+  }
 }
 
 /*---Padding images for gallery for better viewing on smaller devices ---*/
 @media (max-width: 575px) {
-.padding-images{
-  padding:1.5rem 0.5rem 1rem 0.5rem;
-}
+  .padding-images {
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+  }
 }
 
 /*---Margin increase for better viewing on mobile for footer content---*/
 @media (max-width: 767px) {
-body {
+  body {
     margin: 0 0 90px;
-}
+  }
 }
 
 /*---Height increase for better viewing on mobile for footer content---*/
 @media (max-width: 767px) {
-#footer {  
+  #footer {
     height: 90px;
-}
+  }
 }
 
 /*---Padding adjustments for for better viewing on mobile for footer content ---*/
 @media (max-width: 767px) {
-#footer-copyright p{
-  padding-top:1rem;
-  padding-bottom:1.5rem;
-}
+  #footer-copyright p {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 
 /*---Testimonial content. smaller font for mobile. ---*/
 @media (max-width: 767px) {
-.content-p-testimonials{
-  font-size: 1.1rem;
-}
+  .content-p-testimonials {
+    font-size: 1.1rem;
+  }
 }
 
 /*---Padding top for testimonial header for better viewing on mobile ---*/
 @media (max-width: 832px) {
-.padding-top-testimonial{
-  padding-top:1rem
-}
+  .padding-top-testimonial {
+    padding-top: 1rem
+  }
 }
