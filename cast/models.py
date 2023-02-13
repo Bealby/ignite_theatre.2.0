@@ -11,6 +11,7 @@ class Show(models.Model):
     testimonial_1 = models.CharField(max_length=254, null=True, blank=True)
     testimonial_2 = models.CharField(max_length=254, null=True, blank=True)
     testimonial_3 = models.CharField(max_length=254, null=True, blank=True)
+    testimonial_4 = models.CharField(max_length=254, null=True, blank=True)
 
     def __str__(self):
         return self.name

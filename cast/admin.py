@@ -14,6 +14,7 @@ class ShowAdmin(admin.ModelAdmin):
         'testimonial_2',
         'testimonial_3',
         'testimonial_3',
+        'testimonial_4',
     )
 
 
