@@ -29,7 +29,7 @@ class ActorAdmin(admin.ModelAdmin):
         'position',
     )
 
-    ordering = ('position',)
+    ordering = ('position')
 
 
 class CrewAdmin(admin.ModelAdmin):
