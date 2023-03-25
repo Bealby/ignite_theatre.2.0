@@ -183,6 +183,11 @@ body {
   max-height: auto;
 }
 
+.retail-logo {
+  max-width: 38%;
+  max-height: auto;
+}
+
 .header-logo img {
   height: 110px;
 }
