@@ -36,11 +36,23 @@
                     <p class="content-h mb-2 text-uppercase pb-3">
                         <i class="fa-solid fa-book-open"></i>&nbsp;&nbsp;&nbsp;{{ show.name }}
                     </p>
-                    <p class="page-main-sub-headers">
+                    <p class="">
                         {{ show.show_sound_bite|linebreaksbr }}
                     </p>
                     <p class="content-p">
                         {{ show.show_content|linebreaksbr }}
+                    </p>
+                    <p class="content-h mb-2 mt-4 text-uppercase">
+                        <i class="fa-solid fa-ticket"></i>&nbsp;&nbsp;&nbsp;Tickets
+                    </p>
+                    <p class="content-p pt-3 mb-3">Tickets available from:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p class="content-p mb-0">
+                        <picture>
+                            <source type="image/webp">
+                            <a target="_blank" href="{{ show.ticket_retail_url }}" target="_blank"><img
+                                    src="{{ show.ticket_retail_image.url }}" srcset="{{ show.ticket_retail_image.url }}"
+                                    class="img-fluid" height=600 alt="{{ show.name }}" /></a>
+                        </picture>
                     </p>
                     <p class="content-p text-left">
                         Please follow and join us. All suggestions and feedback are welcome:
@@ -56,18 +68,6 @@
                         <a href="{% url 'contact' %}" aria-label="Contact us by email"><i
                                 class=" fa-solid fa-envelope"></i></a>
                     </div>
-                    <p class="content-h mb-2 mt-4 text-uppercase">
-                        <i class="fa-solid fa-ticket"></i>&nbsp;&nbsp;&nbsp;Tickets
-                    </p>
-                    <p class="content-p pt-3 mb-3">Tickets available from:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                    <p class="content-p mb-0">
-                        <picture>
-                            <source type="image/webp">
-                            <a target="_blank" href="{{ show.ticket_retail_url }}" target="_blank"><img
-                                    src="{{ show.ticket_retail_image.url }}" srcset="{{ show.ticket_retail_image.url }}"
-                                    class="img-fluid" height=600 alt="{{ show.name }}" /></a>
-                        </picture>
-                    </p>
                 </div>
             </div>
         </div>
