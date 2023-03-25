@@ -1027,3 +1027,11 @@ nav ul li a:hover {
     padding-top: 1rem
   }
 }
+
+/*---Testimonial content. smaller font for mobile. ---*/
+@media (max-width: 767px) {
+  .retail-logo-title {
+    max-width: 30%;
+    max-height: auto;
+  }
+}
