@@ -16,13 +16,15 @@
                     {{ show.date }}
                 </p>
                 <p class="page-main-sub-headers">TICKETS AVAILABLE FROM:&nbsp;&nbsp;&nbsp;
+                </p>
+                <div class="mb-4 text-center">
                     <picture>
                         <source type="image/webp">
                         <a target="_blank" href="{{ show.ticket_retail_url }}" target="_blank"><img
                                 src="{{ show.ticket_retail_image.url }}" srcset="{{ show.ticket_retail_image.url }}"
-                                class="img-fluid retail-logo-title" alt="{{ show.name }}" /></a>
+                                class="img-fluid retail-logo-title" width=200 alt="{{ show.name }}" /></a>
                     </picture>
-                </p>
+                </div>
             </div>
         </div>
 
@@ -46,11 +48,11 @@
                     <p class="content-p">
                         {{ show.show_content|linebreaksbr }}
                     </p>
-                    <p class="content-h mb-2 mt-4 text-uppercase">
+                    <p class="content-h mb-0 mt-4 text-uppercase">
                         <i class="fa-solid fa-ticket"></i>&nbsp;&nbsp;&nbsp;Tickets
                     </p>
                     <p class="content-p pt-3 mb-3">Tickets available from:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                    <p class="content-p mb-3">
+                    <p class="content-p mb-4">
                         <picture>
                             <source type="image/webp">
                             <a target="_blank" href="{{ show.ticket_retail_url }}" target="_blank"><img
