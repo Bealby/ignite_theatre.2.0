@@ -1009,7 +1009,7 @@ nav ul li a:hover {
 /*---Padding adjustments for for better viewing on mobile for footer content ---*/
 @media (max-width: 767px) {
   .footer-media-links {
-    padding-bottom: -5rem;
+    padding-bottom: 0rem;
   }
 }
 
