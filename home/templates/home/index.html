@@ -63,8 +63,9 @@
                     <p class="content-p mb-0">
                         <picture>
                             <source type="image/webp">
-                            <img src="{{ show.ticket_retail_image }}" srcset="{{ show.ticket_retail_url }}"
-                                class="img-fluid grandmas-grimm" height=600 alt="{{ show.name }}" />
+                            <a target="_blank" href="{{ show.ticket_retail_url }}" target="_blank"><img
+                                    src="{{ show.ticket_retail_image.url }}" srcset="{{ show.ticket_retail_image.url }}"
+                                    class="img-fluid" height=600 alt="{{ show.name }}" /></a>
                         </picture>
                     </p>
                 </div>
