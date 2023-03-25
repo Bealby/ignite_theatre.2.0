@@ -36,6 +36,9 @@
                     <p class="content-h mb-2 text-uppercase pb-3">
                         <i class="fa-solid fa-book-open"></i>&nbsp;&nbsp;&nbsp;{{ show.name }}
                     </p>
+                    <p class="page-main-sub-headers">
+                        {{ show.show_sound_bite|linebreaksbr }}
+                    </p>
                     <p class="content-p">
                         {{ show.show_content|linebreaksbr }}
                     </p>
@@ -58,7 +61,11 @@
                     </p>
                     <p class="content-p pt-3 mb-3">Tickets available from:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                     <p class="content-p mb-0">
-                        {{ show.ticket_retail_address|linebreaksbr }}
+                        <picture>
+                            <source type="image/webp">
+                            <img src="{{ show.ticket_retail_image }}" srcset="{{ show.ticket_retail_url }}"
+                                class="img-fluid grandmas-grimm" height=600 alt="{{ show.name }}" />
+                        </picture>
                     </p>
                 </div>
             </div>

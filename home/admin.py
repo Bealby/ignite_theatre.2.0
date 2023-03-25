@@ -14,6 +14,7 @@ class ShowAdmin(admin.ModelAdmin):
         'sponsor_image',
         'sponsor_name',
         'show_poster',
+        'show_sound_bite',
         'show_content',
     )
 

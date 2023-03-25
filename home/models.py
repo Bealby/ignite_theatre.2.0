@@ -16,6 +16,7 @@ class Show(models.Model):
     sponsor_name = models.CharField(max_length=254, null=True, blank=True)
     sponsor_url = models.CharField(max_length=254, null=True, blank=True)
     show_poster = models.ImageField(null=True, blank=True)
+    show_sound_bite = models.TextField(max_length=1000, null=True, blank=True)
     show_content = models.TextField(max_length=1000, null=True, blank=True)
 
     def __str__(self):
