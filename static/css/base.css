@@ -699,7 +699,7 @@ nav ul li a:hover {
   margin-bottom: 0rem !important;
   text-align: center;
   margin-top: 0rem;
-  padding-top: 1.8rem;
+  padding-top: 1rem;
   padding-bottom: 1.5rem;
 }
 
@@ -1009,8 +1009,7 @@ nav ul li a:hover {
 /*---Padding adjustments for for better viewing on mobile for footer content ---*/
 @media (max-width: 767px) {
   #footer-media-links {
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: -5rem;
   }
 }
 
