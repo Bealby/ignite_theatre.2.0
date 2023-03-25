@@ -695,6 +695,14 @@ nav ul li a:hover {
   padding-bottom: 1.5rem;
 }
 
+.footer-media-links {
+  margin-bottom: 0rem !important;
+  text-align: center;
+  margin-top: 0rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.5rem;
+}
+
 /*---NAVBAR MEDIA QUERIES---*/
 
 /*---Desktop Nav - reduce font size for better viewing on smaller devices---*/
@@ -993,6 +1001,14 @@ nav ul li a:hover {
 /*---Padding adjustments for for better viewing on mobile for footer content ---*/
 @media (max-width: 767px) {
   #footer-copyright p {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+/*---Padding adjustments for for better viewing on mobile for footer content ---*/
+@media (max-width: 767px) {
+  #footer-media-links {
     padding-top: 1rem;
     padding-bottom: 1.5rem;
   }
