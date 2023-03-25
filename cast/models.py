@@ -28,7 +28,7 @@ class Actor(models.Model):
 
     show = models.ForeignKey('show', null=True, blank=True,
                              on_delete=models.SET_NULL)
-    name = models.CharField(max_length=254)
+    name = models.CharField(max_length=254, null=True, blank=True)
     description = models.TextField(null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
     website = models.CharField(max_length=254, null=True, blank=True)

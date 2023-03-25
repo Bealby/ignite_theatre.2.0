@@ -29,8 +29,6 @@ class ActorAdmin(admin.ModelAdmin):
         'position',
     )
 
-    ordering = ('position')
-
 
 class CrewAdmin(admin.ModelAdmin):
     list_display = (
