@@ -130,6 +130,12 @@ body {
   color: rgb(255, 255, 255, 1) !important;
 }
 
+.show-sound-bite {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400 !important;
+  font-size: 36px !important;
+}
+
 /*---Links---*/
 
 .book-now a {
