@@ -15,9 +15,13 @@
                 <p class="page-main-sub-headers">
                     {{ show.date }}
                 </p>
-                <p class="page-main-sub-headers">TICKETS AVAILABLE FROM:&nbsp;&nbsp;&nbsp;<a target="_blank"
-                        href="{{ show.ticket_retail_url }}" target="_blank"><i class="fa-solid fa-ticket"
-                            style="vertical-align: middle;"></i></a>
+                <p class="page-main-sub-headers">TICKETS AVAILABLE FROM:&nbsp;&nbsp;&nbsp;
+                    <picture>
+                        <source type="image/webp">
+                        <a target="_blank" href="{{ show.ticket_retail_url }}" target="_blank"><img
+                                src="{{ show.ticket_retail_image.url }}" srcset="{{ show.ticket_retail_image.url }}"
+                                class="img-fluid retail-logo-title" alt="{{ show.name }}" /></a>
+                    </picture>
                 </p>
             </div>
         </div>
@@ -51,23 +55,9 @@
                             <source type="image/webp">
                             <a target="_blank" href="{{ show.ticket_retail_url }}" target="_blank"><img
                                     src="{{ show.ticket_retail_image.url }}" srcset="{{ show.ticket_retail_image.url }}"
-                                    class="img-fluid retail-logo" alt="{{ show.name }}" /></a>
+                                    class="img-fluid retail-logo-content" alt="{{ show.name }}" /></a>
                         </picture>
                     </p>
-                    <p class="content-p text-left">
-                        Please follow and join us. All suggestions and feedback are welcome:
-                    </p>
-                    <div class="mb-3">
-                        <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.facebook.com/ignite.fringe"
-                            aria-label="Read more at Ignite Theatre Facebook page" target="_blank"><i
-                                class="fab fa-facebook-square"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.instagram.com/ignitetheatre.company/"
-                            aria-label="Read more at Ignite Theatre instagram page" target="_blank"><i
-                                class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="{% url 'contact' %}" aria-label="Contact us by email"><i
-                                class=" fa-solid fa-envelope"></i></a>
-                    </div>
                 </div>
             </div>
         </div>

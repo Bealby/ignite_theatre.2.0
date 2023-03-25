@@ -13,11 +13,13 @@
 
 <div id="footer" class="container-fluid footernav">
     <div class="row">
-        <div class="col-6 col-md-3 pt-4 text-center footer-link pb-0">
-            <a class="nav-item navbar-links-footer" href="{% url 'about' %}">About</a>
-        </div>
-        <div class="col-6 col-md-3 pt-4 text-center footer-link pb-0">
-            <a class="nav-item navbar-links-footer" href="{% url 'contact' %}">Contact</a>
+        <div class="col-12 col-md-6">
+            <a href="https://www.facebook.com/ignite.fringe" aria-label="Read more at Ignite Theatre Facebook page"
+                target="_blank"><i class="fab fa-facebook-square"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/ignitetheatre.company/"
+                aria-label="Read more at Ignite Theatre instagram page" target="_blank"><i
+                    class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="{% url 'contact' %}" aria-label="Contact us by email"><i class=" fa-solid fa-envelope"></i></a>
         </div>
         <div class="col-12 col-md-6" id="footer-copyright">
             <p>Copyright <i class="far fa-copyright"></i> 2023 Murray Bealby. All Rights Reserved.</p>
