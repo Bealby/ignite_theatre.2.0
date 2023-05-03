@@ -24,12 +24,12 @@
                                 src="{{ show.ticket_retail_image.url }}" srcset="{{ show.ticket_retail_image.url }}"
                                 class="img-fluid retail-logo-title" width=200 alt="{{ show.name }}" /></a>
                     </picture>
+                    &nbsp;&nbsp;&nbsp;
                     <picture>
                         <source type="image/webp">
-                        <a target="_blank" href="https://www.brightonfringe.org/events/eight/" target="_blank"><img
-                                src="{% static 'images/logo/brighton_fringe.png' %}"
-                                srcset="{% static 'images/logo/images/logo/brighton_fringe.png' %}"
-                                class="img-fluid retail-logo-title" width=200 alt="Eight" /></a>
+                        <a target="_blank" href="{{ show.ticket_retail_url_2 }}" target="_blank"><img
+                                src="{{ show.ticket_retail_image_2.url }}" srcset="{{ show.ticket_retail_image_2.url }}"
+                                class="img-fluid retail-logo-title" width=200 alt="{{ show.name }}" /></a>
                     </picture>
                 </div>
             </div>
