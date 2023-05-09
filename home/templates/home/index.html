@@ -17,18 +17,18 @@
                 </p>
                 <p class="page-main-sub-headers">TICKETS AVAILABLE FROM:&nbsp;&nbsp;&nbsp;
                 </p>
-                <div class="row mb-4 mt-2">
+                <div class="row mb-4 mt-3">
                     <div class="col-6 d-flex">
                         <div class="ms-auto">
                             <a href="{{ show.ticket_retail_url }}" target="_blank">
                                 <img src="{{ show.ticket_retail_image.url }}"
-                                    srcset="{{ show.ticket_retail_image.url }}" class="img-fluid retail-logo-title"
+                                    srcset="{{ show.ticket_retail_image.url }}" class="img-fluid retail-logo-title pb-1"
                                     width=200 alt="{{ show.name }}" />
                             </a>
-                            <a href="{{ show.ticket_retail_url }}" target="_blank">
+                            <a href="{{ show.ticket_retail_url }}" class="ticket-logo-links" target="_blank">
                                 <div>
-                                    <span class="text-center text-uppercase p-2">
-                                        <p class="ticket-logo-links">Book Now</p>
+                                    <span class="text-center text-uppercase">
+                                        <p>Book Now</p>
                                     </span>
                                 </div>
                             </a>
@@ -38,13 +38,13 @@
                         <div class="me-auto">
                             <a href="{{ show.ticket_retail_url_2 }}" target="_blank">
                                 <img src="{{ show.ticket_retail_image_2.url }}"
-                                    srcset="{{ show.ticket_retail_image_2.url }}" class="img-fluid retail-logo-title"
-                                    width=200 alt="{{ show.name }}" />
+                                    srcset="{{ show.ticket_retail_image_2.url }}"
+                                    class="img-fluid retail-logo-title pb-1" width=200 alt="{{ show.name }}" />
                             </a>
-                            <a href="{{ show.ticket_retail_url_2 }}" target="_blank">
+                            <a href="{{ show.ticket_retail_url_2 }}" class="ticket-logo-links" target="_blank">
                                 <div>
-                                    <span class="text-center text-uppercase p-1">
-                                        <p class="ticket-logo-links">Book Now</p>
+                                    <span class="text-center text-uppercase">
+                                        <p>Book Now</p>
                                     </span>
                                 </div>
                             </a>

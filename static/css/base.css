@@ -145,12 +145,16 @@ body {
   color: rgb(255, 255, 255, 1) !important;
 }
 
-.ticket-logo-links {
+.ticket-logo-links p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 900;
-  color: rgb(255, 255, 255, 1);
+  color: rgb(128, 0, 0, 1);
+}
+
+.ticket-logo-links a:hover {
   text-decoration: none !important;
+  color: rgb(255, 255, 255, 1);
 }
 
 /*---Cards---*/
