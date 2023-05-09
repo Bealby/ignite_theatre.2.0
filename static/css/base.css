@@ -154,11 +154,11 @@ body {
 
 .ticket-logo-links a {
   text-decoration: none !important;
-  color: rgb(128, 0, 0, 1);
+  color: rgb(255, 255, 255, 1) !important;
 }
 
-.ticket-logo-links p a:hover {
-  color: rgb(128, 0, 0, 1);
+.ticket-logo-links a:hover {
+  color: rgb(128, 0, 0, 1) !important;
 }
 
 /*---Cards---*/
