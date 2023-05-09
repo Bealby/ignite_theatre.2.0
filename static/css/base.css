@@ -145,6 +145,14 @@ body {
   color: rgb(255, 255, 255, 1) !important;
 }
 
+.ticket-logo-links {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255, 1);
+  text-decoration: none !important;
+}
+
 /*---Cards---*/
 
 .card {
@@ -191,7 +199,7 @@ body {
 }
 
 .retail-logo-title {
-  max-width: 15%;
+  max-width: 80%;
   max-height: auto;
 }
 
@@ -1031,7 +1039,7 @@ nav ul li a:hover {
 /*---Testimonial content. smaller font for mobile. ---*/
 @media (max-width: 767px) {
   .retail-logo-title {
-    max-width: 30%;
+    max-width: 70%;
     max-height: auto;
   }
 }
