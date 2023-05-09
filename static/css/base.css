@@ -34,6 +34,7 @@ body {
   font-weight: 700;
   text-align: left;
   color: rgb(181, 189, 191, 1);
+  padding-right: 1rem;
 }
 
 .content-p-testimonials {
@@ -136,6 +137,7 @@ body {
   font-size: 36px !important;
   color: rgb(255, 255, 255, 1) !important;
   text-align: center;
+  padding-right: 1rem;
 }
 
 /*---Links---*/
@@ -464,6 +466,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  padding-right: 1rem;
 }
 
 /*---Margins/ Padding---*/
@@ -923,6 +926,7 @@ nav ul li a:hover {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    padding-right: 1rem;
   }
 }
 
@@ -1045,5 +1049,12 @@ nav ul li a:hover {
   .retail-logo-title {
     max-width: 70%;
     max-height: auto;
+  }
+}
+
+/*---Smaller show poster for better viewing on mobile ---*/
+@media (max-width: 767px) {
+  .grandmas-grimm {
+    width: 300px;
   }
 }

@@ -61,7 +61,7 @@
                         class="img-fluid grandmas-grimm" height=600 alt="{{ show.name }}" />
                 </picture>
             </div>
-            <div class="col-md-6 mt-5">
+            <div class="col-md-6 mt-5 ">
                 <p class="show-sound-bite mb-2 text-uppercase pb-3">
                     {{ show.show_sound_bite }}
                 </p>
@@ -74,28 +74,28 @@
                 <p class="content-p pt-3 mb-3">Tickets available from:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </p>
                 <div class="row mb-4 mt-4">
-                    <div class="col-6 d-flex">
-                        <div class="ms-auto">
+                    <div class="col-6">
+                        <div>
                             <a href="{{ show.ticket_retail_url }}" target="_blank">
                                 <img src="{{ show.ticket_retail_image.url }}"
                                     srcset="{{ show.ticket_retail_image.url }}" class="img-fluid retail-logo-title pb-1"
                                     width=200 alt="{{ show.name }}" />
                             </a>
-                            <div class="ticket-logo-links pt-2">
+                            <div class="ticket-logo-links pt-2 text-center">
                                 <a href="{{ show.ticket_retail_url }}" target="_blank">
                                     BOOK NOW
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 d-flex">
-                        <div class="me-auto">
+                    <div class="col-6">
+                        <div>
                             <a href="{{ show.ticket_retail_url_2 }}" target="_blank">
                                 <img src="{{ show.ticket_retail_image_2.url }}"
                                     srcset="{{ show.ticket_retail_image_2.url }}"
                                     class="img-fluid retail-logo-title pb-1" width=200 alt="{{ show.name }}" />
                             </a>
-                            <div class="ticket-logo-links pt-2">
+                            <div class="ticket-logo-links pt-2 text-center">
                                 <a href="{{ show.ticket_retail_url_2 }}" target="_blank">
                                     BOOK NOW
                                 </a>
