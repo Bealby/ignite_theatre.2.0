@@ -32,6 +32,8 @@
                             </div>
                         </div>
                     </div>
+                    {% if show.ticket_retail_url_2 %}
+                    {% if show.ticket_retail_image_2.url %}
                     <div class="col-6 d-flex">
                         <div class="me-auto">
                             <a href="{{ show.ticket_retail_url_2 }}" target="_blank">
@@ -46,6 +48,8 @@
                             </div>
                         </div>
                     </div>
+                    {% endif %}
+                    {% endif %}
                 </div>
             </div>
         </div>
