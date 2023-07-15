@@ -32,24 +32,6 @@
                             </div>
                         </div>
                     </div>
-                    {% if show.ticket_retail_url_2 %}
-                    {% if show.ticket_retail_image_2.url %}
-                    <div class="col-6 d-flex">
-                        <div class="me-auto">
-                            <a href="{{ show.ticket_retail_url_2 }}" target="_blank">
-                                <img src="{{ show.ticket_retail_image_2.url }}"
-                                    srcset="{{ show.ticket_retail_image_2.url }}"
-                                    class="img-fluid retail-logo-title pb-1" width=200 alt="{{ show.name }}" />
-                            </a>
-                            <div class="ticket-logo-links pt-2">
-                                <a href="{{ show.ticket_retail_url_2 }}" target="_blank">
-                                    BOOK NOW
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    {% endif %}
-                    {% endif %}
                 </div>
             </div>
         </div>
