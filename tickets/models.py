@@ -20,17 +20,17 @@ class Ticket(models.Model):
 
     show = models.ForeignKey('show', null=True, blank=True,
                              on_delete=models.SET_NULL)
-    name = models.CharField(max_length=254)
-    event_date = models.CharField(max_length=254)
+    name = models.CharField(max_length=254, null=True, blank=True)
+    event_date = models.CharField(max_length=254, null=True, blank=True)
     description = models.TextField(null=True, blank=True)
     event_details = models.TextField(null=True, blank=True)
-    place = models.CharField(max_length=254)
+    place = models.CharField(max_length=254, null=True, blank=True)
     location = models.CharField(max_length=254, null=True, blank=True)
     position = models.CharField(max_length=254, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
     price_details = models.TextField(null=True, blank=True)
     date = models.DateTimeField(null=True, blank=True)
-    web = models.CharField(max_length=254)
+    web = models.CharField(max_length=254, null=True, blank=True)
     adult_price = models.DecimalField(max_digits=8, decimal_places=2,
                                       null=True, blank=True)
     child_price = models.DecimalField(max_digits=8, decimal_places=2,
