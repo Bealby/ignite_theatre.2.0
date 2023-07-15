@@ -14,8 +14,6 @@ class ShowAdmin(admin.ModelAdmin):
         'ticket_retail_name_2',
         'ticket_retail_url_2',
         'ticket_retail_address',
-        'sponsor_image',
-        'sponsor_name',
         'show_poster',
         'show_sound_bite',
         'show_content',
