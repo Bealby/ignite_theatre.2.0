@@ -179,11 +179,11 @@ body {
 /*---Images---*/
 
 .carousel-control-next-icon {
-  margin-left: 30px;
+  margin-left: 30px !important;
 }
 
 .carousel-control-prev-icon {
-  margin-right: 30px;
+  margin-right: 30px !important;
 }
 
 /*---Images---*/
