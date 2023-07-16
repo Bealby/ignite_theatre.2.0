@@ -157,67 +157,12 @@
                     <i class="fa-solid fa-masks-theater"></i>&nbsp;&nbsp;&nbsp;Past Productions
                 </p>
 
-                <!---Display Desktop--->
-                <div id="carouselExampleControls" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+                <!---Display md/ lg--->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row mx-auto">
-                                <div class="col-md-3 mb-3 p-4">
-                                    <a href="{% url 'galleries' %}?show=a_grandmas_grimm">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy" src="{% static 'images/posters/a_grandmas_grimm.png' %}"
-                                                srcset="{% static 'images/posters/a_grandmas_grimm.png' %}"
-                                                class="d-block mx-auto poster-img-fluid production-posters"
-                                                alt="Poster - A Grandma's Grimm">
-                                        </picture>
-                                    </a>
-                                </div>
-                                <div class="col-md-3 mb-3 p-4">
-                                    <a href="{% url 'galleries' %}?show=gabriel">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy" src="{% static 'images/posters/gabriel.png' %}"
-                                                srset="{% static 'images/posters/gabriel.png' %}"
-                                                class="d-block mx-auto poster-img-fluid production-posters"
-                                                alt="Poster - A Gabriel">
-                                        </picture>
-                                    </a>
-                                </div>
-                                <div class="col-md-3 mb-3 p-4">
-                                    <a href="{% url 'galleries' %}?show=the_memory_of_water">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy" src="{% static 'images/posters/TMOW.png' %}"
-                                                srcset="{% static 'images/posters/TMOW.png' %}"
-                                                class="d-block mx-auto poster-img-fluid production-posters"
-                                                alt="Poster - The Memory of Water">
-                                        </picture>
-                                    </a>
-                                </div>
-                                <div class="col-md-3 mb-3 p-4">
-                                    <a href="{% url 'galleries' %}?show=wind_and_the_willows">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy" src="{% static 'images/posters/WITW.png' %}"
-                                                srcset="{% static 'images/posters/WITW.png' %}"
-                                                class="d-block mx-auto poster-img-fluid production-posters"
-                                                alt="Poster - The Wind and the Willows">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!---Display Medium--->
-                <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block d-lg-none"
-                    data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row mx-auto">
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-4 mb-3">
                                     <a href="{% url 'galleries' %}?show=a_grandmas_grimm">
                                         <picture>
                                             <source type="image/webp">
@@ -228,7 +173,7 @@
                                         </picture>
                                     </a>
                                 </div>
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-4 mb-3">
                                     <a href="{% url 'galleries' %}?show=gabriel">
                                         <picture>
                                             <source type="image/webp">
@@ -238,11 +183,7 @@
                                         </picture>
                                     </a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row mx-auto">
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-4 mb-3">
                                     <a href="{% url 'galleries' %}?show=the_memory_of_water">
                                         <picture>
                                             <source type="image/webp">
@@ -253,7 +194,11 @@
                                         </picture>
                                     </a>
                                 </div>
-                                <div class="col-md-6 mb-3">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mx-auto">
+                                <div class="col-md-4 mb-3">
                                     <a href="{% url 'galleries' %}?show=wind_and_the_willows">
                                         <picture>
                                             <source type="image/webp">
@@ -261,6 +206,28 @@
                                                 srcset="{% static 'images/posters/WITW.png' %}"
                                                 class="d-block w-50 mx-auto production-posters"
                                                 alt="Poster - The Wind and the Willows">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <a href="{% url 'galleries' %}?show=eight">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="{% static 'images/posters/eight.png' %}"
+                                                srcset="{% static 'images/posters/eight.png' %}"
+                                                class="d-block w-50 mx-auto production-posters" alt="Poster - Eight">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <a href="{% url 'casts' %}?show=james_and_the_giant_peach">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy"
+                                                src="{% static 'images/posters/james_and_the_giant_peach.png' %}"
+                                                srcset="{% static 'images/posters/james_and_the_giant_peach.png.png' %}"
+                                                class="d-block w-50 mx-auto production-posters"
+                                                alt="Poster - James and the Giant Peach">
                                         </picture>
                                     </a>
                                 </div>
@@ -359,7 +326,7 @@
                         <div class="carousel-item">
                             <div class="row mx-auto poster-carousel">
                                 <div class="col-12 mb-3">
-                                    <a href="">
+                                    <a href="{% url 'casts' %}?show=james_and_the_giant_peach">
                                         <picture>
                                             <source type="image/webp">
                                             <img loading="lazy"
