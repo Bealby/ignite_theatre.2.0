@@ -178,6 +178,16 @@ body {
 
 /*---Images---*/
 
+.carousel-control-next-icon {
+  margin-left: 30px;
+}
+
+.carousel-control-prev-icon {
+  margin-right: 30px;
+}
+
+/*---Images---*/
+
 .ticket-source {
   max-width: 100px;
 }
