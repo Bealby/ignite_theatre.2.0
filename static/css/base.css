@@ -497,12 +497,6 @@ body {
 
 /*---Underline/ border---*/
 
-.double-underline {
-  text-decoration-line: underline;
-  text-decoration-style: double;
-  text-underline-offset: 8px;
-}
-
 .borderline {
   border-bottom: solid 2px rgb(255, 255, 255, 1);
   width: 50px;
