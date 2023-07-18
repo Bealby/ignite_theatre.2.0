@@ -388,6 +388,12 @@ body {
   vertical-align: middle;
 }
 
+/*---Swiper---*/
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
 /*---Hover---*/
 
 .content-p-email a:hover {
