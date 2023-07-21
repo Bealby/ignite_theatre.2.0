@@ -244,107 +244,7 @@
                     </button>
                 </div>
 
-                <!---Mobile Show Carousel--->
-                <div class="w3-content w3-display-container d-md-none">
-
-                    <div class="w3-display-container mySlides">
-                        <div class="row mx-auto">
-                            <div class="col-12 mb-3 poster-carousel">
-                                <a href="{% url 'galleries' %}?show=a_grandmas_grimm">
-                                    <picture>
-                                        <source type="image/webp">
-                                        <img loading="lazy" src="{% static 'images/posters/a_grandmas_grimm.png' %}"
-                                            srcset="{% static 'images/posters/a_grandmas_grimm.png' %}"
-                                            class="d-block mx-auto production-posters" alt="Poster - A Grandma's Grimm">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w3-display-container mySlides">
-                        <div class="row mx-auto">
-                            <div class="col-12 mb-3 poster-carousel">
-                                <a href="{% url 'galleries' %}?show=gabriel">
-                                    <picture>
-                                        <source type="image/webp">
-                                        <img loading="lazy" src="{% static 'images/posters/gabriel.png' %}"
-                                            srcset="{% static 'images/posters/gabriel.png' %}"
-                                            class="d-block mx-auto production-posters" alt="Poster - Gabriel">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w3-display-container mySlides">
-                        <div class="row mx-auto">
-                            <div class="col-12 mb-3 poster-carousel">
-                                <a href="{% url 'galleries' %}?show=the_memory_of_water">
-                                    <picture>
-                                        <source type="image/webp">
-                                        <img loading="lazy" src="{% static 'images/posters/TMOW.png' %}"
-                                            srcset="{% static 'images/posters/TMOW.png' %}"
-                                            class="d-block mx-auto production-posters"
-                                            alt="Poster - The Memory of Water">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w3-display-container mySlides">
-                        <div class="row mx-auto">
-                            <div class="col-12 mb-3 poster-carousel">
-                                <a href="{% url 'galleries' %}?show=eight">
-                                    <picture>
-                                        <source type="image/webp">
-                                        <img loading="lazy" src="{% static 'images/posters/eight.png' %}"
-                                            srcset="{% static 'images/posters/eight.png' %}"
-                                            class="d-block mx-auto production-posters" alt="Poster - Eight">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w3-display-container mySlides">
-                        <div class="row mx-auto">
-                            <div class="col-12 mb-3 poster-carousel">
-                                <a href="{% url 'galleries' %}?show=wind_and_the_willows">
-                                    <picture>
-                                        <source type="image/webp">
-                                        <img loading="lazy" src="{% static 'images/posters/WITW.png' %}"
-                                            srcset="{% static 'images/posters/WITW.png' %}"
-                                            class="d-block mx-auto production-posters"
-                                            alt="Poster - The Wind and the Willows">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w3-display-container mySlides">
-                        <div class="row mx-auto">
-                            <div class="col-12 mb-3 poster-carousel">
-                                <a href="{% url 'casts' %}?show=james_and_the_giant_peach">
-                                    <picture>
-                                        <source type="image/webp">
-                                        <img loading="lazy" src="{% static 'images/posters/james.png' %}"
-                                            srcset="{% static 'images/posters/james.png' %}"
-                                            class="d-block mx-auto production-posters"
-                                            alt="Poster - James and the Giant Peach">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-                    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-
-                </div>
-                <!---Old Mobile Bootstrap Carousel for Mobile
+                <!---Display Small--->
                 <div id="carouselExampleControlsNoTouching" class="carousel slide d-md-none" data-bs-touch="false"
                     data-bs-interval="false">
                     <div class="carousel-inner">
@@ -448,7 +348,6 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                --->
             </div>
         </div>
     </div>
@@ -484,26 +383,6 @@
         document.documentElement.scrollTop = 0;
     }
 
-</script>
-
-<script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n) {
-        showDivs(slideIndex += n);
-    }
-
-    function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) { slideIndex = 1 }
-        if (n < 1) { slideIndex = x.length }
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        x[slideIndex - 1].style.display = "block";
-    }
 </script>
 
 {% endblock %}
