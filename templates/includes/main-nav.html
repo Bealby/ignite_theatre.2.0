@@ -20,6 +20,12 @@
                         <div class="dropdown-divider-gallery"></div>
                     </li>
                     <li><a class="dropdown-item navbar-links-dropdpown"
+                        href="{% url 'galleries' %}?show=the_twits">The Twits</a>
+                    </li>
+                    <li><a class="dropdown-item navbar-links-dropdpown"
+                            href="{% url 'galleries' %}?show=bite_size_plays">Bite Size Plays</a>
+                    </li>
+                    <li><a class="dropdown-item navbar-links-dropdpown"
                             href="{% url 'galleries' %}?show=james_and_the_giant_peach">James and the Giant Peach</a>
                     </li>
                     <li><a class="dropdown-item navbar-links-dropdpown"
@@ -55,11 +61,15 @@
                         <div class="dropdown-divider-cast"></div>
                     </li>
                     <li><a class="dropdown-item navbar-links-dropdpown mb-3"
-                            href="{% url 'casts' %}?show=bite_size_plays">Bite Size Plays</a></li>
+                            href="{% url 'casts' %}?show=bite_size_plays">/</a></li>
                     <p class="nav-subheader">Past Productions</p>
                     <li>
                         <div class="dropdown-divider-cast"></div>
                     </li>
+                    <li><a class="dropdown-item navbar-links-dropdpown"
+                        href="{% url 'casts' %}?show=the_twits">The Twits</a></li>
+                    <li><a class="dropdown-item navbar-links-dropdpown"
+                        href="{% url 'casts' %}?show=bite_size_plays">Bite Size Plays</a></li>
                     <li><a class="dropdown-item navbar-links-dropdpown"
                             href="{% url 'casts' %}?show=james_and_the_giant_peach">James
                             and the Giant Peach</a></li>
