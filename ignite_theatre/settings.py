@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     # Other
     'crispy_forms',
     'storages',
+    'crispy_bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -67,6 +68,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware'
 ]
 
 ROOT_URLCONF = 'ignite_theatre.urls'
