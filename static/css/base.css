@@ -572,7 +572,7 @@ nav ul li a:hover {
 
 .nav-mob-subheader {
   font-family: "Lato", sans-serif !important;
-  font-size: 1.4rem !important;
+  font-size: 1.2rem !important;
   color: rgb(255, 255, 255, 1) !important;
   font-weight: 700 !important;
 }
@@ -618,7 +618,7 @@ nav ul li a:hover {
 
 .menu-content {
   position: relative;
-  top: 16%;
+  top: 10%;
   width: 100%;
   text-align: center;
 }
@@ -643,7 +643,7 @@ nav ul li a:hover {
   font-weight: 700;
   letter-spacing: 2px;
   font-family: "Rammetto One", cursive;
-  font-size: 1rem !important;
+  font-size: 0.8rem !important;
   color: rgb(255, 255, 255, 1);
 }
 
