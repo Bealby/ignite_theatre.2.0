@@ -4,6 +4,10 @@ from .models import MeechingHall
 
 class MeechingHallAdmin(admin.ModelAdmin):
     list_display = (
+        'ideas',
+        'petition',
+        'meeching_hall_image',
+        'meeching_hall_content',
     )
 
 admin.site.register(MeechingHall, MeechingHallAdmin)
