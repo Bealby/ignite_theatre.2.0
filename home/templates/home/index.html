@@ -4,7 +4,7 @@
 {% block content %}
 
 <div class="container-fluid">
-    <div class="row top-header">
+    <div class="row top-header d-lg-none">
         <div class="col">
             <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
         </div>
@@ -12,6 +12,13 @@
 </div>
 
 <section class="container-fluid" id="container-fluid-padding">
+
+    <div class="row top-header d-none d-lg-block">
+        <div class="col">
+            <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
+        </div>
+    </div>
+
     <div class="row text-box-outside">
 
         {% for meeching in meechings %}
