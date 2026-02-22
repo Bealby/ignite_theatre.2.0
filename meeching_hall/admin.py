@@ -4,7 +4,7 @@ from .models import MeechingHall
 
 class MeechingHallAdmin(admin.ModelAdmin):
     list_display = (
-        'ideas',
+        'name',
         'petition',
         'meeching_hall_image',
         'meeching_hall_content',
