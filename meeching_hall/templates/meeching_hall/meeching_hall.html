@@ -21,19 +21,26 @@
 
     <div class="row text-box-outside">
 
+        {% for meeching in meechings %}
         <div class="col-12 text-center">
             <p class="page-main-header text-uppercase double-underline mt-3 mb-3">
-                Ignite Theatre
+                Meeching Hall
             </p>
         </div>
 
         <!---Content 1--->
-        {% for hall in halls %}
         <div class="text-box-inside">
-            <div class="col-12 col-md-8 offset-md-2 mt-4">
+            <div class="col-6 col-md-4 offset-md-2 mt-4">
                 <p class="content-p">
-                    {{ hall.meeching_hall_content|linebreaksbr }}
+                   {{ hall.meeching_hall_content|linebreaksbr }}
                 </p>
+            </div>
+            <div class="col-md-6 col-md-4 mt-0 text-center margin-poster">
+                <picture>
+                    <source type="image/webp">
+                    <img src="{{ meeching.meeching_poster.url }}" srcset="{{ meeching.meeching_poster.url }}"
+                        class="img-fluid grandmas-grimm" height=600 alt="{{ meeching.name }}" />
+                </picture>
             </div>
         </div>
         {% endfor %}
