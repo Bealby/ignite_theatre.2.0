@@ -1,6 +1,15 @@
 from django.contrib import admin
 from .models import Show
 from .models import Upcoming
+from .models import Meeching
+
+
+class MeechingAdmin(admin.ModelAdmin):
+    list_display = (
+        'name',
+        'meeching_text',
+        'meeching_poster',
+    )
 
 
 class ShowAdmin(admin.ModelAdmin):
@@ -32,3 +41,4 @@ class UpcomingAdmin(admin.ModelAdmin):
 
 admin.site.register(Show, ShowAdmin)
 admin.site.register(Upcoming, UpcomingAdmin)
+admin.site.register(Meeching, MeechingAdmin)
