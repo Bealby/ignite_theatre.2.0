@@ -1,7 +1,7 @@
 from django.shortcuts import render
 # from .models import Show
 # from .models import Upcoming
-from .models import MeechingHall
+from .models import MeechingHome
 
 
 def index(request):
@@ -9,7 +9,7 @@ def index(request):
 
     # shows = Show.objects.all()
     # upcomings = Upcoming.objects.all()
-    halls = MeechingHall.objects.all()
+    halls = MeechingHome.objects.all()
 
     context = {
         # 'shows': shows,

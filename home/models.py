@@ -1,7 +1,7 @@
 from django.db import models
 '''Pillow must be installed'''
 
-class MeechingHall(models.Model):
+class MeechingHome(models.Model):
     '''Programmatic Name'''
     name = models.CharField(max_length=254, null=True, blank=True)
     mh_text = models.TextField(max_length=1000, null=True, blank=True)
