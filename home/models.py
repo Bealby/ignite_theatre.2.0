@@ -6,13 +6,13 @@ class Show(models.Model):
     '''Programmatic Name'''
     name = models.CharField(max_length=254, null=True, blank=True)
     date = models.CharField(max_length=254, null=True, blank=True)
-    ticket_retail_image = models.ImageField(null=True, blank=True)
+    ticket_retail_image = models.ImageField(blank=True)
     ticket_retail_name = models.CharField(max_length=254, null=True,
                                           blank=True)
     ticket_retail_url = models.CharField(max_length=254, null=True, blank=True)
     ticket_retail_address = models.TextField(max_length=400, null=True,
                                              blank=True)
-    show_poster = models.ImageField(null=True, blank=True)
+    show_poster = models.ImageField(blank=True)
     show_sound_bite = models.TextField(max_length=1000, null=True, blank=True)
     show_content = models.TextField(max_length=1000, null=True, blank=True)
 
