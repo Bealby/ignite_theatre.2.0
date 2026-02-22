@@ -5,19 +5,8 @@
 
 <section class="container-fluid" id="container-fluid-padding">
     <div class="row text-box-outside">
-
-        <!-- {% for meeching in meechings %}
-        <div class="text-box-inside">
-            <div class="col-12 text-center">
-                <p class="page-main-header text-uppercase mt-4 mb-0">
-                    {{ meeching.name }}
-                </p>
-            </div>
-        </div>
-        {% endfor %} -->
-
         <!---Header--->
-        <!-- {% for show in shows %}
+        {% for show in shows %}
         <div class="text-box-inside">
             <div class="col-12 text-center">
                 <p class="page-main-header text-uppercase mt-4 mb-0">
@@ -45,8 +34,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
-
+        </div>
     </div>
 
     <!---Content--->
@@ -89,6 +77,7 @@
                 </div>
             </div>
         </div> -->
+        {% endfor %}
 
         <!---Upcoming Shows--->
         <div class="text-box-inside-content" style="background:rgb(255, 255, 255, 0.9);">
