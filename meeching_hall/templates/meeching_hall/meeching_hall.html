@@ -15,17 +15,19 @@
 
         <!---Content 1--->
         <div class="text-box-inside">
-            <div class="col-6 mt-4">
-                <p class="content-p">
-                    {{ hall.meeching_hall_content|linebreaksbr }}
-                </p>
-            </div>
-            <div class="col-6 mt-0 text-center margin-poster">
-                <picture>
-                    <source type="image/webp">
-                    <img src="{{ hall.meeching_hall_image.url }}" srcset="{{ hall.meeching_hall_image.url }}"
-                        class="img-fluid grandmas-grimm" height=600 alt="{{ hall.name }}" />
-                </picture>
+            <div class="row">
+                <div class="col-6 mt-4">
+                    <p class="content-p">
+                        {{ hall.meeching_hall_content|linebreaksbr }}
+                    </p>
+                </div>
+                <div class="col-6 mt-0 text-center margin-poster">
+                    <picture>
+                        <source type="image/webp">
+                        <img src="{{ hall.meeching_hall_image.url }}" srcset="{{ hall.meeching_hall_image.url }}"
+                            class="img-fluid grandmas-grimm" height=600 alt="{{ hall.name }}" />
+                    </picture>
+                </div>
             </div>
         </div>
         {% endfor %}
