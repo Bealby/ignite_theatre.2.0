@@ -11,4 +11,4 @@ def index(request):
         'meeching_hall': meeching_hall,
     }
 
-    return render(request, 'meeching_hall.html', context)
+    return render(request, 'meeching_hall/meeching_hall.html', context)
