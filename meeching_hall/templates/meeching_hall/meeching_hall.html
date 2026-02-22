@@ -3,25 +3,10 @@
 
 {% block content %}
 
-<div class="container-fluid d-lg-none">
-    <div class="row top-header">
-        <div class="col">
-            <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
-        </div>
-    </div>
-</div>
-
 <section class="container-fluid" id="container-fluid-padding">
-
-    <div class="row top-header d-none d-lg-block">
-        <div class="col">
-            <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
-        </div>
-    </div>
-
     <div class="row text-box-outside">
 
-        {% for meeching in meechings %}
+        {% for hall in halls %}
         <div class="col-12 text-center">
             <p class="page-main-header text-uppercase double-underline mt-3 mb-3">
                 Meeching Hall
@@ -30,23 +15,54 @@
 
         <!---Content 1--->
         <div class="text-box-inside">
-            <div class="col-6 col-md-4 offset-md-2 mt-4">
+            <div class="col-6 mt-4">
                 <p class="content-p">
-                   {{ hall.meeching_hall_content|linebreaksbr }}
+                    {{ hall.meeching_content|linebreaksbr }}
                 </p>
             </div>
-            <div class="col-md-6 col-md-4 mt-0 text-center margin-poster">
+            <div class="col-6 mt-0 text-center margin-poster">
                 <picture>
                     <source type="image/webp">
-                    <img src="{{ meeching.meeching_poster.url }}" srcset="{{ meeching.meeching_poster.url }}"
-                        class="img-fluid grandmas-grimm" height=600 alt="{{ meeching.name }}" />
+                    <img src="{{ hall.meeching_image.url }}" srcset="{{ hall.meeching_image.url }}"
+                        class="img-fluid grandmas-grimm" height=600 alt="{{ hall.name }}" />
                 </picture>
             </div>
         </div>
         {% endfor %}
-
+ 
     </div>
 
+    <button onclick="topFunction()" id="my-scroll-to-top-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
 </section>
+
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+<!--Scroll to top feature-->
+<script>
+
+    //Scroll to Top
+    function scrollFunction() {
+        var myScrollToTopBtn = document.getElementById("my-scroll-to-top-btn");
+        if (window.pageYOffset > 700) {
+            myScrollToTopBtn.style.display = "block";
+            myScrollToTopBtn.style.visibility = "visible";
+        } else {
+            myScrollToTopBtn.style.display = "none";
+            myScrollToTopBtn.style.visibility = "hidden";
+        }
+    }
+
+    window.onscroll = function () { scrollFunction() };
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+</script>
 
 {% endblock %}
