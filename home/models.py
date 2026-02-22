@@ -4,8 +4,6 @@ from django.db import models
 class Meeching(models.Model):
     '''Programmatic Name'''
     name = models.CharField(max_length=254, null=True, blank=True)
-    meeching_text = models.TextField(max_length=400, null=True, blank=True)
-    meeching_poster = models.ImageField(null=True, blank=True)
 
     def __str__(self):
         return self.name
