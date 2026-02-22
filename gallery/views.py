@@ -27,4 +27,4 @@ def all_galleries(request):
         'current_shows': shows,
     }
 
-    return render(request, 'gallery/gallery.html', context)
+    return render(request, 'meeching_hall/meeching_hall.html', context)
