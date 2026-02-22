@@ -5,11 +5,7 @@ from .models import Meeching
 
 
 class MeechingAdmin(admin.ModelAdmin):
-    list_display = (
-        'name',
-        'meeching_text',
-        'meeching_poster',
-    )
+    list_display = ('name',)
 
 
 class ShowAdmin(admin.ModelAdmin):
