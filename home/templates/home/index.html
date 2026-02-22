@@ -3,16 +3,18 @@
 
 {% block content %}
 
+<div class="container-fluid d-lg-none">
+    <div class="row top-header">
+        <div class="col">
+            <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
+        </div>
+    </div>
+</div>
+
 <section class="container-fluid" id="container-fluid-padding">
     <div class="row text-box-outside">
 
         {% for meeching in meechings %}
-        <div class="col-12 text-center">
-            <p class="page-main-header text-uppercase double-underline mt-3 mb-3">
-                Meeching Hall
-            </p>
-        </div>
-
         <!---Content 1--->
         <div class="text-box-inside">
             <div class="col-12 col-md-8 offset-md-2 mt-4">
