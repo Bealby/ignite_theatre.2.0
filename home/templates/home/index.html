@@ -4,36 +4,9 @@
 {% block content %}
 
 <section class="container-fluid" id="container-fluid-padding">
-    
     <div class="row text-box-outside">
-
-        <!---Header MH--->
-        {% for hall in halls %}
-        <div class="text-box-inside">
-            <div class="col-12 text-center">
-                <p class="page-main-header text-uppercase mt-4 mb-0">
-                    {{ hall.name }}
-                </p>
-                <p class="content-p">
-                    {{ hall.mh_text|linebreaksbr }}
-                </p>
-                <div class="col-md-6 mt-0 text-center margin-poster">
-                <picture>
-                    <source type="image/webp">
-                    <img src="{{ hall.mh_poster.url }}" srcset="{{ hall.mh_poster.url }}"
-                        class="Meeching Hall Poster" height=600 alt="{{ hall.name }}" />
-                </picture>
-            </div>
-        </div>
-        {% endfor %}
-
-    </div>
-    
-    
-    <!-- <div class="row text-box-outside"> -->
-
         <!---Header--->
-        <!-- {% for show in shows %}
+        {% for show in shows %}
         <div class="text-box-inside">
             <div class="col-12 text-center">
                 <p class="page-main-header text-uppercase mt-4 mb-0">
@@ -62,10 +35,10 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!---Content--->
-    <!-- <div class="text-box-inside-content">
+    <div class="text-box-inside-content">
         <div class="row">
             <div class="col-md-6 mt-0 text-center margin-poster">
                 <picture>
@@ -104,10 +77,10 @@
                 </div>
             </div>
         </div>
-        {% endfor %} -->
+        {% endfor %}
 
         <!---Upcoming Shows--->
-        <!-- <div class="text-box-inside-content" style="background:rgb(255, 255, 255, 0.9);">
+        <div class="text-box-inside-content" style="background:rgb(255, 255, 255, 0.9);">
             <div class="col-12 mt-4">
                 <p class="content-h mb-2 text-uppercase pb-3 pt-3" style=" color:rgb(0, 0, 0, 1);">
                     <i class="fa-solid fa-star"></i>&nbsp;&nbsp;&nbsp;Upcoming Shows
@@ -146,7 +119,7 @@
                     {% endfor %}
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!---Content 3 Supporters
         <div class="text-box-inside-content mb-5">
