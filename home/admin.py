@@ -1,9 +1,9 @@
 from django.contrib import admin
 # from .models import Show
 # from .models import Upcoming
-from .models import MeechingHall
+from .models import MeechingHome
 
-class MeechingHallAdmin(admin.ModelAdmin):
+class MeechingHomeAdmin(admin.ModelAdmin):
     list_display = (
         'name',
         'mh_text',
@@ -40,4 +40,4 @@ class MeechingHallAdmin(admin.ModelAdmin):
 
 # admin.site.register(Show, ShowAdmin)
 # admin.site.register(Upcoming, UpcomingAdmin)
-admin.site.register(MeechingHall, MeechingHallAdmin)
+admin.site.register(MeechingHome, MeechingHomeAdmin)
