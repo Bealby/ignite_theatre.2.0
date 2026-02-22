@@ -8,11 +8,11 @@
 
         {% for meeching in meechings %}
         <div class="text-box-inside">
-            <div class="col-12 text-center">
+            <div class="col-12 col-md-8 offset-md-2 mt-4">
                 <p class="page-main-header text-uppercase mt-4 mb-0">
                     {{ meeching.name }}
                 </p>
-                <p class="content-p">
+                <p class="content-p mt-4">
                     {{ meeching.meeching_text|linebreaksbr }}
                 </p>
             </div>
