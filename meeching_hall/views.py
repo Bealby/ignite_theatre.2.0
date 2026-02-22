@@ -8,7 +8,7 @@ def index(request):
     halls = MeechingHall.objects.all()
 
     context = {
-        'hall': halls,
+        'halls': halls,
     }
 
     return render(request, 'meeching_hall/meeching_hall.html', context)

@@ -12,13 +12,23 @@
                 <p class="page-main-header text-uppercase mt-4 mb-0">
                     {{ meeching.name }}
                 </p>
+                <p class="content-p">
+                    {{ meeching.meeching_text|linebreaksbr }}
+                </p>
+            </div>
+            <div class="col-md-12 mt-0 text-center margin-poster">
+                <picture>
+                    <source type="image/webp">
+                    <img src="{{ meeching.meeching_poster.url }}" srcset="{{ meeching.meeching_poster.url }}"
+                        class="img-fluid grandmas-grimm" height=600 alt="{{ meeching.name }}" />
+                </picture>
             </div>
         </div>
         {% endfor %}
 
 
         <!---Header--->
-        <div class="text-box-inside">
+        <!-- <div class="text-box-inside">
             <div class="col-12 text-center">
                 <p class="page-main-header text-uppercase mt-4 mb-0">
                     {{ show.name }}
@@ -45,7 +55,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <!---Content--->
