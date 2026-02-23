@@ -13,7 +13,7 @@
 
 <section class="container-fluid" id="container-fluid-padding">
 
-      <div class="row top-header d-none d-lg-block">
+    <div class="row top-header d-none d-lg-block">
         <div class="col">
             <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
         </div>
@@ -21,27 +21,45 @@
 
     <div class="row text-box-outside">
 
-        {% for hall in halls %}
+        <div class="col-12 text-center">
+            <p class="page-main-header text-uppercase double-underline mt-3 mb-3">
+                Save Our Stage
+            </p>
+        </div>
 
-        <!---Content 1---->
+        <!---Content 2--->
         <div class="text-box-inside">
-            <div class="row">
-                <div class="col-lg-6 col-sm-12 mt-4">
-                        <p class="content-p">
-                            {{ hall.meeching_hall_content|linebreaksbr }}
-                        </p>
+            <div class="col-12 col-md-8 offset-md-2 mt-4">
+                <p class="content-p">
+                    X
+                </p>
+                <p class="content-p">
+                    X
+                </p>
+                <p class=" content-p">
+                    X
+                </p>
+                <p class="content-p">
+                    X
+                </p>
+                <div class="mb-3">
+                    <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/friendsofmeechinghall/"
+                        aria-label="Read more at Ignite Theatre Facebook page" target="_blank"><i
+                            class="fab fa-facebook-square"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/friendsofmeechinghall/"
+                        aria-label="Read more at Ignite Theatre instagram page" target="_blank"><i
+                            class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="{% url 'contact' %}" aria-label="Contact us by email"><i
+                            class="fa-solid fa-envelope"></i></a>
                 </div>
-                <div class="col-lg-6 col-sm-12 text-center mt-4">
-                     <img src="{{ hall.meeching_hall_image.url }}" srcset="{{ hall.meeching_hall_image.url }} }}"
-                        class="img-fluid grandmas-grimm" height=600 alt="{{ hall.name }}" />
-                </div>
+                <p class="content-p mb-4">
+                    We look forward to welcoming you
+                </p>
             </div>
         </div>
-        {% endfor %}
- 
-    </div>
 
-    <button onclick="topFunction()" id="my-scroll-to-top-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    </div>
 
 </section>
 
