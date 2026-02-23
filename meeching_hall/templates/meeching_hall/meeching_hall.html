@@ -1,95 +1,99 @@
-{% extends "base.html" %}
-{% load static %}
-
-{% block content %}
+{% extends "base.html" %} {% load static %} {% block content %}
 
 <div class="container-fluid">
-    <div class="row top-header d-lg-none">
-        <div class="col">
-            <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
-        </div>
+  <div class="row top-header d-lg-none">
+    <div class="col">
+      <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
     </div>
+  </div>
 </div>
 
 <section class="container-fluid" id="container-fluid-padding">
+  <div class="row top-header d-none d-lg-block">
+    <div class="col">
+      <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
+    </div>
+  </div>
 
-    <div class="row top-header d-none d-lg-block">
-        <div class="col">
-            <p class="top-header-font text-center pb-1 pt-2 m-0">Meeching Hall</p>
-        </div>
+  <div class="row text-box-outside">
+    <div class="col-12 text-center">
+      <p class="page-main-header text-uppercase double-underline mt-3 mb-3">
+        Questions that Friends of Meeching Hall (FOMH) demand to be answered by
+        the Newhaven Town Council, before any further decisions are made.
+      </p>
     </div>
 
-    <div class="row text-box-outside">
-
-        <div class="col-12 text-center">
-            <p class="page-main-header text-uppercase double-underline mt-3 mb-3">
-                Save Our Stage
-            </p>
+    <!---Content 2--->
+    <div class="text-box-inside">
+      <div class="col-12 col-md-8 offset-md-2 mt-4">
+        <p class="content-p">
+          <strong>Background</strong><br />
+          Friends of Meeching Hall was set up in early 2023 amidst rumoured
+          council discussions that this beloved hall was to be sold. We felt
+          that making it An Asset of Community Value (ACV) would offer it some
+          rightful protection.<br />
+          We believe that this building bought by the council for the people,
+          near to the town centre, loved and used by varied groups, is under-
+          utilised. We believe there have been missed opportunities for Meeching
+          Hall to be truly etched on the cultural map and there are barriers to
+          maximising its revenue stream.<br />
+          We challenge the soundbite that
+          Meeching Hall needs a million pounds to be brought up to spec.
+          <br />We challenge the Council’s statement that they “are committed to fair,
+          transparent and inclusive ways of working from consultation and
+          partnerships to decision making processes”.
+        </p>
+        <p class="content-p">X</p>
+        <p class="content-p">X</p>
+        <p class="content-p">X</p>
+        <div class="mb-3">
+          <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a
+            href="https://www.facebook.com/friendsofmeechinghall/"
+            aria-label="Read more at Ignite Theatre Facebook page"
+            target="_blank"
+            ><i class="fab fa-facebook-square"></i></a
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a
+            href="https://www.instagram.com/friendsofmeechinghall/"
+            aria-label="Read more at Ignite Theatre instagram page"
+            target="_blank"
+            ><i class="fab fa-instagram"></i></a
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="{% url 'contact' %}" aria-label="Contact us by email"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
         </div>
-
-        <!---Content 2--->
-        <div class="text-box-inside">
-            <div class="col-12 col-md-8 offset-md-2 mt-4">
-                <p class="content-p">
-                    X
-                </p>
-                <p class="content-p">
-                    X
-                </p>
-                <p class=" content-p">
-                    X
-                </p>
-                <p class="content-p">
-                    X
-                </p>
-                <div class="mb-3">
-                    <i class="fas fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://www.facebook.com/friendsofmeechinghall/"
-                        aria-label="Read more at Ignite Theatre Facebook page" target="_blank"><i
-                            class="fab fa-facebook-square"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://www.instagram.com/friendsofmeechinghall/"
-                        aria-label="Read more at Ignite Theatre instagram page" target="_blank"><i
-                            class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="{% url 'contact' %}" aria-label="Contact us by email"><i
-                            class="fa-solid fa-envelope"></i></a>
-                </div>
-                <p class="content-p mb-4">
-                    We look forward to welcoming you
-                </p>
-            </div>
-        </div>
-
+        <p class="content-p mb-4">We look forward to welcoming you</p>
+      </div>
     </div>
-
+  </div>
 </section>
 
-{% endblock %}
-
-{% block postloadjs %}
-{{ block.super }}
+{% endblock %} {% block postloadjs %} {{ block.super }}
 
 <!--Scroll to top feature-->
 <script>
-
-    //Scroll to Top
-    function scrollFunction() {
-        var myScrollToTopBtn = document.getElementById("my-scroll-to-top-btn");
-        if (window.pageYOffset > 700) {
-            myScrollToTopBtn.style.display = "block";
-            myScrollToTopBtn.style.visibility = "visible";
-        } else {
-            myScrollToTopBtn.style.display = "none";
-            myScrollToTopBtn.style.visibility = "hidden";
-        }
+  //Scroll to Top
+  function scrollFunction() {
+    var myScrollToTopBtn = document.getElementById("my-scroll-to-top-btn");
+    if (window.pageYOffset > 700) {
+      myScrollToTopBtn.style.display = "block";
+      myScrollToTopBtn.style.visibility = "visible";
+    } else {
+      myScrollToTopBtn.style.display = "none";
+      myScrollToTopBtn.style.visibility = "hidden";
     }
+  }
 
-    window.onscroll = function () { scrollFunction() };
+  window.onscroll = function () {
+    scrollFunction();
+  };
 
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 </script>
 
 {% endblock %}
