@@ -292,6 +292,11 @@ body {
   font-size: 4rem;
 }
 
+.fa-clipboard-list {
+  color: rgb(128, 0, 0, 1);
+  font-size: 4rem;
+}
+
 .fa-envelope:hover {
   color: rgb(255, 255, 255, 1);
   font-size: 2rem;
@@ -401,6 +406,11 @@ body {
 }
 
 .fa-file-signature a:hover {
+  color: rgb(181, 189, 191, 1);
+  font-size: 2rem;
+}
+
+.fa-clipboard-list {
   color: rgb(181, 189, 191, 1);
   font-size: 2rem;
 }
