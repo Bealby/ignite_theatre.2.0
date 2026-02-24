@@ -287,6 +287,11 @@ body {
   font-size: 2rem;
 }
 
+.fa-file-signature {
+  color: rgb(128, 0, 0, 1);
+  font-size: 4rem;
+}
+
 .fa-envelope:hover {
   color: rgb(255, 255, 255, 1);
   font-size: 2rem;
