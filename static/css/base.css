@@ -400,6 +400,11 @@ body {
   text-decoration: none;
 }
 
+.fa-file-signature a:hover {
+  color: rgb(181, 189, 191, 1);
+  font-size: 2rem;
+}
+
 .fa-facebook-square:hover {
   color: rgb(181, 189, 191, 1);
   font-size: 2rem;
