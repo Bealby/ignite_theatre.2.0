@@ -405,12 +405,12 @@ body {
   text-decoration: none;
 }
 
-.fa-file-signature a:hover {
+.fa-file-signature:hover {
   color: rgb(181, 189, 191, 1);
   font-size: 2rem;
 }
 
-.fa-clipboard-list a:hover{
+.fa-clipboard-list:hover{
   color: rgb(181, 189, 191, 1);
   font-size: 2rem;
 }
