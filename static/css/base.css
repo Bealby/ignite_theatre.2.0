@@ -407,12 +407,12 @@ body {
 
 .fa-file-signature:hover {
   color: rgb(181, 189, 191, 1);
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .fa-clipboard-list:hover{
   color: rgb(181, 189, 191, 1);
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .fa-facebook-square:hover {
