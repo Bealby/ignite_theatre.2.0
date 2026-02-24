@@ -410,7 +410,7 @@ body {
   font-size: 2rem;
 }
 
-.fa-clipboard-list {
+.fa-clipboard-list a:hover{
   color: rgb(181, 189, 191, 1);
   font-size: 2rem;
 }
