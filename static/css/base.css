@@ -289,12 +289,12 @@ body {
 
 .fa-file-signature {
   color: rgb(128, 0, 0, 1);
-  font-size: 5rem !important;
+  font-size: 5rem;
 }
 
 .fa-clipboard-list {
   color: rgb(128, 0, 0, 1);
-  font-size: 5rem !important;
+  font-size: 5rem;
 }
 
 .fa-envelope:hover {
@@ -407,12 +407,12 @@ body {
 
 .fa-file-signature:hover {
   color: rgb(181, 189, 191, 1);
-  font-size: 5rem !important;
+  font-size: 5rem;
 }
 
 .fa-clipboard-list:hover{
   color: rgb(181, 189, 191, 1);
-  font-size: 5rem !important;
+  font-size: 5rem;
 }
 
 .fa-facebook-square:hover {
