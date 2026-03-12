@@ -33,7 +33,13 @@
           </div>
         </div>
       </div>
-    </div> {% for meeching in meechings %} <div class="col-md-12 mt-0 text-center margin-poster">
+    </div>
+    <div class="col-12 text-center">
+      <div class="row text-center mt-4 mb-5"></div>
+        <h2 class="content-p mb-4" style="font-weight:bold; color: rgb(255, 255, 255, 1); font-size: 1.4rem;">friends.of.meeching.hall@gmail.com</h2>
+      </div>
+    </div>
+    <div>{% for meeching in meechings %} <div class="col-md-12 mt-0 text-center margin-poster">
       <picture>
         <source type="image/webp">
         <img src="{{ meeching.meeching_poster.url }}" srcset="{{ meeching.meeching_poster.url.url }}" class="img-fluid grandmas-grimm" height=600 alt="{{ meeching.name }}" />
